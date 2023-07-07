@@ -1,6 +1,6 @@
 import xl from "excel4node";
 
-export const createExcel = async (data) => {
+export const createExcel = async (data, reportSelect) => {
     let wb = new xl.Workbook();
     let ws = wb.addWorksheet(`HOJA 1`);
     let style = wb.createStyle({
@@ -140,6 +140,6 @@ export const createExcel = async (data) => {
         .style(style);
 
     }
-    wb.write(`INVEX_REPORTE_VALIDACION_2023_07_06.xlsx`);
+    wb.write(`${reportSelect.nombre}_2023_07_06.xlsx`);
     console.log("Se descargo correctamente el archivo.");
 };

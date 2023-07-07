@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "@google-cloud/local-auth": "^2.1.0",
+    "adm-zip": "^0.5.10",
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
     "excel4node": "^1.8.2",
