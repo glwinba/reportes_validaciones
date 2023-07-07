@@ -13,7 +13,8 @@ export default {
     MAIL_SERVICE: process.env.MAIL_SERVICE, 
     MAIL_USER: process.env.MAIL_USER, 
     MAIL_PASS: process.env.MAIL_PASS,
-    TIME_ALERT_FIRST: process.env.TIME_ALERT_FIRST,
-    TIME_ALERT_SECOND: process.env.TIME_ALERT_SECOND,
-    TIME_ALERT_THIRD: process.env.TIME_ALERT_THIRD
+    CLIENT_ID: process.env.CLIENT_ID,
+    CLIENT_SECRET: process.env.CLIENT_SECRET,
+    REDIRECT_URI: process.env.REDIRECT_URI,
+    REFRESH_TOKEN: process.env.REFRESH_TOKEN
 }
