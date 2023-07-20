@@ -13,3 +13,17 @@ export const createZip = async () => {
     console.log(error)
   }
 };
+
+export const createZip2 = async () => {
+  try {
+    const zip = new AdmZip();
+
+    zip.addLocalFolder("./src/controllers/excels2", "excels2");
+
+    zip.writeZip('reportes2.zip');
+
+    console.log("Archivos comprimidos correctamente de excels 2.")
+  } catch (error) {
+    console.log(error)
+  }
+};
