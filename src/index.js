@@ -27,13 +27,13 @@ schedule.scheduleJob(timeExect, async function (dateTime) {
 
   console.log("Se ejecuto este proceso")
 
-  // setTimeout(async () => {
-  //   await createZip();
-  //   await createZip2();
-  //   await removeFiles(nameFiles);
-  //   await sendMail();
-  //   await sendMail2();
-  //   await removeZip();
-  //   console.log("El proceso de creación de reportes fue hecho correctamente.");
-  // }, 100000);
+  setTimeout(async () => {
+    await createZip();
+    await createZip2();
+    await removeFiles(nameFiles);
+    await sendMail();
+    await sendMail2();
+    await removeZip();
+    console.log("El proceso de creación de reportes fue hecho correctamente.");
+  }, 100000);
 });
