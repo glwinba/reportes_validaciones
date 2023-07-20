@@ -1,11 +1,10 @@
 import schedule from "node-schedule";
 import { execSP } from "./controllers/spcontroller";
-import sendMail from "./controllers/mailcontroller";
+import {sendMail, sendMail2} from "./controllers/mailcontroller";
 import { createExcel } from "./controllers/excelcontroller";
 import { reports } from "./arreglos/reports";
 import { createZip, createZip2 } from "./controllers/zipcontroller";
 import { removeFiles, removeZip } from "./controllers/filecontroller";
-import sendMail2 from "./controllers/mailcontroller";
 
 let rule = new schedule.RecurrenceRule();
 rule.minute = 20;
