@@ -2,7 +2,7 @@ import xl from "excel4node";
 import path from "path";
 import { formatDate } from "../helpers/dateFormat";
 
-export const createExcel = async (data, reportSelect) => {
+export const createExcel = (data, reportSelect) => new Promise((resolve,reject)=>{
   console.log("Se esta creando el excel.", reportSelect.nombre);
   const today = new Date().toLocaleDateString("es-MX");
   let day = today.split("/")[0];
@@ -174,7 +174,14 @@ export const createExcel = async (data, reportSelect) => {
       .string(data[a].REGIMEN_ESPECIAL)
       .style(style);
   }
-  wb.write(pathExcel);
-  console.log("Se descargo correctamente el archivo.", reportSelect.nombre);
-  return pathExcel;
-};
+  
+  wb.write(pathExcel,(error,stats)=>{
+    if(error){
+      reject(`Ah ocurrido el siguiente error ${ error }`);
+    }
+    console.log('Se ah generado el documento correctamente...!!!');
+    resolve(pathExcel);
+  });
+  // console.log("Se descargo correctamente el archivo.", reportSelect.nombre);
+  // resolve(pathExcel);
+});
