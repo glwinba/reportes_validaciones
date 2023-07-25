@@ -10,7 +10,7 @@ let rule = new schedule.RecurrenceRule();
 rule.minute = 20;
 
 let timeExect = "45 23 * * *";
-schedule.scheduleJob(timeExect, async function (dateTime) {
+schedule.scheduleJob(rule, async function (dateTime) {
   console.log("El proceso se a comenzado a ejecutar.");
   let nameFiles = [];
 
