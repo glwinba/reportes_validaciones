@@ -1,0 +1,162 @@
+[27/7/2023, 18:36:00] info: El SP se esta ejecutando
+[27/7/2023, 18:37:12] info: El SP termino de ejecutarse
+[27/7/2023, 18:37:12] info: Se esta creando el excel FEMCO_REPORTE
+[27/7/2023, 18:53:11] info: Se ah generado el documento correctamente...!!!
+[27/7/2023, 18:53:11] info: El SP se esta ejecutando
+[27/7/2023, 18:54:36] info: El SP termino de ejecutarse
+[27/7/2023, 18:54:36] info: Se esta creando el excel FEMCO_REPORTE_VALIDACION
+[27/7/2023, 19:06:53] info: Se ah generado el documento correctamente...!!!
+[27/7/2023, 19:06:53] info: El SP se esta ejecutando
+[27/7/2023, 19:07:45] info: El SP termino de ejecutarse
+[27/7/2023, 19:07:45] info: Se esta creando el excel REPORTE_SLA_COMPLETO
+[27/7/2023, 19:15:21] info: Se ah generado el documento correctamente...!!!
+[27/7/2023, 19:15:21] info: El SP se esta ejecutando
+[27/7/2023, 19:15:42] info: El SP termino de ejecutarse
+[27/7/2023, 19:15:42] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[27/7/2023, 19:17:26] info: Se ah generado el documento correctamente...!!!
+[27/7/2023, 19:17:26] info: El SP se esta ejecutando
+[27/7/2023, 19:17:43] info: El SP termino de ejecutarse
+[27/7/2023, 19:17:43] info: Se esta creando el excel INVEX_REPORTE_VALIDACION
+[27/7/2023, 19:19:39] info: Se ah generado el documento correctamente...!!!
+[27/7/2023, 19:19:39] info: El SP se esta ejecutando
+[27/7/2023, 19:20:12] info: El SP termino de ejecutarse
+[28/7/2023, 08:06:00] info: El SP se esta ejecutando
+[28/7/2023, 08:07:05] info: El SP termino de ejecutarse
+[28/7/2023, 08:07:05] info: Se esta creando el excel FEMCO_REPORTE
+[28/7/2023, 08:13:05] info: Se ah generado el documento correctamente...!!!
+[28/7/2023, 08:13:05] info: El SP se esta ejecutando
+[28/7/2023, 08:14:03] info: El SP termino de ejecutarse
+[28/7/2023, 08:14:03] info: Se esta creando el excel FEMCO_REPORTE_VALIDACION
+[28/7/2023, 08:19:29] info: Se ah generado el documento correctamente...!!!
+[28/7/2023, 08:19:29] info: El SP se esta ejecutando
+[28/7/2023, 08:20:04] info: El SP termino de ejecutarse
+[28/7/2023, 08:20:04] info: Se esta creando el excel REPORTE_SLA_COMPLETO
+[28/7/2023, 08:23:26] info: Se ah generado el documento correctamente...!!!
+[28/7/2023, 08:23:26] info: El SP se esta ejecutando
+[28/7/2023, 08:25:00] info: El SP se esta ejecutando
+[28/7/2023, 08:25:31] info: El SP termino de ejecutarse
+[28/7/2023, 08:25:31] info: Se esta creando el excel UVM_REPORTE_VALIDACION
+[28/7/2023, 08:28:08] info: Se ah generado el documento correctamente...!!!
+[28/7/2023, 08:28:08] info: El SP se esta ejecutando
+[28/7/2023, 08:28:27] info: El SP termino de ejecutarse
+[28/7/2023, 08:28:27] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[28/7/2023, 08:30:28] info: Se ah generado el documento correctamente...!!!
+[28/7/2023, 08:30:28] info: El SP se esta ejecutando
+[28/7/2023, 08:30:45] info: El SP termino de ejecutarse
+[28/7/2023, 08:30:45] info: Se esta creando el excel INVEX_REPORTE_VALIDACION
+[28/7/2023, 08:32:46] info: Se ah generado el documento correctamente...!!!
+[28/7/2023, 08:32:48] info: Archivos comprimidos correctamente.
+[28/7/2023, 08:32:48] info: Se removieron correctamente todos los archivos generado.
+[28/7/2023, 08:32:48] info: Mails enviados.
+[28/7/2023, 08:32:49] info: Archivo ZIP borrado correctamente del servidor.
+[28/7/2023, 08:32:49] info: Archivo ZIP borrado correctamente del servidor.
+[28/7/2023, 08:32:50] error: ENOENT: no such file or directory, lstat 'C:\automatizaciones\reportesdiariosvalidaciones\src\controllers\excels\UVM_REPORTE_VALIDACION_2023_07_28.xlsx'
+[28/7/2023, 08:32:50] error: type_report is not defined
+[28/7/2023, 08:32:50] error: type_report is not defined
+[28/7/2023, 08:52:00] info: El SP se esta ejecutando
+[28/7/2023, 08:52:21] info: El SP termino de ejecutarse
+[28/7/2023, 08:52:21] info: Se esta creando el excel UVM_REPORTE_VALIDACION
+[28/7/2023, 08:54:14] info: Se ah generado el documento correctamente...!!!
+[28/7/2023, 08:54:14] info: El SP se esta ejecutando
+[28/7/2023, 08:54:34] info: El SP termino de ejecutarse
+[28/7/2023, 08:54:34] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[28/7/2023, 08:55:02] info: Se ah generado el documento correctamente...!!!
+[28/7/2023, 08:55:02] info: El SP se esta ejecutando
+[28/7/2023, 08:55:20] info: El SP termino de ejecutarse
+[28/7/2023, 08:55:20] info: Se esta creando el excel INVEX_REPORTE_VALIDACION
+[28/7/2023, 08:55:55] info: Se ah generado el documento correctamente...!!!
+[28/7/2023, 08:55:56] info: Archivos comprimidos correctamente.
+[28/7/2023, 08:55:56] info: Se removieron correctamente todos los archivos generados.
+[28/7/2023, 08:55:56] info: Archivo ZIP borrado correctamente del servidor.
+[28/7/2023, 08:55:56] info: Archivo ZIP borrado correctamente del servidor.
+[28/7/2023, 08:55:57] error: Error en el envio de mails: ReferenceError: typeValidate is not defined
+[28/7/2023, 08:55:58] error: Error al remover el file: C:\automatizaciones\reportesdiariosvalidaciones\src\controllers\excels\XPERTAL_REPORTE_VALIDACION_2023_07_28.xlsx error: Error: ENOENT: no such file or directory, lstat 'C:\automatizaciones\reportesdiariosvalidaciones\src\controllers\excels\XPERTAL_REPORTE_VALIDACION_2023_07_28.xlsx'
+[28/7/2023, 08:55:58] error: Error en el envio de mails: ReferenceError: typeValidate is not defined
+[28/7/2023, 09:00:00] info: El SP se esta ejecutando
+[28/7/2023, 09:00:19] info: El SP termino de ejecutarse
+[28/7/2023, 09:00:19] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[28/7/2023, 09:00:47] info: Se ah generado el documento correctamente...!!!
+[28/7/2023, 09:00:47] info: El SP se esta ejecutando
+[28/7/2023, 09:01:03] info: El SP termino de ejecutarse
+[28/7/2023, 09:01:03] info: Se esta creando el excel INVEX_REPORTE_VALIDACION
+[28/7/2023, 09:01:33] info: Se ah generado el documento correctamente...!!!
+[28/7/2023, 09:01:33] info: Archivos comprimidos correctamente.
+[28/7/2023, 09:01:33] info: Se removieron correctamente todos los archivos generados.
+[28/7/2023, 09:01:43] info: Mails enviados.
+[28/7/2023, 09:01:45] info: Mails enviados.
+[28/7/2023, 09:01:45] info: Archivo ZIP borrado correctamente del servidor.
+[28/7/2023, 09:01:45] info: Archivo ZIP borrado correctamente del servidor.
+[28/7/2023, 09:57:00] info: El SP se esta ejecutando
+[28/7/2023, 09:59:25] info: El SP termino de ejecutarse
+[28/7/2023, 09:59:25] info: Se esta creando el excel FEMCO_REPORTE
+[28/7/2023, 10:04:41] info: Se ah generado el documento correctamente...!!!
+[28/7/2023, 10:04:41] info: El SP se esta ejecutando
+[28/7/2023, 10:05:58] info: El SP termino de ejecutarse
+[28/7/2023, 10:05:58] info: Se esta creando el excel FEMCO_REPORTE_VALIDACION
+[28/7/2023, 10:11:04] info: Se ah generado el documento correctamente...!!!
+[28/7/2023, 10:11:04] info: El SP se esta ejecutando
+[28/7/2023, 10:11:42] info: El SP termino de ejecutarse
+[28/7/2023, 10:11:42] info: Se esta creando el excel REPORTE_SLA_COMPLETO
+[28/7/2023, 10:13:52] info: Se ah generado el documento correctamente...!!!
+[28/7/2023, 10:13:52] info: El SP se esta ejecutando
+[28/7/2023, 10:14:11] info: El SP termino de ejecutarse
+[28/7/2023, 10:14:11] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[28/7/2023, 10:14:43] info: Se ah generado el documento correctamente...!!!
+[28/7/2023, 10:14:43] info: El SP se esta ejecutando
+[28/7/2023, 10:15:00] info: El SP termino de ejecutarse
+[28/7/2023, 10:15:00] info: Se esta creando el excel INVEX_REPORTE_VALIDACION
+[28/7/2023, 10:15:32] info: Se ah generado el documento correctamente...!!!
+[28/7/2023, 10:15:32] info: El SP se esta ejecutando
+[28/7/2023, 10:16:00] info: El SP termino de ejecutarse
+[28/7/2023, 10:16:00] info: Se esta creando el excel UVM_REPORTE_VALIDACION
+[28/7/2023, 10:18:00] info: Se ah generado el documento correctamente...!!!
+[28/7/2023, 10:18:01] info: Archivos comprimidos correctamente.
+[28/7/2023, 10:18:01] info: Se removieron correctamente todos los archivos generados.
+[28/7/2023, 10:18:14] info: Mails enviados.
+[28/7/2023, 10:18:48] info: Mails enviados.
+[28/7/2023, 10:18:48] info: Archivo ZIP borrado correctamente del servidor.
+[28/7/2023, 10:18:48] info: Archivo ZIP borrado correctamente del servidor.
+[28/7/2023, 10:48:00] info: El SP se esta ejecutando
+[28/7/2023, 10:49:23] info: El SP termino de ejecutarse
+[28/7/2023, 10:52:00] info: El SP se esta ejecutando
+[28/7/2023, 10:52:14] info: El SP se esta ejecutando
+[28/7/2023, 10:52:16] error: El SP tuvo un error al ejecutarse SequelizeDatabaseError: Transaction (Process ID 10448) was deadlocked on lock resources with another process and has been chosen as the deadlock victim. Rerun the transaction.
+[28/7/2023, 10:59:00] info: El SP se esta ejecutando
+[28/7/2023, 11:00:07] info: El SP se esta ejecutando
+[28/7/2023, 11:00:08] error: El SP tuvo un error al ejecutarse TypeError: data[0].forEach is not a function
+[28/7/2023, 11:03:00] info: El SP se esta ejecutando
+[28/7/2023, 11:06:00] info: El SP se esta ejecutando
+[28/7/2023, 11:07:06] info: El SP termino de ejecutarse
+[28/7/2023, 11:07:06] info: Se esta creando el excel FEMCO_REPORTE_VALIDACION
+[28/7/2023, 11:11:19] info: Se ah generado el documento correctamente...!!!
+[28/7/2023, 11:15:00] info: El SP se esta ejecutando
+[28/7/2023, 11:17:38] info: El SP termino de ejecutarse
+[28/7/2023, 11:17:38] info: Se esta creando el excel FEMCO_REPORTE
+[28/7/2023, 11:22:53] info: Se ah generado el documento correctamente...!!!
+[28/7/2023, 11:22:53] info: El SP se esta ejecutando
+[28/7/2023, 11:31:00] info: El SP se esta ejecutando
+[28/7/2023, 11:31:25] info: El SP se esta ejecutando
+[28/7/2023, 11:31:26] error: El SP tuvo un error al ejecutarse SequelizeDatabaseError: Transaction (Process ID 10969) was deadlocked on lock resources with another process and has been chosen as the deadlock victim. Rerun the transaction.
+[28/7/2023, 11:33:13] info: El SP termino de ejecutarse
+[28/7/2023, 11:33:13] info: Se esta creando el excel FEMCO_REPORTE_VALIDACION
+[28/7/2023, 11:38:41] info: Se ah generado el documento correctamente...!!!
+[28/7/2023, 11:38:41] info: El SP se esta ejecutando
+[28/7/2023, 11:43:14] info: El SP termino de ejecutarse
+[28/7/2023, 11:43:14] info: Se esta creando el excel REPORTE_SLA_COMPLETO
+[28/7/2023, 11:45:24] info: Se ah generado el documento correctamente...!!!
+[28/7/2023, 11:45:24] info: El SP se esta ejecutando
+[28/7/2023, 11:45:39] info: El SP se esta ejecutando
+[28/7/2023, 11:45:48] error: El SP tuvo un error al ejecutarse SequelizeConnectionError: Failed to connect to 127.0.0.1:8282 in 15000ms
+[28/7/2023, 11:46:29] info: El SP termino de ejecutarse
+[28/7/2023, 11:46:29] info: Se esta creando el excel INVEX_REPORTE_VALIDACION
+[28/7/2023, 11:47:10] info: Se ah generado el documento correctamente...!!!
+[28/7/2023, 11:47:10] info: El SP se esta ejecutando
+[28/7/2023, 11:47:44] info: El SP termino de ejecutarse
+[28/7/2023, 11:47:44] info: Se esta creando el excel UVM_REPORTE_VALIDACION
+[28/7/2023, 11:49:39] info: Se ah generado el documento correctamente...!!!
+[28/7/2023, 11:49:40] info: Archivos comprimidos correctamente.
+[28/7/2023, 11:49:40] info: Se removieron correctamente todos los archivos generados.
+[28/7/2023, 11:49:52] info: Mails enviados.
+[28/7/2023, 11:50:18] info: Mails enviados.
+[28/7/2023, 11:50:18] info: Archivo ZIP borrado correctamente del servidor.
+[28/7/2023, 11:50:18] info: Archivo ZIP borrado correctamente del servidor.

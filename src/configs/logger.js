@@ -6,7 +6,7 @@ const timeZoned = () => {
     })
 }
 
-export const success = createLogger({
+export default createLogger({
     format: format.combine(
         format.simple(),
         format.timestamp({

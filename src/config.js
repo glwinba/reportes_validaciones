@@ -16,5 +16,6 @@ export default {
     CLIENT_ID: process.env.CLIENT_ID,
     CLIENT_SECRET: process.env.CLIENT_SECRET,
     REDIRECT_URI: process.env.REDIRECT_URI,
-    REFRESH_TOKEN: process.env.REFRESH_TOKEN
+    REFRESH_TOKEN: process.env.REFRESH_TOKEN,
+    TIME_EXEC: process.env.TIME_EXEC
 }

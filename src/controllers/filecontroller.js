@@ -1,22 +1,24 @@
 import fs from "fs";
+import { dataZip } from "../arreglos/reports";
+import logger from "../configs/logger";
+import { notificationMailError } from "./notificationcontroller";
 
 export const removeFiles = async (files) => {
   for (const file of files) {
     fs.rm(file, function (err) {
-      if (err) console.log(err);
-      else console.log("Archivo borrado del servidor correctamente");
+      if (err) notificationMailError(`Error al remover el file: ${file} error: ${err}`);
     });
   }
+  logger.info(`Se removieron correctamente todos los archivos generados.`)
 };
 
 export const removeZip = async (files) => {
-    fs.rm("reportes.zip", function (err) {
-      if (err) console.log('Archivo ZIP no se pude eliminar', err);
-      else console.log("Archivo ZIP borrado correctamente del servidor.");
-    });  
 
-    fs.rm("reportes2.zip", function (err) {
-      if (err) console.log('Archivo ZIP no se pude eliminar', err);
-      else console.log("Archivo ZIP borrado correctamente del servidor.");
-    }); 
+  for (const data of dataZip) {
+    fs.rm(data.name, function (err) {
+      if (err) notificationMailError(`Archivo ZIP no se pude eliminar ${err}`);
+      else logger.info("Archivo ZIP borrado correctamente del servidor.");
+    });  
+  } 
+
 };

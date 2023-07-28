@@ -1,29 +1,22 @@
 import AdmZip from "adm-zip";
+import logger from "../configs/logger";
+import { dataZip } from "../arreglos/reports";
+import { notificationMailError } from "./notificationcontroller";
 
 export const createZip = async () => {
   try {
-    const zip = new AdmZip();
 
-    zip.addLocalFolder("./src/controllers/excels", "excels");
+    for (const data of dataZip) {
+      const zip = new AdmZip();
 
-    zip.writeZip('reportes.zip');
+      zip.addLocalFolder(`./src/controllers/${data.name_path}`, data.name_path);
 
-    console.log("Archivos comprimidos correctamente.")
+      zip.writeZip(data.name);
+    }
+
+    logger.info("Archivos comprimidos correctamente.")
+
   } catch (error) {
-    console.log(error)
-  }
-};
-
-export const createZip2 = async () => {
-  try {
-    const zip = new AdmZip();
-
-    zip.addLocalFolder("./src/controllers/excels2", "excels2");
-
-    zip.writeZip('reportes2.zip');
-
-    console.log("Archivos comprimidos correctamente de excels 2.")
-  } catch (error) {
-    console.log(error)
+    notificationMailError(`Error al crear ZIP ${error}`);
   }
 };
