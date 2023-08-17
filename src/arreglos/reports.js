@@ -11,6 +11,7 @@ export const reports = [
     id: 3,
     nombre: "REPORTE_SLA_COMPLETO",
   },
+
   {
     id: 4,
     nombre: "XPERTAL_REPORTE_VALIDACION",
@@ -22,12 +23,17 @@ export const reports = [
   {
     id: 6,
     nombre: "UVM_REPORTE_VALIDACION",
-  },
+  }
 ];
 
 export const dataZip = [
   { id: 1, name: "reportes.zip", name_path: "excels", type: "" },
-  { id: 2, name: "reportes_femco.zip", name_path: "excels_femco", type: "FEMCO" },
+  {
+    id: 2,
+    name: "reportes_femco.zip",
+    name_path: "excels_femco",
+    type: "FEMCO",
+  },
 ];
 
 export const mailCabecera = [
@@ -85,28 +91,108 @@ export const styleCabeceras = {
   },
 };
 
-export const styleCells = {
-  font: {
-    color: "#000000",
-    size: 11,
-  },
-  border: {
-    left: {
-      style: "thin",
-      color: "black",
-    },
-    right: {
-      style: "thin",
-      color: "black",
-    },
-    top: {
-      style: "thin",
-      color: "black",
-    },
-    bottom: {
-      style: "thin",
-      color: "black",
-    },
-    outline: false,
-  },
+export const styleCells = (estatus) => {
+  let colorBackground = "";
+  switch (estatus) {
+    case 0:
+      colorBackground = "#FF0000";
+      break;
+    case 1:
+      colorBackground = "#FFC000";
+      break;
+    case 2:
+      colorBackground = "#E7E6E6";
+      break;
+    case 3:
+      colorBackground = "#FFFFE6";
+      break;
+    case 4:
+      colorBackground = "#92D050";
+      break;
+    default:
+      colorBackground = "";
+      break;
+  }
+
+  if (estatus) {
+    return {
+      font: {
+        color: "#000000",
+        size: 11,
+      },
+      border: {
+        left: {
+          style: "thin",
+          color: "black",
+        },
+        right: {
+          style: "thin",
+          color: "black",
+        },
+        top: {
+          style: "thin",
+          color: "black",
+        },
+        bottom: {
+          style: "thin",
+          color: "black",
+        },
+        outline: false,
+      },
+      fill: {
+        type: "pattern",
+        patternType: "solid",
+        bgColor: colorBackground,
+        fgColor: colorBackground,
+      },
+    };
+  } else {
+    return {
+      font: {
+        color: "#000000",
+        size: 11,
+      },
+      border: {
+        left: {
+          style: "thin",
+          color: "black",
+        },
+        right: {
+          style: "thin",
+          color: "black",
+        },
+        top: {
+          style: "thin",
+          color: "black",
+        },
+        bottom: {
+          style: "thin",
+          color: "black",
+        },
+        outline: false,
+      },
+    };
+  }
 };
+
+export const cellsExcel = [
+  { nombre: "RFC_EMPRESA", type: "string" },
+  { nombre: "EMPRESA_CONTRATANTE", type: "string" },
+  { nombre: "RFC_PROVEEDOR", type: "string" },
+  { nombre: "RAZON_SOCIAL", type: "string" },
+  { nombre: "AÑO", type: "number" },
+  { nombre: "MES", type: "string" },
+  { nombre: "MES_CUMPLIMIENTO", type: "string" },
+  { nombre: "TIPO_DOCUMENTO", type: "string" },
+  { nombre: "ESTATUS", type: "number" },
+  { nombre: "Score", type: "string" },
+  { nombre: "SCORE_GLOBAL", type: "string" },
+  { nombre: "RECARGA", type: "number" },
+  { nombre: "fecha_carga", type: "string" },
+  { nombre: "fecha_validacion", type: "string" },
+  { nombre: "DIAS", type: "number" },
+  { nombre: "SLA", type: "number" },
+  { nombre: "FACTURO", type: "number" },
+  { nombre: "PAGADO", type: "number" },
+  { nombre: "REGIMEN_ESPECIAL", type: "string" },
+];

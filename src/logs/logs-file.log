@@ -160,3 +160,448 @@
 [28/7/2023, 11:50:18] info: Mails enviados.
 [28/7/2023, 11:50:18] info: Archivo ZIP borrado correctamente del servidor.
 [28/7/2023, 11:50:18] info: Archivo ZIP borrado correctamente del servidor.
+[31/7/2023, 07:25:00] info: El SP se esta ejecutando
+[31/7/2023, 07:26:09] info: El SP termino de ejecutarse
+[31/7/2023, 07:26:09] info: Se esta creando el excel FEMCO_REPORTE
+[31/7/2023, 07:35:31] info: Se ah generado el documento correctamente...!!!
+[31/7/2023, 07:35:31] info: El SP se esta ejecutando
+[31/7/2023, 07:36:54] info: El SP termino de ejecutarse
+[31/7/2023, 07:36:54] info: Se esta creando el excel FEMCO_REPORTE_VALIDACION
+[31/7/2023, 07:50:28] info: Se ah generado el documento correctamente...!!!
+[31/7/2023, 07:50:28] info: El SP se esta ejecutando
+[31/7/2023, 07:51:13] info: El SP termino de ejecutarse
+[31/7/2023, 07:56:00] info: El SP se esta ejecutando
+[31/7/2023, 07:57:25] info: El SP termino de ejecutarse
+[31/7/2023, 08:04:00] info: El SP se esta ejecutando
+[31/7/2023, 08:04:42] info: El SP termino de ejecutarse
+[31/7/2023, 08:04:42] info: Se esta creando el excel REPORTE_SLA_COMPLETO
+[31/7/2023, 08:08:10] info: Se ah generado el documento correctamente...!!!
+[31/7/2023, 08:08:10] info: El SP se esta ejecutando
+[31/7/2023, 08:08:45] info: El SP termino de ejecutarse
+[31/7/2023, 08:08:45] info: Se esta creando el excel UVM_REPORTE_VALIDACION
+[31/7/2023, 08:17:14] info: Se ah generado el documento correctamente...!!!
+[31/7/2023, 08:17:14] info: El SP se esta ejecutando
+[31/7/2023, 08:17:35] info: El SP termino de ejecutarse
+[31/7/2023, 08:17:35] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[31/7/2023, 08:19:54] info: Se ah generado el documento correctamente...!!!
+[31/7/2023, 08:19:54] info: El SP se esta ejecutando
+[31/7/2023, 08:20:15] info: El SP termino de ejecutarse
+[31/7/2023, 08:20:15] info: Se esta creando el excel INVEX_REPORTE_VALIDACION
+[31/7/2023, 08:22:29] info: Se ah generado el documento correctamente...!!!
+[1/8/2023, 01:21:28] info: El SP se esta ejecutando
+[1/8/2023, 01:28:02] info: El SP termino de ejecutarse
+[1/8/2023, 01:28:03] info: El SP se esta ejecutando
+[1/8/2023, 01:30:34] info: El SP termino de ejecutarse
+[1/8/2023, 01:30:34] info: El SP se esta ejecutando
+[1/8/2023, 01:32:08] info: El SP termino de ejecutarse
+[1/8/2023, 01:32:08] info: El SP se esta ejecutando
+[1/8/2023, 01:33:25] info: El SP termino de ejecutarse
+[1/8/2023, 01:33:25] info: El SP se esta ejecutando
+[1/8/2023, 01:33:56] info: El SP termino de ejecutarse
+[1/8/2023, 01:33:56] info: El SP se esta ejecutando
+[1/8/2023, 01:34:22] info: El SP termino de ejecutarse
+[1/8/2023, 01:36:26] info: El SP se esta ejecutando
+[1/8/2023, 01:46:35] info: El SP termino de ejecutarse
+[1/8/2023, 01:46:35] info: Se esta creando el excel FEMCO_REPORTE
+[1/8/2023, 01:51:16] info: Se ah generado el documento correctamente...!!!
+[1/8/2023, 01:51:16] info: El SP se esta ejecutando
+[1/8/2023, 01:54:14] info: El SP termino de ejecutarse
+[1/8/2023, 01:54:14] info: Se esta creando el excel FEMCO_REPORTE_VALIDACION
+[1/8/2023, 01:58:54] info: Se ah generado el documento correctamente...!!!
+[1/8/2023, 01:58:54] info: El SP se esta ejecutando
+[1/8/2023, 02:00:30] info: El SP termino de ejecutarse
+[1/8/2023, 02:00:30] info: Se esta creando el excel REPORTE_SLA_COMPLETO
+[1/8/2023, 02:02:32] info: Se ah generado el documento correctamente...!!!
+[1/8/2023, 02:02:32] info: El SP se esta ejecutando
+[1/8/2023, 02:03:02] info: El SP termino de ejecutarse
+[1/8/2023, 02:03:02] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[1/8/2023, 02:03:34] info: Se ah generado el documento correctamente...!!!
+[1/8/2023, 02:03:34] info: El SP se esta ejecutando
+[1/8/2023, 02:03:52] info: El SP termino de ejecutarse
+[1/8/2023, 02:03:52] info: Se esta creando el excel INVEX_REPORTE_VALIDACION
+[1/8/2023, 02:04:27] info: Se ah generado el documento correctamente...!!!
+[1/8/2023, 02:04:27] info: El SP se esta ejecutando
+[1/8/2023, 02:05:05] info: El SP termino de ejecutarse
+[1/8/2023, 02:05:05] info: Se esta creando el excel UVM_REPORTE_VALIDACION
+[1/8/2023, 02:07:30] info: Se ah generado el documento correctamente...!!!
+[2/8/2023, 07:53:55] info: El SP se esta ejecutando
+[2/8/2023, 07:53:55] info: El SP se esta ejecutando
+[2/8/2023, 07:53:56] info: El SP se esta ejecutando
+[2/8/2023, 07:53:56] info: El SP se esta ejecutando
+[2/8/2023, 07:53:56] info: El SP se esta ejecutando
+[2/8/2023, 07:53:56] info: El SP se esta ejecutando
+[2/8/2023, 07:54:57] info: El SP se esta ejecutando
+[2/8/2023, 07:56:28] info: El SP termino de ejecutarse
+[2/8/2023, 07:56:28] info: Se esta creando el excel FEMCO_REPORTE
+[2/8/2023, 08:07:47] info: Se ah generado el documento correctamente...!!!
+[2/8/2023, 08:07:47] info: El SP se esta ejecutando
+[2/8/2023, 08:09:09] info: El SP termino de ejecutarse
+[2/8/2023, 08:09:09] info: Se esta creando el excel FEMCO_REPORTE_VALIDACION
+[2/8/2023, 08:18:05] info: Se ah generado el documento correctamente...!!!
+[2/8/2023, 08:18:05] info: El SP se esta ejecutando
+[2/8/2023, 08:18:43] info: El SP termino de ejecutarse
+[2/8/2023, 08:18:43] info: Se esta creando el excel REPORTE_SLA_COMPLETO
+[2/8/2023, 08:22:57] info: Se ah generado el documento correctamente...!!!
+[2/8/2023, 08:22:57] info: El SP se esta ejecutando
+[2/8/2023, 08:23:25] info: El SP termino de ejecutarse
+[2/8/2023, 08:23:25] info: Se esta creando el excel UVM_REPORTE_VALIDACION
+[2/8/2023, 08:29:53] info: Se ah generado el documento correctamente...!!!
+[2/8/2023, 08:29:53] info: El SP se esta ejecutando
+[2/8/2023, 08:30:15] info: El SP termino de ejecutarse
+[2/8/2023, 08:30:15] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[2/8/2023, 08:31:28] info: Se ah generado el documento correctamente...!!!
+[2/8/2023, 08:31:28] info: El SP se esta ejecutando
+[2/8/2023, 08:31:47] info: El SP termino de ejecutarse
+[2/8/2023, 08:31:47] info: Se esta creando el excel INVEX_REPORTE_VALIDACION
+[2/8/2023, 08:32:45] info: Se ah generado el documento correctamente...!!!
+[3/8/2023, 08:09:45] info: El SP se esta ejecutando
+[3/8/2023, 08:10:56] info: El SP termino de ejecutarse
+[3/8/2023, 08:10:56] info: Se esta creando el excel FEMCO_REPORTE
+[3/8/2023, 08:16:36] info: Se ah generado el documento correctamente...!!!
+[3/8/2023, 08:16:36] info: El SP se esta ejecutando
+[3/8/2023, 08:17:38] info: El SP termino de ejecutarse
+[3/8/2023, 08:17:38] info: Se esta creando el excel FEMCO_REPORTE_VALIDACION
+[3/8/2023, 08:23:14] info: Se ah generado el documento correctamente...!!!
+[3/8/2023, 08:23:14] info: El SP se esta ejecutando
+[3/8/2023, 08:23:50] info: El SP termino de ejecutarse
+[3/8/2023, 08:23:50] info: Se esta creando el excel REPORTE_SLA_COMPLETO
+[3/8/2023, 08:26:15] info: Se ah generado el documento correctamente...!!!
+[3/8/2023, 08:26:15] info: El SP se esta ejecutando
+[3/8/2023, 08:26:40] info: El SP termino de ejecutarse
+[3/8/2023, 08:26:40] info: Se esta creando el excel UVM_REPORTE_VALIDACION
+[3/8/2023, 08:30:27] info: Se ah generado el documento correctamente...!!!
+[3/8/2023, 08:30:27] info: El SP se esta ejecutando
+[3/8/2023, 08:30:46] info: El SP termino de ejecutarse
+[3/8/2023, 08:30:46] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[3/8/2023, 08:31:43] info: Se ah generado el documento correctamente...!!!
+[3/8/2023, 08:31:43] info: El SP se esta ejecutando
+[3/8/2023, 08:31:59] info: El SP termino de ejecutarse
+[3/8/2023, 08:31:59] info: Se esta creando el excel INVEX_REPORTE_VALIDACION
+[3/8/2023, 08:33:21] info: Se ah generado el documento correctamente...!!!
+[4/8/2023, 08:42:46] info: El SP se esta ejecutando
+[4/8/2023, 08:43:54] info: El SP termino de ejecutarse
+[4/8/2023, 08:43:54] info: Se esta creando el excel FEMCO_REPORTE
+[4/8/2023, 08:50:06] info: Se ah generado el documento correctamente...!!!
+[4/8/2023, 08:50:06] info: El SP se esta ejecutando
+[4/8/2023, 08:51:12] info: El SP termino de ejecutarse
+[4/8/2023, 08:51:12] info: Se esta creando el excel FEMCO_REPORTE_VALIDACION
+[4/8/2023, 08:57:32] info: Se ah generado el documento correctamente...!!!
+[4/8/2023, 08:57:32] info: El SP se esta ejecutando
+[4/8/2023, 08:58:21] info: El SP termino de ejecutarse
+[4/8/2023, 08:58:21] info: Se esta creando el excel REPORTE_SLA_COMPLETO
+[4/8/2023, 09:00:48] info: Se ah generado el documento correctamente...!!!
+[4/8/2023, 09:00:48] info: El SP se esta ejecutando
+[4/8/2023, 09:01:46] info: El SP termino de ejecutarse
+[4/8/2023, 09:01:46] info: Se esta creando el excel UVM_REPORTE_VALIDACION
+[4/8/2023, 09:06:29] info: Se ah generado el documento correctamente...!!!
+[4/8/2023, 09:06:29] info: El SP se esta ejecutando
+[4/8/2023, 09:06:49] info: El SP termino de ejecutarse
+[4/8/2023, 09:06:49] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[4/8/2023, 09:07:25] info: Se ah generado el documento correctamente...!!!
+[4/8/2023, 09:07:25] info: El SP se esta ejecutando
+[4/8/2023, 09:07:41] info: El SP termino de ejecutarse
+[4/8/2023, 09:07:41] info: Se esta creando el excel INVEX_REPORTE_VALIDACION
+[4/8/2023, 09:08:19] info: Se ah generado el documento correctamente...!!!
+[6/8/2023, 22:51:28] info: El SP se esta ejecutando
+[6/8/2023, 22:52:40] info: El SP termino de ejecutarse
+[6/8/2023, 23:00:18] info: El SP se esta ejecutando
+[6/8/2023, 23:01:56] info: El SP termino de ejecutarse
+[6/8/2023, 23:01:56] info: Se esta creando el excel FEMCO_REPORTE
+[6/8/2023, 23:08:34] info: Se ah generado el documento correctamente...!!!
+[6/8/2023, 23:08:34] info: El SP se esta ejecutando
+[6/8/2023, 23:09:47] info: El SP termino de ejecutarse
+[6/8/2023, 23:09:47] info: Se esta creando el excel FEMCO_REPORTE_VALIDACION
+[6/8/2023, 23:15:45] info: Se ah generado el documento correctamente...!!!
+[6/8/2023, 23:15:45] info: El SP se esta ejecutando
+[6/8/2023, 23:16:19] info: El SP termino de ejecutarse
+[6/8/2023, 23:16:19] info: Se esta creando el excel REPORTE_SLA_COMPLETO
+[6/8/2023, 23:18:53] info: Se ah generado el documento correctamente...!!!
+[6/8/2023, 23:18:53] info: El SP se esta ejecutando
+[6/8/2023, 23:19:19] info: El SP termino de ejecutarse
+[6/8/2023, 23:19:19] info: Se esta creando el excel UVM_REPORTE_VALIDACION
+[6/8/2023, 23:22:30] info: Se ah generado el documento correctamente...!!!
+[6/8/2023, 23:22:30] info: El SP se esta ejecutando
+[6/8/2023, 23:22:54] info: El SP termino de ejecutarse
+[6/8/2023, 23:22:54] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[6/8/2023, 23:23:27] info: Se ah generado el documento correctamente...!!!
+[6/8/2023, 23:23:27] info: El SP se esta ejecutando
+[6/8/2023, 23:23:44] info: El SP termino de ejecutarse
+[6/8/2023, 23:23:44] info: Se esta creando el excel INVEX_REPORTE_VALIDACION
+[6/8/2023, 23:24:24] info: Se ah generado el documento correctamente...!!!
+[7/8/2023, 22:25:29] info: El SP se esta ejecutando
+[7/8/2023, 22:26:46] info: El SP termino de ejecutarse
+[7/8/2023, 22:26:46] info: Se esta creando el excel FEMCO_REPORTE
+[7/8/2023, 22:32:06] info: Se ah generado el documento correctamente...!!!
+[7/8/2023, 22:32:06] info: El SP se esta ejecutando
+[7/8/2023, 22:33:35] info: El SP termino de ejecutarse
+[7/8/2023, 22:33:35] info: Se esta creando el excel FEMCO_REPORTE_VALIDACION
+[7/8/2023, 22:40:25] info: Se ah generado el documento correctamente...!!!
+[7/8/2023, 22:40:25] info: El SP se esta ejecutando
+[7/8/2023, 22:41:06] info: El SP termino de ejecutarse
+[7/8/2023, 22:41:06] info: Se esta creando el excel REPORTE_SLA_COMPLETO
+[7/8/2023, 22:48:34] info: Se ah generado el documento correctamente...!!!
+[7/8/2023, 22:48:34] info: El SP se esta ejecutando
+[7/8/2023, 22:49:04] info: El SP termino de ejecutarse
+[7/8/2023, 22:49:04] info: Se esta creando el excel UVM_REPORTE_VALIDACION
+[7/8/2023, 22:56:25] info: Se ah generado el documento correctamente...!!!
+[7/8/2023, 22:56:25] info: El SP se esta ejecutando
+[7/8/2023, 22:56:46] info: El SP termino de ejecutarse
+[7/8/2023, 22:56:46] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[7/8/2023, 22:58:26] info: Se ah generado el documento correctamente...!!!
+[7/8/2023, 22:58:26] info: El SP se esta ejecutando
+[7/8/2023, 22:58:45] info: El SP termino de ejecutarse
+[7/8/2023, 22:58:45] info: Se esta creando el excel INVEX_REPORTE_VALIDACION
+[7/8/2023, 23:00:36] info: Se ah generado el documento correctamente...!!!
+[9/8/2023, 08:10:54] info: El SP se esta ejecutando
+[9/8/2023, 08:12:36] info: El SP termino de ejecutarse
+[9/8/2023, 08:12:36] info: Se esta creando el excel FEMCO_REPORTE
+[9/8/2023, 08:21:16] info: Se ah generado el documento correctamente...!!!
+[9/8/2023, 08:21:16] info: El SP se esta ejecutando
+[9/8/2023, 08:22:34] info: El SP termino de ejecutarse
+[9/8/2023, 08:22:34] info: Se esta creando el excel FEMCO_REPORTE_VALIDACION
+[9/8/2023, 08:28:31] info: Se ah generado el documento correctamente...!!!
+[9/8/2023, 08:28:31] info: El SP se esta ejecutando
+[9/8/2023, 08:29:11] info: El SP termino de ejecutarse
+[9/8/2023, 08:29:11] info: Se esta creando el excel REPORTE_SLA_COMPLETO
+[9/8/2023, 08:33:36] info: Se ah generado el documento correctamente...!!!
+[9/8/2023, 08:33:36] info: El SP se esta ejecutando
+[9/8/2023, 08:34:03] info: El SP termino de ejecutarse
+[9/8/2023, 08:34:03] info: Se esta creando el excel UVM_REPORTE_VALIDACION
+[9/8/2023, 08:37:29] info: Se ah generado el documento correctamente...!!!
+[9/8/2023, 08:37:29] info: El SP se esta ejecutando
+[9/8/2023, 08:37:49] info: El SP termino de ejecutarse
+[9/8/2023, 08:37:49] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[9/8/2023, 08:38:22] info: Se ah generado el documento correctamente...!!!
+[9/8/2023, 08:38:22] info: El SP se esta ejecutando
+[9/8/2023, 08:38:43] info: El SP termino de ejecutarse
+[9/8/2023, 08:38:43] info: Se esta creando el excel INVEX_REPORTE_VALIDACION
+[9/8/2023, 08:39:16] info: Se ah generado el documento correctamente...!!!
+[9/8/2023, 21:58:25] info: El SP se esta ejecutando
+[9/8/2023, 21:59:40] info: El SP termino de ejecutarse
+[9/8/2023, 21:59:40] info: Se esta creando el excel FEMCO_REPORTE
+[9/8/2023, 22:05:59] info: Se ah generado el documento correctamente...!!!
+[9/8/2023, 22:05:59] info: El SP se esta ejecutando
+[9/8/2023, 22:07:19] info: El SP termino de ejecutarse
+[9/8/2023, 22:07:19] info: Se esta creando el excel FEMCO_REPORTE_VALIDACION
+[9/8/2023, 22:13:01] info: Se ah generado el documento correctamente...!!!
+[9/8/2023, 22:13:01] info: El SP se esta ejecutando
+[9/8/2023, 22:13:42] info: El SP termino de ejecutarse
+[9/8/2023, 22:13:42] info: Se esta creando el excel REPORTE_SLA_COMPLETO
+[9/8/2023, 22:16:26] info: Se ah generado el documento correctamente...!!!
+[9/8/2023, 22:16:26] info: El SP se esta ejecutando
+[9/8/2023, 22:16:46] info: El SP termino de ejecutarse
+[9/8/2023, 22:16:46] info: Se esta creando el excel UVM_REPORTE_VALIDACION
+[9/8/2023, 22:18:26] info: Se ah generado el documento correctamente...!!!
+[9/8/2023, 22:18:26] info: El SP se esta ejecutando
+[9/8/2023, 22:19:02] info: El SP termino de ejecutarse
+[9/8/2023, 22:19:02] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[9/8/2023, 22:19:37] info: Se ah generado el documento correctamente...!!!
+[9/8/2023, 22:19:37] info: El SP se esta ejecutando
+[9/8/2023, 22:19:56] info: El SP termino de ejecutarse
+[9/8/2023, 22:19:56] info: Se esta creando el excel INVEX_REPORTE_VALIDACION
+[9/8/2023, 22:20:34] info: Se ah generado el documento correctamente...!!!
+[10/8/2023, 22:27:20] info: El SP se esta ejecutando
+[10/8/2023, 22:28:32] info: El SP termino de ejecutarse
+[10/8/2023, 22:28:32] info: Se esta creando el excel FEMCO_REPORTE
+[10/8/2023, 22:33:50] info: Se ah generado el documento correctamente...!!!
+[10/8/2023, 22:33:50] info: El SP se esta ejecutando
+[10/8/2023, 22:35:05] info: El SP termino de ejecutarse
+[10/8/2023, 22:35:05] info: Se esta creando el excel FEMCO_REPORTE_VALIDACION
+[10/8/2023, 22:40:28] info: Se ah generado el documento correctamente...!!!
+[10/8/2023, 22:40:28] info: El SP se esta ejecutando
+[10/8/2023, 22:41:04] info: El SP termino de ejecutarse
+[10/8/2023, 22:41:04] info: Se esta creando el excel REPORTE_SLA_COMPLETO
+[10/8/2023, 22:43:20] info: Se ah generado el documento correctamente...!!!
+[10/8/2023, 22:43:20] info: El SP se esta ejecutando
+[10/8/2023, 22:43:38] info: El SP termino de ejecutarse
+[10/8/2023, 22:43:38] info: Se esta creando el excel UVM_REPORTE_VALIDACION
+[10/8/2023, 22:45:09] info: Se ah generado el documento correctamente...!!!
+[10/8/2023, 22:45:09] info: El SP se esta ejecutando
+[10/8/2023, 22:45:33] info: El SP termino de ejecutarse
+[10/8/2023, 22:45:33] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[10/8/2023, 22:46:04] info: Se ah generado el documento correctamente...!!!
+[10/8/2023, 22:46:04] info: El SP se esta ejecutando
+[10/8/2023, 22:46:19] info: El SP termino de ejecutarse
+[10/8/2023, 22:46:19] info: Se esta creando el excel INVEX_REPORTE_VALIDACION
+[10/8/2023, 22:46:54] info: Se ah generado el documento correctamente...!!!
+[14/8/2023, 00:21:25] info: El SP se esta ejecutando
+[14/8/2023, 00:22:42] info: El SP termino de ejecutarse
+[14/8/2023, 00:22:42] info: Se esta creando el excel FEMCO_REPORTE
+[14/8/2023, 00:28:36] info: Se ah generado el documento correctamente...!!!
+[14/8/2023, 00:28:36] info: El SP se esta ejecutando
+[14/8/2023, 00:29:43] info: El SP termino de ejecutarse
+[14/8/2023, 00:29:43] info: Se esta creando el excel FEMCO_REPORTE_VALIDACION
+[14/8/2023, 00:35:11] info: Se ah generado el documento correctamente...!!!
+[14/8/2023, 00:35:11] info: El SP se esta ejecutando
+[14/8/2023, 00:35:47] info: El SP termino de ejecutarse
+[14/8/2023, 00:35:47] info: Se esta creando el excel REPORTE_SLA_COMPLETO
+[14/8/2023, 00:38:05] info: Se ah generado el documento correctamente...!!!
+[14/8/2023, 00:38:05] info: El SP se esta ejecutando
+[14/8/2023, 00:38:25] info: El SP termino de ejecutarse
+[14/8/2023, 00:38:25] info: Se esta creando el excel UVM_REPORTE_VALIDACION
+[14/8/2023, 00:39:58] info: Se ah generado el documento correctamente...!!!
+[14/8/2023, 00:39:58] info: El SP se esta ejecutando
+[14/8/2023, 00:40:18] info: El SP termino de ejecutarse
+[14/8/2023, 00:40:18] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[14/8/2023, 00:40:50] info: Se ah generado el documento correctamente...!!!
+[14/8/2023, 00:40:50] info: El SP se esta ejecutando
+[14/8/2023, 00:41:12] info: El SP termino de ejecutarse
+[14/8/2023, 00:41:12] info: Se esta creando el excel INVEX_REPORTE_VALIDACION
+[14/8/2023, 00:41:48] info: Se ah generado el documento correctamente...!!!
+[14/8/2023, 21:19:32] info: El SP se esta ejecutando
+[14/8/2023, 21:20:56] info: El SP termino de ejecutarse
+[14/8/2023, 21:20:56] info: Se esta creando el excel FEMCO_REPORTE
+[14/8/2023, 21:26:11] info: Se ah generado el documento correctamente...!!!
+[14/8/2023, 21:26:11] info: El SP se esta ejecutando
+[14/8/2023, 21:27:34] info: El SP termino de ejecutarse
+[14/8/2023, 21:27:34] info: Se esta creando el excel FEMCO_REPORTE_VALIDACION
+[14/8/2023, 21:32:12] info: Se ah generado el documento correctamente...!!!
+[14/8/2023, 21:32:12] info: El SP se esta ejecutando
+[14/8/2023, 21:32:52] info: El SP termino de ejecutarse
+[14/8/2023, 21:32:52] info: Se esta creando el excel REPORTE_SLA_COMPLETO
+[14/8/2023, 21:34:54] info: Se ah generado el documento correctamente...!!!
+[14/8/2023, 21:34:54] info: El SP se esta ejecutando
+[14/8/2023, 21:35:17] info: El SP termino de ejecutarse
+[14/8/2023, 21:35:17] info: Se esta creando el excel UVM_REPORTE_VALIDACION
+[14/8/2023, 21:36:40] info: Se ah generado el documento correctamente...!!!
+[14/8/2023, 21:36:40] info: El SP se esta ejecutando
+[14/8/2023, 21:37:01] info: El SP termino de ejecutarse
+[14/8/2023, 21:37:01] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[14/8/2023, 21:37:30] info: Se ah generado el documento correctamente...!!!
+[14/8/2023, 21:37:30] info: El SP se esta ejecutando
+[14/8/2023, 21:37:48] info: El SP termino de ejecutarse
+[14/8/2023, 21:37:48] info: Se esta creando el excel INVEX_REPORTE_VALIDACION
+[14/8/2023, 21:38:19] info: Se ah generado el documento correctamente...!!!
+[15/8/2023, 23:29:16] info: El SP se esta ejecutando
+[15/8/2023, 23:31:27] info: El SP termino de ejecutarse
+[15/8/2023, 23:31:27] info: Se esta creando el excel FEMCO_REPORTE
+[15/8/2023, 23:44:48] info: Se ah generado el documento correctamente...!!!
+[15/8/2023, 23:44:48] info: El SP se esta ejecutando
+[15/8/2023, 23:46:18] info: El SP termino de ejecutarse
+[15/8/2023, 23:46:18] info: Se esta creando el excel FEMCO_REPORTE_VALIDACION
+[16/8/2023, 00:02:39] info: Se ah generado el documento correctamente...!!!
+[16/8/2023, 00:02:39] info: El SP se esta ejecutando
+[16/8/2023, 00:03:23] info: El SP termino de ejecutarse
+[16/8/2023, 00:03:23] info: Se esta creando el excel REPORTE_SLA_COMPLETO
+[16/8/2023, 00:10:27] info: Se ah generado el documento correctamente...!!!
+[16/8/2023, 00:10:27] info: El SP se esta ejecutando
+[16/8/2023, 00:10:54] info: El SP termino de ejecutarse
+[16/8/2023, 00:10:54] info: Se esta creando el excel UVM_REPORTE_VALIDACION
+[16/8/2023, 00:15:58] info: Se ah generado el documento correctamente...!!!
+[16/8/2023, 00:15:58] info: El SP se esta ejecutando
+[16/8/2023, 00:16:20] info: El SP termino de ejecutarse
+[16/8/2023, 00:16:20] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[16/8/2023, 00:18:08] info: Se ah generado el documento correctamente...!!!
+[16/8/2023, 00:18:08] info: El SP se esta ejecutando
+[16/8/2023, 00:18:28] info: El SP termino de ejecutarse
+[16/8/2023, 00:18:29] info: Se esta creando el excel INVEX_REPORTE_VALIDACION
+[16/8/2023, 00:20:31] info: Se ah generado el documento correctamente...!!!
+[16/8/2023, 22:01:26] info: El SP se esta ejecutando
+[16/8/2023, 22:02:53] info: El SP termino de ejecutarse
+[16/8/2023, 22:02:53] info: Se esta creando el excel FEMCO_REPORTE
+[16/8/2023, 22:09:25] info: Se ah generado el documento correctamente...!!!
+[16/8/2023, 22:09:25] info: El SP se esta ejecutando
+[16/8/2023, 22:10:35] info: El SP termino de ejecutarse
+[16/8/2023, 22:10:35] info: Se esta creando el excel FEMCO_REPORTE_VALIDACION
+[16/8/2023, 22:24:26] info: Se ah generado el documento correctamente...!!!
+[16/8/2023, 22:24:26] info: El SP se esta ejecutando
+[16/8/2023, 22:25:11] info: El SP termino de ejecutarse
+[16/8/2023, 22:25:11] info: Se esta creando el excel REPORTE_SLA_COMPLETO
+[16/8/2023, 22:31:55] info: Se ah generado el documento correctamente...!!!
+[16/8/2023, 22:31:55] info: El SP se esta ejecutando
+[16/8/2023, 22:32:19] info: El SP termino de ejecutarse
+[16/8/2023, 22:32:19] info: Se esta creando el excel UVM_REPORTE_VALIDACION
+[16/8/2023, 22:37:12] info: Se ah generado el documento correctamente...!!!
+[16/8/2023, 22:37:12] info: El SP se esta ejecutando
+[16/8/2023, 22:37:35] info: El SP termino de ejecutarse
+[16/8/2023, 22:37:35] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[16/8/2023, 22:39:17] info: Se ah generado el documento correctamente...!!!
+[16/8/2023, 22:39:17] info: El SP se esta ejecutando
+[16/8/2023, 22:39:39] info: El SP termino de ejecutarse
+[16/8/2023, 22:39:39] info: Se esta creando el excel INVEX_REPORTE_VALIDACION
+[16/8/2023, 22:41:29] info: Se ah generado el documento correctamente...!!!
+[17/8/2023, 10:22:49] info: El SP se esta ejecutando
+[17/8/2023, 10:23:32] info: El SP termino de ejecutarse
+[17/8/2023, 10:23:32] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[17/8/2023, 10:23:44] info: Se ah generado el documento correctamente...!!!
+[17/8/2023, 10:24:34] info: El SP se esta ejecutando
+[17/8/2023, 10:24:57] info: El SP termino de ejecutarse
+[17/8/2023, 10:26:05] info: El SP se esta ejecutando
+[17/8/2023, 10:27:30] info: El SP se esta ejecutando
+[17/8/2023, 10:28:00] info: El SP termino de ejecutarse
+[17/8/2023, 10:28:00] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[17/8/2023, 10:29:11] info: Se ah generado el documento correctamente...!!!
+[17/8/2023, 10:45:34] info: El SP se esta ejecutando
+[17/8/2023, 10:46:06] info: El SP termino de ejecutarse
+[17/8/2023, 10:46:33] info: El SP se esta ejecutando
+[17/8/2023, 10:46:59] info: El SP termino de ejecutarse
+[17/8/2023, 10:48:19] info: El SP se esta ejecutando
+[17/8/2023, 10:48:43] info: El SP termino de ejecutarse
+[17/8/2023, 11:05:17] info: El SP se esta ejecutando
+[17/8/2023, 11:05:37] info: El SP termino de ejecutarse
+[17/8/2023, 11:07:09] info: El SP se esta ejecutando
+[17/8/2023, 11:07:33] info: El SP termino de ejecutarse
+[17/8/2023, 11:25:22] info: El SP se esta ejecutando
+[17/8/2023, 11:25:42] info: El SP termino de ejecutarse
+[17/8/2023, 11:25:42] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[17/8/2023, 11:26:22] info: El SP se esta ejecutando
+[17/8/2023, 11:26:31] info: El SP se esta ejecutando
+[17/8/2023, 11:26:57] info: El SP termino de ejecutarse
+[17/8/2023, 11:26:57] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[17/8/2023, 11:27:30] info: Se ah generado el documento correctamente...!!!
+[17/8/2023, 12:40:52] info: El SP se esta ejecutando
+[17/8/2023, 12:41:14] info: El SP termino de ejecutarse
+[17/8/2023, 12:41:14] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[17/8/2023, 12:42:13] info: El SP se esta ejecutando
+[17/8/2023, 12:42:39] error: El SP tuvo un error al ejecutarse SequelizeConnectionError: Failed to connect to 127.0.0.1:8282 in 15000ms
+[17/8/2023, 12:43:31] info: El SP se esta ejecutando
+[17/8/2023, 12:44:07] info: El SP termino de ejecutarse
+[17/8/2023, 12:44:07] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[17/8/2023, 12:45:15] info: El SP se esta ejecutando
+[17/8/2023, 12:45:40] info: El SP termino de ejecutarse
+[17/8/2023, 12:45:40] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[17/8/2023, 12:45:48] info: El SP se esta ejecutando
+[17/8/2023, 12:46:05] info: El SP se esta ejecutando
+[17/8/2023, 12:46:27] info: El SP termino de ejecutarse
+[17/8/2023, 12:47:22] info: El SP se esta ejecutando
+[17/8/2023, 12:48:53] info: El SP termino de ejecutarse
+[17/8/2023, 12:48:53] info: Se esta creando el excel FEMCO_REPORTE_VALIDACION
+[17/8/2023, 12:48:53] info: El SP se esta ejecutando
+[17/8/2023, 12:49:21] info: El SP termino de ejecutarse
+[17/8/2023, 12:49:21] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[17/8/2023, 12:50:06] info: Se ah generado el documento correctamente...!!!
+[17/8/2023, 12:52:06] info: El SP se esta ejecutando
+[17/8/2023, 12:52:21] info: El SP se esta ejecutando
+[17/8/2023, 12:53:53] info: El SP termino de ejecutarse
+[17/8/2023, 12:53:53] info: Se esta creando el excel FEMCO_REPORTE_VALIDACION
+[17/8/2023, 12:53:53] info: El SP se esta ejecutando
+[17/8/2023, 12:54:23] info: El SP termino de ejecutarse
+[17/8/2023, 12:54:23] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[17/8/2023, 12:55:13] info: Se ah generado el documento correctamente...!!!
+[17/8/2023, 12:57:19] info: El SP se esta ejecutando
+[17/8/2023, 12:58:48] info: El SP termino de ejecutarse
+[17/8/2023, 12:58:48] info: Se esta creando el excel FEMCO_REPORTE_VALIDACION
+[17/8/2023, 12:58:48] info: El SP se esta ejecutando
+[17/8/2023, 12:59:24] info: El SP termino de ejecutarse
+[17/8/2023, 12:59:24] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[17/8/2023, 13:00:11] info: Se ah generado el documento correctamente...!!!
+[17/8/2023, 13:06:01] info: El SP se esta ejecutando
+[17/8/2023, 13:06:41] info: El SP se esta ejecutando
+[17/8/2023, 13:06:47] error: El SP tuvo un error al ejecutarse SequelizeDatabaseError: socket hang up
+[17/8/2023, 13:06:47] error: El SP tuvo un error al ejecutarse SequelizeConnectionError: Failed to connect to 127.0.0.1:8282 - Could not connect (sequence)
+[17/8/2023, 13:08:08] info: El SP se esta ejecutando
+[17/8/2023, 13:10:38] info: El SP termino de ejecutarse
+[17/8/2023, 13:10:38] info: Se esta creando el excel FEMCO_REPORTE_VALIDACION
+[17/8/2023, 13:24:42] info: Se ah generado el documento correctamente...!!!
+[17/8/2023, 13:24:42] info: El SP se esta ejecutando
+[17/8/2023, 13:25:01] info: El SP termino de ejecutarse
+[17/8/2023, 13:25:01] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[17/8/2023, 13:25:41] info: Se ah generado el documento correctamente...!!!
+[17/8/2023, 13:40:43] info: El SP se esta ejecutando
+[17/8/2023, 13:42:10] info: El SP termino de ejecutarse
+[17/8/2023, 13:42:10] info: Se esta creando el excel FEMCO_REPORTE_VALIDACION
+[17/8/2023, 14:00:35] info: Se ah generado el documento correctamente...!!!
+[17/8/2023, 14:00:35] info: El SP se esta ejecutando
+[17/8/2023, 14:00:58] info: El SP termino de ejecutarse
+[17/8/2023, 14:00:58] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[17/8/2023, 14:02:44] info: Se ah generado el documento correctamente...!!!

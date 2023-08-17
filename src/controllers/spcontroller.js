@@ -14,14 +14,17 @@ export const execSP = async (reportSelect) => {
       );
     }
 
-    data[0].forEach((element) => {
-      if (
-        element.Score === "100.00 %" &&
-        (element.ESTATUS === 1 || element.ESTATUS === 3)
-      ) {
-        element.ESTATUS = 4;
-      }
-    });
+    if (reportSelect.id != 5) {
+      data[0].forEach((element) => {
+        if (
+          element.Score === "100.00 %" &&
+          (element.ESTATUS === 1 || element.ESTATUS === 3)
+        ) {
+          element.ESTATUS = 4;
+        }
+      });
+    }
+
     logger.info("El SP termino de ejecutarse");
     return data;
   } catch (error) {

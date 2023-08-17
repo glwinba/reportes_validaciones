@@ -17,7 +17,7 @@ const mailOptions = (typeValidate, att, htmlSend ,date) => {
         path: att,
       },
     ],
-    cc: ["rreyes@glwinba.com", "cfonseca@glwinba.com", "eavelar@garridolicona.com"],
+    // cc: ["rreyes@glwinba.com", "cfonseca@glwinba.com", "eavelar@garridolicona.com"],
   };
 };
 
@@ -61,7 +61,7 @@ export const sendMailError = (contenido) =>
       to: "crodriguez@glwinba.com",
       subject: `GLWINBA / ¡ERROR! REPORTES VALIDACIONES`,
       html: htmlToSend,
-      cc: ["cfonseca@glwinba.com", "eavelar@garridolicona.com", "dbetanzos@glwinba.com", "afernandez@glwinba.com"],
+      // cc: ["cfonseca@glwinba.com", "eavelar@garridolicona.com", "dbetanzos@glwinba.com", "afernandez@glwinba.com"],
     };
 
     transporter.sendMail(mailConfigs, (error, info) => {
