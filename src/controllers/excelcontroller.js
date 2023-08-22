@@ -73,7 +73,7 @@ export const createExcel = (data, reportSelect, dateFileName) =>
               } else {
                 ws.cell(a + 2, cells + 1)
                   .number(data[a][element.nombre])
-                  .style(styleEstatus(data[a][element.nombre]));
+                  .style(style);
               }
             } else {
               ws.cell(a + 2, cells + 1)

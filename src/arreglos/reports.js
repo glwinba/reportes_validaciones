@@ -104,17 +104,14 @@ export const styleCells = (estatus) => {
       colorBackground = "#E7E6E6";
       break;
     case 3:
-      colorBackground = "#FFFFE6";
+      colorBackground = "#FFFF00";
       break;
     case 4:
       colorBackground = "#92D050";
       break;
-    default:
-      colorBackground = "";
-      break;
   }
 
-  if (estatus) {
+  if (colorBackground != "") {
     return {
       font: {
         color: "#000000",

@@ -22,3 +22,7 @@ export const removeZip = async (files) => {
   } 
 
 };
+
+export const fileZipExist = async () => {
+  
+}
