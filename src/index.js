@@ -3,7 +3,11 @@ import { execSP } from "./controllers/spcontroller";
 import { createExcel } from "./controllers/excelcontroller";
 import { reports } from "./arreglos/reports";
 import { createZip } from "./controllers/zipcontroller";
-import { removeFiles, removeZip } from "./controllers/filecontroller";
+import {
+  fileZipExist,
+  removeFiles,
+  removeZip,
+} from "./controllers/filecontroller";
 import { notificationMail } from "./controllers/notificationcontroller";
 import config from "./config";
 import { dateFile } from "./helpers/dateFormat";
@@ -12,7 +16,7 @@ schedule.scheduleJob(config.TIME_EXEC, async function (dateTime) {
   console.log("El proceso se a comenzado a ejecutar.");
   let nameFiles = [];
   const dateFileName = dateFile();
-
+  await fileZipExist();
   for (const report of reports) {
     try {
       const data = await execSP(report);
