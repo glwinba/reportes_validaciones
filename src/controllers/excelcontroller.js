@@ -1,9 +1,11 @@
 import xl from "excel4node";
 import path from "path";
-import { formatDate } from "../helpers/dateFormat";
+import { dateFilesReports, formatDate } from "../helpers/dateFormat";
 import logger from "../configs/logger";
 import {
   cellsExcel,
+  cellsExcelFileValidate,
+  headboardFileValidate,
   mailCabecera,
   styleCabeceras,
   styleCells,
@@ -34,7 +36,7 @@ export const createExcel = (data, reportSelect, dateFileName) =>
     let ws = wb.addWorksheet("HOJA 1");
     let style = wb.createStyle(styleCells());
     const styleEstatus = (estatus) => {
-      return wb.createStyle(styleCells(estatus))
+      return wb.createStyle(styleCells(estatus));
     };
     let style_cabeceras = wb.createStyle(styleCabeceras);
 
@@ -96,5 +98,62 @@ export const createExcel = (data, reportSelect, dateFileName) =>
       }
       logger.info("Se ah generado el documento correctamente...!!!");
       resolve(pathExcel);
+    });
+  });
+
+export const excelCreateSpecial = (data) =>
+  new Promise((resolve, reject) => {
+    logger.info(`Se esta creando el excel FEMCO_VALIDACIONES_ESPECIALES`);
+    const date = dateFilesReports();
+    const namePath = `FEMSA - Validaciones ${date} - ESPECIAL.xlsx`;
+    const pathExcel = path.join(
+      `${__dirname}`,
+      "envio_validaciones",
+      namePath
+    );
+
+    let wb = new xl.Workbook();
+    let ws = wb.addWorksheet("HOJA 1");
+    let style = wb.createStyle(styleCells());
+    let style_cabeceras = wb.createStyle(styleCabeceras);
+
+    for (let a = 0; a < headboardFileValidate.length; a++) {
+      ws.cell(1, a + 1)
+        .string(headboardFileValidate[a])
+        .style(style_cabeceras);
+    }
+
+    for (let a = 0; a < data.length; a++) {
+      let fecha_carga = formatDate(data[a].FECHA_CARGA);
+
+      for (let cells = 0; cells < cellsExcelFileValidate.length; cells++) {
+        const element = cellsExcelFileValidate[cells];
+        if (element.nombre === "fecha_carga") {
+          ws.cell(a + 2, cells + 1)
+            .string(fecha_carga)
+            .style(style);
+        } else {
+          if (element.type != "string") {
+            ws.cell(a + 2, cells + 1)
+              .number(data[a][element.nombre])
+              .style(style);
+          } else {
+            ws.cell(a + 2, cells + 1)
+              .string(data[a][element.nombre])
+              .style(style);
+          }
+        }
+      }
+    }
+
+    wb.write(pathExcel, (error, stats) => {
+      if (error) {
+        notificationMailError(
+          `Error al escribir el excel FEMSA - Validaciones ${date} - ESPECIAL.xlsx: ${error}`
+        );
+        reject(error);
+      }
+      logger.info("Se ah generado el documento correctamente...!!!");
+      resolve([pathExcel, namePath]);
     });
   });

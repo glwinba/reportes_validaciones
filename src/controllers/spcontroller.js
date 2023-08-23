@@ -31,3 +31,29 @@ export const execSP = async (reportSelect) => {
     notificationMailError(`El SP tuvo un error al ejecutarse ${error}`);
   }
 };
+
+export const execSPSpecial = async () => {
+  logger.info("El SP Especial se esta ejecutando");
+  try {
+    let data = await sequelize.query(
+      `EXEC [BM_SERV_ESP].[SP_REPORTES_DIARIOS] @OPCION = 1`
+    );
+
+    data[0].forEach((element) => {
+      if (
+        element.Score === "100.00 %" &&
+        (element.ESTATUS === 1 || element.ESTATUS === 3)
+      ) {
+        element.ESTATUS = 4;
+      }
+    });
+
+    data[0] = data[0].filter((element) => element.ESTATUS === 3 && element.REGIMEN_ESPECIAL != "")
+
+    logger.info("El SP Especial termino de ejecutarse");
+    return data[0];
+  } catch (error) {
+    notificationMailError(`El SP Especial tuvo un error al ejecutarse ${error}`);
+  }
+  
+}

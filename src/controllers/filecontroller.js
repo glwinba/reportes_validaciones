@@ -24,15 +24,30 @@ export const removeZip = async (files) => {
   }
 };
 
-export const fileZipExist = async () => {
-  if (fs.existsSync(`${__dirname}/excels`) && fs.existsSync(`${__dirname}/excels_femco`)) {
+export const removeFilesReports = async (file) => {
+  fs.rm(file, function (err) {
+    if (err)
+      notificationMailError(`Error al remover el file: ${file} error: ${err}`);
+  });
+  logger.info(`Se removieron correctamente todos los archivos generados.`);
+};
+
+export const fileExist = async () => {
+  if (
+    fs.existsSync(`${__dirname}/excels`) &&
+    fs.existsSync(`${__dirname}/excels_femco`) &&
+    fs.existsSync(`${__dirname}/envio_validaciones`)
+  ) {
     logger.info("Las carpetas estan creadas correctamente.");
   } else {
     if (!fs.existsSync(`${__dirname}/excels`)) {
-      fs.mkdirSync(`${__dirname}/excels`,{recursive:true});
+      fs.mkdirSync(`${__dirname}/excels`, { recursive: true });
     }
     if (!fs.existsSync(`${__dirname}/excels_femco`)) {
-      fs.mkdirSync(`${__dirname}/excels_femco`,{recursive:true});
+      fs.mkdirSync(`${__dirname}/excels_femco`, { recursive: true });
+    }
+    if (!fs.existsSync(`${__dirname}/envio_validaciones`)) {
+      fs.mkdirSync(`${__dirname}/envio_validaciones`, { recursive: true });
     }
     logger.info("Las carpetas no existen pero se crearon nuevamente.");
   }

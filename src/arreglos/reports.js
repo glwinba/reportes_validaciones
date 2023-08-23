@@ -58,6 +58,50 @@ export const mailCabecera = [
   "REGIMEN_ESPECIAL",
 ];
 
+export const cellsExcel = [
+  { nombre: "RFC_EMPRESA", type: "string" },
+  { nombre: "EMPRESA_CONTRATANTE", type: "string" },
+  { nombre: "RFC_PROVEEDOR", type: "string" },
+  { nombre: "RAZON_SOCIAL", type: "string" },
+  { nombre: "AÑO", type: "number" },
+  { nombre: "MES", type: "string" },
+  { nombre: "MES_CUMPLIMIENTO", type: "string" },
+  { nombre: "TIPO_DOCUMENTO", type: "string" },
+  { nombre: "ESTATUS", type: "number" },
+  { nombre: "Score", type: "string" },
+  { nombre: "SCORE_GLOBAL", type: "string" },
+  { nombre: "RECARGA", type: "number" },
+  { nombre: "fecha_carga", type: "string" },
+  { nombre: "fecha_validacion", type: "string" },
+  { nombre: "DIAS", type: "number" },
+  { nombre: "SLA", type: "number" },
+  { nombre: "FACTURO", type: "number" },
+  { nombre: "PAGADO", type: "number" },
+  { nombre: "REGIMEN_ESPECIAL", type: "string" },
+];
+
+export const headboardFileValidate = [
+  "EMPRESA_CONTRATANTE",
+  "RAZON_SOCIAL",
+  "AÑO",
+  "MES",
+  "MES_CUMPLIMIENTO",
+  "TIPO_DOCUMENTO",
+  "FECHA_CARGA",
+  "REGIMEN_ESPECIAL"
+];
+
+export const cellsExcelFileValidate = [
+  { nombre: "EMPRESA_CONTRATANTE", type: "string" },
+  { nombre: "RAZON_SOCIAL", type: "string" },
+  { nombre: "AÑO", type: "number" },
+  { nombre: "MES", type: "string" },
+  { nombre: "MES_CUMPLIMIENTO", type: "string" },
+  { nombre: "TIPO_DOCUMENTO", type: "string" },
+  { nombre: "fecha_carga", type: "string" },
+  { nombre: "REGIMEN_ESPECIAL", type: "string" },
+];
+
 export const styleCabeceras = {
   font: {
     color: "#ffffff",
@@ -172,24 +216,4 @@ export const styleCells = (estatus) => {
   }
 };
 
-export const cellsExcel = [
-  { nombre: "RFC_EMPRESA", type: "string" },
-  { nombre: "EMPRESA_CONTRATANTE", type: "string" },
-  { nombre: "RFC_PROVEEDOR", type: "string" },
-  { nombre: "RAZON_SOCIAL", type: "string" },
-  { nombre: "AÑO", type: "number" },
-  { nombre: "MES", type: "string" },
-  { nombre: "MES_CUMPLIMIENTO", type: "string" },
-  { nombre: "TIPO_DOCUMENTO", type: "string" },
-  { nombre: "ESTATUS", type: "number" },
-  { nombre: "Score", type: "string" },
-  { nombre: "SCORE_GLOBAL", type: "string" },
-  { nombre: "RECARGA", type: "number" },
-  { nombre: "fecha_carga", type: "string" },
-  { nombre: "fecha_validacion", type: "string" },
-  { nombre: "DIAS", type: "number" },
-  { nombre: "SLA", type: "number" },
-  { nombre: "FACTURO", type: "number" },
-  { nombre: "PAGADO", type: "number" },
-  { nombre: "REGIMEN_ESPECIAL", type: "string" },
-];
+

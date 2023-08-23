@@ -1,7 +1,7 @@
 import nodemailer from "nodemailer";
 import config from "../config.js";
 
-let transporter = nodemailer.createTransport({
+export const transporter = nodemailer.createTransport({
   host: config.MAIL_HOST,
   port: config.MAIL_PORT,
   service: config.MAIL_SERVICE,
@@ -12,5 +12,14 @@ let transporter = nodemailer.createTransport({
   }
 });
 
+export const transporterPrivate = nodemailer.createTransport({
+  host: config.MAIL_HOST,
+  port: config.MAIL_PORT,
+  service: config.MAIL_SERVICE,
+  secure: true,
+  auth: {
+    user: config.MAIL_USER_PRIVATE,
+    pass: config.MAIL_PASS_PRIVATE
+  }
+});
 
-export default transporter
