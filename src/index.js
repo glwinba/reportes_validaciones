@@ -9,3 +9,4 @@ schedule.scheduleJob(config.TIME_EXEC, async function (dateTime) {
 schedule.scheduleJob(config.TIME_EXEC_REPORTS, async function (dateTime) {
   await createDocumentSpecialValidations();
 });
+

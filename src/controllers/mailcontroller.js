@@ -24,7 +24,10 @@ const mailOptions = (typeValidate, att, htmlSend, date) => {
 
 const htmlFile = `${__dirname}/../templates/index.html`;
 const htmlFileError = `${__dirname}/../templates/error.html`;
-const htmlFileSpecialValidations = `${__dirname}/../templates/validaciones_especiales.html`;
+const htmlFileSpecialValidations = (na) => {
+  if (na) return `${__dirname}/../templates/validaciones_especiales.html`;
+  return `${__dirname}/../templates/validaciones_especiales_na.html`;
+};
 
 export const sendMail = (type_report, docZip, dateFileName) =>
   new Promise((resolve, reject) => {
@@ -72,9 +75,9 @@ export const sendMailError = (contenido) =>
     });
   });
 
-export const sendMailSpecialValidations = (pathDoc) =>
+export const sendMailSpecialValidations = (pathDoc, na) =>
   new Promise((resolve, reject) => {
-    const htmlSync = fs.readFileSync(htmlFileSpecialValidations, {
+    const htmlSync = fs.readFileSync(htmlFileSpecialValidations(na), {
       encoding: "utf-8",
     });
     const template = handlebars.compile(htmlSync);

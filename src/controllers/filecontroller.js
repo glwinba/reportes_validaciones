@@ -34,20 +34,20 @@ export const removeFilesReports = async (file) => {
 
 export const fileExist = async () => {
   if (
-    fs.existsSync(`${__dirname}/excels`) &&
-    fs.existsSync(`${__dirname}/excels_femco`) &&
-    fs.existsSync(`${__dirname}/envio_validaciones`)
+    fs.existsSync(`${__dirname}/../files/excels`) &&
+    fs.existsSync(`${__dirname}/../files/excels_femco`) &&
+    fs.existsSync(`${__dirname}/../files/envio_validaciones`)
   ) {
     logger.info("Las carpetas estan creadas correctamente.");
   } else {
-    if (!fs.existsSync(`${__dirname}/excels`)) {
-      fs.mkdirSync(`${__dirname}/excels`, { recursive: true });
+    if (!fs.existsSync(`${__dirname}/../files/excels`)) {
+      fs.mkdirSync(`${__dirname}/../files/excels`, { recursive: true });
     }
-    if (!fs.existsSync(`${__dirname}/excels_femco`)) {
-      fs.mkdirSync(`${__dirname}/excels_femco`, { recursive: true });
+    if (!fs.existsSync(`${__dirname}/../files/excels_femco`)) {
+      fs.mkdirSync(`${__dirname}/../files/excels_femco`, { recursive: true });
     }
-    if (!fs.existsSync(`${__dirname}/envio_validaciones`)) {
-      fs.mkdirSync(`${__dirname}/envio_validaciones`, { recursive: true });
+    if (!fs.existsSync(`${__dirname}/../files/envio_validaciones`)) {
+      fs.mkdirSync(`${__dirname}/../files/envio_validaciones`, { recursive: true });
     }
     logger.info("Las carpetas no existen pero se crearon nuevamente.");
   }

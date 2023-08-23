@@ -39,6 +39,10 @@ export const execSPSpecial = async () => {
       `EXEC [BM_SERV_ESP].[SP_REPORTES_DIARIOS] @OPCION = 1`
     );
 
+    let dataSla = await sequelize.query(
+      `EXEC [BM_SERV_ESP].[SP_REPORTES_DIARIOS] @OPCION = 3`
+    );
+
     data[0].forEach((element) => {
       if (
         element.Score === "100.00 %" &&
@@ -48,12 +52,33 @@ export const execSPSpecial = async () => {
       }
     });
 
-    data[0] = data[0].filter((element) => element.ESTATUS === 3 && element.REGIMEN_ESPECIAL != "")
+    dataSla[0].forEach((element) => {
+      if (
+        element.Score === "100.00 %" &&
+        (element.ESTATUS === 1 || element.ESTATUS === 3)
+      ) {
+        element.ESTATUS = 4;
+      }
+    });
+
+    data[0] = data[0].filter(
+      (element) => element.ESTATUS === 3 && element.REGIMEN_ESPECIAL != ""
+    );
+    dataSla[0] = dataSla[0].filter(
+      (element) => element.ESTATUS === 3 && element.REGIMEN_ESPECIAL != ""
+    );
+
+    if (dataSla[0] > 0) {
+      dataSla[0].forEach((element) => {
+        data[0].push(element);
+      });
+    }
 
     logger.info("El SP Especial termino de ejecutarse");
     return data[0];
   } catch (error) {
-    notificationMailError(`El SP Especial tuvo un error al ejecutarse ${error}`);
+    notificationMailError(
+      `El SP Especial tuvo un error al ejecutarse ${error}`
+    );
   }
-  
-}
+};

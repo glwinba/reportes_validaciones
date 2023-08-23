@@ -20,13 +20,13 @@ export const createExcel = (data, reportSelect, dateFileName) =>
 
     if (reportSelect.id === 2 || reportSelect.id === 1) {
       pathExcel = path.join(
-        `${__dirname}`,
+        `${__dirname}/../files/`,
         "excels_femco",
         `${reportSelect.nombre}_${dateFileName}.xlsx`
       );
     } else {
       pathExcel = path.join(
-        `${__dirname}`,
+        `${__dirname}/../files/`,
         "excels",
         `${reportSelect.nombre}_${dateFileName}.xlsx`
       );
@@ -107,7 +107,7 @@ export const excelCreateSpecial = (data) =>
     const date = dateFilesReports();
     const namePath = `FEMSA - Validaciones ${date} - ESPECIAL.xlsx`;
     const pathExcel = path.join(
-      `${__dirname}`,
+      `${__dirname}/../files/`,
       "envio_validaciones",
       namePath
     );

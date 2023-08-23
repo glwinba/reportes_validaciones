@@ -9,7 +9,7 @@ export const createZip = async () => {
     for (const data of dataZip) {
       const zip = new AdmZip();
 
-      zip.addLocalFolder(`./src/controllers/${data.name_path}`, data.name_path);
+      zip.addLocalFolder(`./src/files/${data.name_path}`, data.name_path);
 
       zip.writeZip(data.name);
     }

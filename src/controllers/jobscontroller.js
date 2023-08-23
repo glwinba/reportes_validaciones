@@ -48,8 +48,11 @@ export const createDocumentSpecialValidations = async () => {
   );
   try {
     const data = await execSPSpecial();
+    if (data.length === 0) {
+      return sendMailSpecialValidations(pathExcel, false);
+    }
     const pathExcel = await excelCreateSpecial(data);
-    await sendMailSpecialValidations(pathExcel);
+    await sendMailSpecialValidations(pathExcel, true);
     await removeFilesReports(pathExcel[0]);
   } catch (error) {
     notificationMailError(`Error al generar reporte validaciones especiales: ${error}`);
