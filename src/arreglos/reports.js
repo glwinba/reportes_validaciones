@@ -23,7 +23,7 @@ export const reports = [
   {
     id: 6,
     nombre: "UVM_REPORTE_VALIDACION",
-  }
+  },
 ];
 
 export const dataZip = [
@@ -80,27 +80,31 @@ export const cellsExcel = [
   { nombre: "REGIMEN_ESPECIAL", type: "string" },
 ];
 
-export const headboardFileValidate = [
-  "EMPRESA_CONTRATANTE",
-  "RAZON_SOCIAL",
-  "AÑO",
-  "MES",
-  "MES_CUMPLIMIENTO",
-  "TIPO_DOCUMENTO",
-  "FECHA_CARGA",
-  "REGIMEN_ESPECIAL"
-];
+export const headboardFileValidate = (column) => {
+  return [
+    "EMPRESA_CONTRATANTE",
+    "RAZON_SOCIAL",
+    "AÑO",
+    "MES",
+    "MES_CUMPLIMIENTO",
+    "TIPO_DOCUMENTO",
+    "FECHA_CARGA",
+    column,
+  ];
+};
 
-export const cellsExcelFileValidate = [
-  { nombre: "EMPRESA_CONTRATANTE", type: "string" },
-  { nombre: "RAZON_SOCIAL", type: "string" },
-  { nombre: "AÑO", type: "number" },
-  { nombre: "MES", type: "string" },
-  { nombre: "MES_CUMPLIMIENTO", type: "string" },
-  { nombre: "TIPO_DOCUMENTO", type: "string" },
-  { nombre: "fecha_carga", type: "string" },
-  { nombre: "REGIMEN_ESPECIAL", type: "string" },
-];
+export const cellsExcelFileValidate = (column) => {
+  return [
+    { nombre: "EMPRESA_CONTRATANTE", type: "string" },
+    { nombre: "RAZON_SOCIAL", type: "string" },
+    { nombre: "AÑO", type: "number" },
+    { nombre: "MES", type: "string" },
+    { nombre: "MES_CUMPLIMIENTO", type: "string" },
+    { nombre: "TIPO_DOCUMENTO", type: "string" },
+    { nombre: "fecha_carga", type: "string" },
+    { nombre: column, type: "string" },
+  ];
+};
 
 export const styleCabeceras = {
   font: {
@@ -215,5 +219,3 @@ export const styleCells = (estatus) => {
     };
   }
 };
-
-

@@ -18,12 +18,17 @@ const mailOptions = (typeValidate, att, htmlSend, date) => {
         path: att,
       },
     ],
-    cc: ["rreyes@glwinba.com", "cfonseca@glwinba.com", "eavelar@garridolicona.com"],
+    cc: [
+      "rreyes@glwinba.com",
+      "cfonseca@glwinba.com",
+      "eavelar@garridolicona.com",
+    ],
   };
 };
 
 const htmlFile = `${__dirname}/../templates/index.html`;
 const htmlFileError = `${__dirname}/../templates/error.html`;
+const htmlFileValidationsDaily = `${__dirname}/../templates/validaciones_diarias.html`;
 const htmlFileSpecialValidations = (na) => {
   if (na) return `${__dirname}/../templates/validaciones_especiales.html`;
   return `${__dirname}/../templates/validaciones_especiales_na.html`;
@@ -64,7 +69,12 @@ export const sendMailError = (contenido) =>
       to: "crodriguez@glwinba.com",
       subject: `GLWINBA / ¡ERROR! REPORTES VALIDACIONES`,
       html: htmlToSend,
-      cc: ["cfonseca@glwinba.com", "eavelar@garridolicona.com", "dbetanzos@glwinba.com", "afernandez@glwinba.com"],
+      cc: [
+        "cfonseca@glwinba.com",
+        "eavelar@garridolicona.com",
+        "dbetanzos@glwinba.com",
+        "afernandez@glwinba.com",
+      ],
     };
 
     transporter.sendMail(mailConfigs, (error, info) => {
@@ -96,6 +106,55 @@ export const sendMailSpecialValidations = (pathDoc, na) =>
           path: pathDoc[0],
         },
       ],
+    };
+
+    transporterPrivate.sendMail(mailConfigs, (error, info) => {
+      if (error) {
+        logger.error(`Error en el envio de mail ${error}`);
+        reject(error);
+      } else resolve(info);
+    });
+  });
+
+export const sendMailValidationsDaily = (pathDoc, pathReports) =>
+  new Promise((resolve, reject) => {
+    const htmlSync = fs.readFileSync(htmlFileValidationsDaily, {
+      encoding: "utf-8",
+    });
+    const template = handlebars.compile(htmlSync);
+    const htmlToSend = template();
+    const date = dateFilesReports();
+
+    const attDocs = () => {
+      let attachments = [
+        {
+          filename: pathDoc[1],
+          path: pathDoc[0],
+        },
+      ];
+      pathReports.forEach(element => {
+        attachments.push({
+          filename: element[1],
+          path: element[0],
+        })
+      });
+
+      return attachments;
+    };
+    const mailConfigs = {
+      from: config.MAIL_USER_PRIVATE,
+      to: [
+        "cfonseca@glwinba.com",
+        "gpichardo@glwinba.com",
+        "rrojas@glwinba.com",
+        "aespindola@glwinba.com",
+        "afernandez@glwinba.com",
+        "ctecalco@glwinba.com",
+      ],
+      subject: `FEMSA / Validaciones ${date}`,
+      html: htmlToSend,
+      cc: ["eavelar@garridolicona.com"],
+      attachments: attDocs(),
     };
 
     transporterPrivate.sendMail(mailConfigs, (error, info) => {

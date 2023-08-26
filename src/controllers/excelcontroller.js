@@ -17,19 +17,11 @@ export const createExcel = (data, reportSelect, dateFileName) =>
     logger.info(`Se esta creando el excel ${reportSelect.nombre}`);
 
     let pathExcel;
-
+    const namePath = `${reportSelect.nombre}_${dateFileName}.xlsx`;
     if (reportSelect.id === 2 || reportSelect.id === 1) {
-      pathExcel = path.join(
-        `${__dirname}/../files/`,
-        "excels_femco",
-        `${reportSelect.nombre}_${dateFileName}.xlsx`
-      );
+      pathExcel = path.join(`${__dirname}/../files/`, "excels_femco", namePath);
     } else {
-      pathExcel = path.join(
-        `${__dirname}/../files/`,
-        "excels",
-        `${reportSelect.nombre}_${dateFileName}.xlsx`
-      );
+      pathExcel = path.join(`${__dirname}/../files/`, "excels", namePath);
     }
 
     let wb = new xl.Workbook();
@@ -97,13 +89,13 @@ export const createExcel = (data, reportSelect, dateFileName) =>
         reject(error);
       }
       logger.info("Se ah generado el documento correctamente...!!!");
-      resolve(pathExcel);
+      resolve([pathExcel, namePath]);
     });
   });
 
 export const excelCreateSpecial = (data) =>
   new Promise((resolve, reject) => {
-    logger.info(`Se esta creando el excel FEMCO_VALIDACIONES_ESPECIALES`);
+    logger.info(`Se esta creando el excel FEMSA - VALIDACIONES - ESPECIAL`);
     const date = dateFilesReports();
     const namePath = `FEMSA - Validaciones ${date} - ESPECIAL.xlsx`;
     const pathExcel = path.join(
@@ -117,17 +109,18 @@ export const excelCreateSpecial = (data) =>
     let style = wb.createStyle(styleCells());
     let style_cabeceras = wb.createStyle(styleCabeceras);
 
-    for (let a = 0; a < headboardFileValidate.length; a++) {
+    let cabecerasArray = headboardFileValidate("REGIMEN_ESPECIAL");
+    for (let a = 0; a < cabecerasArray.length; a++) {
       ws.cell(1, a + 1)
-        .string(headboardFileValidate[a])
+        .string(cabecerasArray[a])
         .style(style_cabeceras);
     }
-
+    let cellsExcel = cellsExcelFileValidate("REGIMEN_ESPECIAL");
     for (let a = 0; a < data.length; a++) {
       let fecha_carga = formatDate(data[a].FECHA_CARGA);
 
-      for (let cells = 0; cells < cellsExcelFileValidate.length; cells++) {
-        const element = cellsExcelFileValidate[cells];
+      for (let cells = 0; cells < cellsExcel.length; cells++) {
+        const element = cellsExcel[cells];
         if (element.nombre === "fecha_carga") {
           ws.cell(a + 2, cells + 1)
             .string(fecha_carga)
@@ -150,6 +143,85 @@ export const excelCreateSpecial = (data) =>
       if (error) {
         notificationMailError(
           `Error al escribir el excel FEMSA - Validaciones ${date} - ESPECIAL.xlsx: ${error}`
+        );
+        reject(error);
+      }
+      logger.info("Se ah generado el documento correctamente...!!!");
+      resolve([pathExcel, namePath]);
+    });
+  });
+
+export const excelCreateInternalValidations = (data) =>
+  new Promise((resolve, reject) => {
+    data = data.filter((element) => element.TIPO_DOCUMENTO === "CFDI Nomina");
+    logger.info(`Se esta creando el excel FEMSA - VALIDACIONES`);
+    const date = dateFilesReports();
+    const namePath = `FEMSA - Validaciones ${date}.xlsx`;
+    const pathExcel = path.join(
+      `${__dirname}/../files/`,
+      "envio_validaciones",
+      namePath
+    );
+
+    let wb = new xl.Workbook();
+    let ws = wb.addWorksheet("HOJA 1");
+    let style = wb.createStyle(styleCells());
+    let style_cabeceras = wb.createStyle(styleCabeceras);
+    let cabecerasArray = headboardFileValidate("Validador");
+
+    for (let a = 0; a < cabecerasArray.length; a++) {
+      ws.cell(1, a + 1)
+        .string(cabecerasArray[a])
+        .style(style_cabeceras);
+    }
+
+    let cellsExcel = cellsExcelFileValidate("Validador");
+
+    let numero_repartir = data.length / 3;
+
+    let entero = Math.trunc(numero_repartir);
+
+    for (let a = 0; a < data.length; a++) {
+      let fecha_carga = formatDate(data[a].FECHA_CARGA);
+
+      for (let cells = 0; cells < cellsExcel.length; cells++) {
+        const element = cellsExcel[cells];
+        if (element.nombre === "fecha_carga") {
+          ws.cell(a + 2, cells + 1)
+            .string(fecha_carga)
+            .style(style);
+        } else if (element.nombre === "Validador") {
+          if (a + 1 <= entero) {
+            ws.cell(a + 2, cells + 1)
+              .string("Rosa")
+              .style(style);
+          } else if (a + 1 > entero && a + 1 < entero * 2) {
+            ws.cell(a + 2, cells + 1)
+              .string("Arantxa")
+              .style(style);
+          } else {
+            ws.cell(a + 2, cells + 1)
+              .string("Cesar")
+              .style(style);
+          }
+        } else {
+          if (element.type != "string") {
+            ws.cell(a + 2, cells + 1)
+              .number(data[a][element.nombre])
+              .style(style);
+          } else {
+            ws.cell(a + 2, cells + 1)
+              .string(data[a][element.nombre])
+              .style(style);
+          }
+        }
+      }
+    }
+
+    wb.write(pathExcel, (error, stats) => {
+      if (error) {
+        notificationMailError(
+          `Error al escribir el excel FEMSA - Validaciones ${date}.xlsx: ${error}`
         );
         reject(error);
       }

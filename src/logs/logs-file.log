@@ -5,3 +5,177 @@
 [23/8/2023, 14:01:38] info: Se ah generado el documento correctamente...!!!
 [23/8/2023, 14:01:41] info: Se removieron correctamente todos los archivos generados.
 [23/8/2023, 14:01:41] info: ******** El proceso de creacion de reportes de validaciones especiales se finalizo correctamente. **********
+[24/8/2023, 09:01:48] info: El proceso de creacion de reportes de validacion diario se a comenzado a ejecutar.
+[24/8/2023, 09:01:48] info: Las carpetas estan creadas correctamente.
+[24/8/2023, 09:01:48] info: El proceso de creacion de reportes de validaciones especiales se a comenzado a ejecutar.
+[24/8/2023, 09:01:48] info: El SP Especial se esta ejecutando
+[24/8/2023, 09:01:48] info: El SP se esta ejecutando
+[24/8/2023, 09:04:03] info: El SP termino de ejecutarse
+[24/8/2023, 09:04:03] info: Se esta creando el excel FEMCO_REPORTE
+[24/8/2023, 09:10:35] info: Se ah generado el documento correctamente...!!!
+[24/8/2023, 09:10:35] info: El SP se esta ejecutando
+[24/8/2023, 09:10:54] info: El SP Especial termino de ejecutarse
+[24/8/2023, 09:10:54] info: Se esta creando el excel FEMCO_VALIDACIONES_ESPECIALES
+[24/8/2023, 09:10:54] info: Se ah generado el documento correctamente...!!!
+[24/8/2023, 09:10:56] info: Se removieron correctamente todos los archivos generados.
+[24/8/2023, 09:10:56] info: ******** El proceso de creacion de reportes de validaciones especiales se finalizo correctamente. **********
+[24/8/2023, 09:11:50] info: El SP termino de ejecutarse
+[24/8/2023, 09:11:50] info: Se esta creando el excel FEMCO_REPORTE_VALIDACION
+[24/8/2023, 09:17:44] info: Se ah generado el documento correctamente...!!!
+[24/8/2023, 09:17:44] info: El SP se esta ejecutando
+[24/8/2023, 09:18:23] info: El SP termino de ejecutarse
+[24/8/2023, 09:18:23] info: Se esta creando el excel REPORTE_SLA_COMPLETO
+[24/8/2023, 09:22:00] info: Se ah generado el documento correctamente...!!!
+[24/8/2023, 09:22:00] info: El SP se esta ejecutando
+[24/8/2023, 09:22:21] info: El SP termino de ejecutarse
+[24/8/2023, 09:22:21] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[24/8/2023, 09:23:08] info: Se ah generado el documento correctamente...!!!
+[24/8/2023, 09:23:08] info: El SP se esta ejecutando
+[24/8/2023, 09:23:37] info: El SP termino de ejecutarse
+[24/8/2023, 09:23:37] info: Se esta creando el excel INVEX_REPORTE_VALIDACION
+[24/8/2023, 09:25:15] info: Se ah generado el documento correctamente...!!!
+[24/8/2023, 09:25:15] info: El SP se esta ejecutando
+[24/8/2023, 09:25:34] info: El SP termino de ejecutarse
+[24/8/2023, 09:25:34] info: Se esta creando el excel UVM_REPORTE_VALIDACION
+[24/8/2023, 09:27:35] info: Se ah generado el documento correctamente...!!!
+[24/8/2023, 09:27:38] info: Archivos comprimidos correctamente.
+[24/8/2023, 09:27:38] info: Se removieron correctamente todos los archivos generados.
+[24/8/2023, 09:27:53] info: Mails enviados.
+[24/8/2023, 09:28:26] info: Mails enviados.
+[24/8/2023, 09:28:26] info: ******** El proceso de creacion de reportes de validacion diario se finalizo correctamente. **********
+[24/8/2023, 09:28:26] info: Archivo ZIP borrado correctamente del servidor.
+[24/8/2023, 09:28:26] info: Archivo ZIP borrado correctamente del servidor.
+[25/8/2023, 08:00:27] info: El proceso de creacion de reportes de validacion diario se a comenzado a ejecutar.
+[25/8/2023, 08:00:27] info: Las carpetas estan creadas correctamente.
+[25/8/2023, 08:00:27] info: El proceso de creacion de reportes de validaciones especiales se a comenzado a ejecutar.
+[25/8/2023, 08:00:27] info: El SP Especial se esta ejecutando
+[25/8/2023, 08:00:27] info: El SP se esta ejecutando
+[25/8/2023, 08:02:18] info: El SP termino de ejecutarse
+[25/8/2023, 08:02:18] info: Se esta creando el excel FEMCO_REPORTE_VALIDACION
+[25/8/2023, 08:10:53] info: Se ah generado el documento correctamente...!!!
+[25/8/2023, 08:10:53] info: ******** El proceso de creacion de reportes de validacion diario se finalizo correctamente. **********
+[25/8/2023, 08:11:10] info: El SP Especial termino de ejecutarse
+[25/8/2023, 08:11:10] info: Se esta creando el excel FEMSA - VALIDACIONES - ESPECIAL
+[25/8/2023, 08:11:10] info: Se ah generado el documento correctamente...!!!
+[25/8/2023, 08:11:12] info: Se removieron correctamente todos los archivos generados.
+[25/8/2023, 08:11:12] info: ******** El proceso de creacion de reportes de validaciones especiales se finalizo correctamente. **********
+[25/8/2023, 08:32:50] info: El SP de validaciones diario se esta ejecutando
+[25/8/2023, 08:35:38] info: El SP Validaciones diario termino de ejecutarse
+[25/8/2023, 08:42:58] info: El SP de validaciones diario se esta ejecutando
+[25/8/2023, 08:43:09] info: El SP de validaciones diario se esta ejecutando
+[25/8/2023, 08:45:53] info: El SP Validaciones diario termino de ejecutarse
+[25/8/2023, 08:48:33] info: El SP de validaciones diario se esta ejecutando
+[25/8/2023, 08:50:59] info: El SP Validaciones diario termino de ejecutarse
+[25/8/2023, 08:50:59] info: Se esta creando el excel FEMSA - VALIDACIONES
+[25/8/2023, 08:50:59] info: Se ah generado el documento correctamente...!!!
+[25/8/2023, 12:38:25] info: El proceso de creacion de reportes de validaciones especiales se a comenzado a ejecutar.
+[25/8/2023, 12:38:25] info: El SP de validaciones diario se esta ejecutando
+[25/8/2023, 12:40:59] info: El SP Validaciones diario termino de ejecutarse
+[25/8/2023, 12:40:59] info: Se esta creando el excel FEMSA - VALIDACIONES
+[25/8/2023, 12:40:59] info: Se ah generado el documento correctamente...!!!
+[25/8/2023, 12:41:01] info: ******** El proceso de creacion de reportes de validaciones especiales se finalizo correctamente. **********
+[25/8/2023, 12:44:03] info: El proceso de creacion de reportes de validaciones especiales se a comenzado a ejecutar.
+[25/8/2023, 12:44:03] info: El SP de validaciones diario se esta ejecutando
+[25/8/2023, 12:47:18] info: El SP Validaciones diario termino de ejecutarse
+[25/8/2023, 12:47:18] info: Se esta creando el excel FEMSA - VALIDACIONES
+[25/8/2023, 12:47:18] info: Se ah generado el documento correctamente...!!!
+[25/8/2023, 12:47:23] info: ******** El proceso de creacion de reportes de validaciones especiales se finalizo correctamente. **********
+[25/8/2023, 12:48:34] info: El proceso de creacion de reportes de validaciones especiales se a comenzado a ejecutar.
+[25/8/2023, 12:48:34] info: El SP de validaciones diario se esta ejecutando
+[25/8/2023, 12:48:47] info: El proceso de creacion de reportes de validaciones especiales se a comenzado a ejecutar.
+[25/8/2023, 12:48:47] info: El SP de validaciones diario se esta ejecutando
+[25/8/2023, 12:51:39] info: El SP Validaciones diario termino de ejecutarse
+[25/8/2023, 12:51:39] info: Se esta creando el excel FEMSA - VALIDACIONES
+[25/8/2023, 12:51:39] info: Se ah generado el documento correctamente...!!!
+[25/8/2023, 12:51:43] info: ******** El proceso de creacion de reportes de validaciones especiales se finalizo correctamente. **********
+[25/8/2023, 12:55:13] info: El proceso de creacion de reportes de validaciones especiales se a comenzado a ejecutar.
+[25/8/2023, 12:55:13] info: El SP de validaciones diario se esta ejecutando
+[25/8/2023, 12:57:01] info: El proceso de creacion de reportes de validaciones especiales se a comenzado a ejecutar.
+[25/8/2023, 12:57:01] info: El SP de validaciones diario se esta ejecutando
+[25/8/2023, 13:00:31] info: El SP Validaciones diario termino de ejecutarse
+[25/8/2023, 13:00:31] info: Se esta creando el excel FEMSA - VALIDACIONES
+[25/8/2023, 13:00:31] info: Se ah generado el documento correctamente...!!!
+[25/8/2023, 13:00:33] error: Error al generar reporte: ReferenceError: nameFiles is not defined
+[25/8/2023, 13:03:42] info: El proceso de creacion de reportes de validaciones especiales se a comenzado a ejecutar.
+[25/8/2023, 13:03:42] info: El SP de validaciones diario se esta ejecutando
+[25/8/2023, 13:03:52] info: El proceso de creacion de reportes de validaciones especiales se a comenzado a ejecutar.
+[25/8/2023, 13:03:52] info: El SP de validaciones diario se esta ejecutando
+[25/8/2023, 13:06:58] info: El SP Validaciones diario termino de ejecutarse
+[25/8/2023, 13:06:58] info: Se esta creando el excel FEMSA - VALIDACIONES
+[25/8/2023, 13:06:58] info: Se ah generado el documento correctamente...!!!
+[25/8/2023, 13:07:00] info: ******** El proceso de creacion de reportes de validaciones especiales se finalizo correctamente. **********
+[25/8/2023, 13:28:09] info: El proceso de creacion de reportes de validaciones especiales se a comenzado a ejecutar.
+[25/8/2023, 13:28:09] info: El SP de validaciones diario se esta ejecutando
+[25/8/2023, 13:31:15] info: El SP Validaciones diario termino de ejecutarse
+[25/8/2023, 13:31:15] info: Se esta creando el excel FEMSA - VALIDACIONES
+[25/8/2023, 13:31:15] info: Se ah generado el documento correctamente...!!!
+[25/8/2023, 13:31:17] info: ******** El proceso de creacion de reportes de validaciones especiales se finalizo correctamente. **********
+[25/8/2023, 13:36:52] info: El proceso de creacion de reportes de validaciones especiales se a comenzado a ejecutar.
+[25/8/2023, 13:36:52] info: El SP de validaciones diario se esta ejecutando
+[25/8/2023, 13:38:42] info: El proceso de creacion de reportes de validaciones especiales se a comenzado a ejecutar.
+[25/8/2023, 13:38:42] info: El SP de validaciones diario se esta ejecutando
+[25/8/2023, 13:45:21] error: Error en el envio de mail Error: Connection timeout
+[25/8/2023, 13:45:21] error: Connection timeout
+[25/8/2023, 13:45:21] error: Error en el envio de mail Error: Connection timeout
+[25/8/2023, 13:45:21] error: Connection timeout
+[25/8/2023, 13:45:53] info: El proceso de creacion de reportes de validaciones especiales se a comenzado a ejecutar.
+[25/8/2023, 13:45:53] info: El SP de validaciones diario se esta ejecutando
+[25/8/2023, 17:49:26] info: El proceso de creacion de reportes de validaciones especiales se a comenzado a ejecutar.
+[25/8/2023, 17:49:26] info: El SP de validaciones diario se esta ejecutando
+[25/8/2023, 17:51:45] info: El SP Validaciones diario termino de ejecutarse
+[25/8/2023, 17:51:45] info: Se esta creando el excel FEMSA - VALIDACIONES
+[25/8/2023, 17:51:45] info: Se ah generado el documento correctamente...!!!
+[25/8/2023, 17:51:45] info: El SP se esta ejecutando
+[25/8/2023, 17:52:04] info: El SP termino de ejecutarse
+[25/8/2023, 17:52:04] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[25/8/2023, 17:52:43] info: Se ah generado el documento correctamente...!!!
+[25/8/2023, 17:52:43] info: El SP se esta ejecutando
+[25/8/2023, 17:53:00] info: El SP termino de ejecutarse
+[25/8/2023, 17:53:00] info: Se esta creando el excel INVEX_REPORTE_VALIDACION
+[25/8/2023, 17:53:44] info: Se ah generado el documento correctamente...!!!
+[25/8/2023, 17:53:47] info: ******** El proceso de creacion de reportes de validaciones especiales se finalizo correctamente. **********
+[25/8/2023, 18:31:21] info: El proceso de creacion de reportes de validaciones especiales se a comenzado a ejecutar.
+[25/8/2023, 18:31:21] info: El SP de validaciones diario se esta ejecutando
+[25/8/2023, 19:25:52] info: El proceso de creacion de reportes de validaciones especiales se a comenzado a ejecutar.
+[25/8/2023, 19:25:52] info: El SP de validaciones diario se esta ejecutando
+[25/8/2023, 19:28:15] info: El SP Validaciones diario termino de ejecutarse
+[25/8/2023, 19:28:15] info: Se esta creando el excel FEMSA - VALIDACIONES
+[25/8/2023, 19:28:16] info: Se ah generado el documento correctamente...!!!
+[25/8/2023, 19:28:16] info: El SP se esta ejecutando
+[25/8/2023, 19:28:37] info: El SP termino de ejecutarse
+[25/8/2023, 19:28:37] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[25/8/2023, 19:29:07] info: Se ah generado el documento correctamente...!!!
+[25/8/2023, 19:29:07] info: El SP se esta ejecutando
+[25/8/2023, 19:29:28] info: El SP termino de ejecutarse
+[25/8/2023, 19:29:28] info: Se esta creando el excel INVEX_REPORTE_VALIDACION
+[25/8/2023, 19:30:00] info: Se ah generado el documento correctamente...!!!
+[25/8/2023, 19:30:02] info: ******** El proceso de creacion de reportes de validaciones especiales se finalizo correctamente. **********
+[25/8/2023, 19:37:27] info: El proceso de creacion de reportes de validaciones especiales se a comenzado a ejecutar.
+[25/8/2023, 19:37:27] info: El SP de validaciones diario se esta ejecutando
+[25/8/2023, 19:39:38] info: El SP Validaciones diario termino de ejecutarse
+[25/8/2023, 19:39:38] info: Se esta creando el excel FEMSA - VALIDACIONES
+[25/8/2023, 19:39:38] info: Se ah generado el documento correctamente...!!!
+[25/8/2023, 19:39:38] info: El SP se esta ejecutando
+[25/8/2023, 19:39:58] info: El SP termino de ejecutarse
+[25/8/2023, 19:39:58] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[25/8/2023, 19:40:29] info: Se ah generado el documento correctamente...!!!
+[25/8/2023, 19:40:29] info: El SP se esta ejecutando
+[25/8/2023, 19:40:49] info: El SP termino de ejecutarse
+[25/8/2023, 19:40:49] info: Se esta creando el excel INVEX_REPORTE_VALIDACION
+[25/8/2023, 19:41:24] info: Se ah generado el documento correctamente...!!!
+[25/8/2023, 19:41:35] info: ******** El proceso de creacion de reportes de validaciones especiales se finalizo correctamente. **********
+[25/8/2023, 21:27:32] info: El proceso de creacion de reportes de validaciones especiales se a comenzado a ejecutar.
+[25/8/2023, 21:27:32] info: El SP de validaciones diario se esta ejecutando
+[25/8/2023, 21:29:36] info: El SP Validaciones diario termino de ejecutarse
+[25/8/2023, 21:29:36] info: Se esta creando el excel FEMSA - VALIDACIONES
+[25/8/2023, 21:29:36] info: Se ah generado el documento correctamente...!!!
+[25/8/2023, 21:29:36] info: El SP se esta ejecutando
+[25/8/2023, 21:29:54] info: El SP termino de ejecutarse
+[25/8/2023, 21:29:54] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[25/8/2023, 21:30:24] info: Se ah generado el documento correctamente...!!!
+[25/8/2023, 21:30:24] info: El SP se esta ejecutando
+[25/8/2023, 21:30:45] info: El SP termino de ejecutarse
+[25/8/2023, 21:30:45] info: Se esta creando el excel INVEX_REPORTE_VALIDACION
+[25/8/2023, 21:31:18] info: Se ah generado el documento correctamente...!!!
+[25/8/2023, 21:31:28] info: Se removieron correctamente todos los archivos generados.
+[25/8/2023, 21:31:28] info: ******** El proceso de creacion de reportes de validaciones especiales se finalizo correctamente. **********
