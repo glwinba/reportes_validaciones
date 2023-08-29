@@ -29,6 +29,7 @@ const mailOptions = (typeValidate, att, htmlSend, date) => {
 const htmlFile = `${__dirname}/../templates/index.html`;
 const htmlFileError = `${__dirname}/../templates/error.html`;
 const htmlFileValidationsDaily = `${__dirname}/../templates/validaciones_diarias.html`;
+const htmlFileValidationsCallCenter = `${__dirname}/../templates/validaciones_call_center.html`;
 const htmlFileSpecialValidations = (na) => {
   if (na) return `${__dirname}/../templates/validaciones_especiales.html`;
   return `${__dirname}/../templates/validaciones_especiales_na.html`;
@@ -132,11 +133,11 @@ export const sendMailValidationsDaily = (pathDoc, pathReports) =>
           path: pathDoc[0],
         },
       ];
-      pathReports.forEach(element => {
+      pathReports.forEach((element) => {
         attachments.push({
           filename: element[1],
           path: element[0],
-        })
+        });
       });
 
       return attachments;
@@ -155,6 +156,47 @@ export const sendMailValidationsDaily = (pathDoc, pathReports) =>
       html: htmlToSend,
       cc: ["eavelar@garridolicona.com"],
       attachments: attDocs(),
+    };
+
+    transporterPrivate.sendMail(mailConfigs, (error, info) => {
+      if (error) {
+        logger.error(`Error en el envio de mail ${error}`);
+        reject(error);
+      } else resolve(info);
+    });
+  });
+
+export const sendMailValidationsCallCenter = (pathDoc) =>
+  new Promise((resolve, reject) => {
+    const htmlSync = fs.readFileSync(htmlFileValidationsCallCenter, {
+      encoding: "utf-8",
+    });
+    const template = handlebars.compile(htmlSync);
+    const htmlToSend = template();
+    const date = dateFilesReports();
+    const mailConfigs = {
+      from: config.MAIL_USER_PRIVATE,
+      to: [
+        "dramirez@glwinba.com",
+        "bgonzalez@glwinba.com",
+        "eflores@glwinba.com",
+        "dmorales@glwinba.com",
+        "fgonzalez@glwinba.com",
+      ],
+      to: "crodriguez@glwinba.com",
+      subject: `CALL CENTER GLWINBA / Validaciones ${date}`,
+      html: htmlToSend,
+      cc: [
+        "eavelar@garridolicona.com",
+        "afernandez@glwinba.com",
+        "cfonseca@glwinba.com",
+      ],
+      attachments: [
+        {
+          filename: pathDoc[1],
+          path: pathDoc[0],
+        },
+      ],
     };
 
     transporterPrivate.sendMail(mailConfigs, (error, info) => {

@@ -229,3 +229,92 @@ export const excelCreateInternalValidations = (data) =>
       resolve([pathExcel, namePath]);
     });
   });
+
+export const excelCreateCallCenterReport = (data) =>
+  new Promise((resolve, reject) => {
+    data = data.filter(
+      (element) =>
+        element.TIPO_DOCUMENTO != "CFDI Nomina" ||
+        element.TIPO_DOCUMENTO != "Estatus de Registro"
+    );
+    logger.info(`Se esta creando el excel CALL CENTER GLWINBA - VALIDACIONES`);
+    const date = dateFilesReports();
+    const namePath = `CallCenter - Validaciones ${date}.xlsx`;
+    const pathExcel = path.join(
+      `${__dirname}/../files/`,
+      "envio_validaciones",
+      namePath
+    );
+
+    let wb = new xl.Workbook();
+    let ws = wb.addWorksheet("HOJA 1");
+    let style = wb.createStyle(styleCells());
+    let style_cabeceras = wb.createStyle(styleCabeceras);
+    let cabecerasArray = headboardFileValidate("Validador");
+
+    for (let a = 0; a < cabecerasArray.length; a++) {
+      ws.cell(1, a + 1)
+        .string(cabecerasArray[a])
+        .style(style_cabeceras);
+    }
+
+    let cellsExcel = cellsExcelFileValidate("Validador");
+
+    for (let a = 0; a < data.length; a++) {
+      if (a < 150) {
+        let fecha_carga = formatDate(data[a].FECHA_CARGA);
+
+        for (let cells = 0; cells < cellsExcel.length; cells++) {
+          const element = cellsExcel[cells];
+          if (element.nombre === "fecha_carga") {
+            ws.cell(a + 2, cells + 1)
+              .string(fecha_carga)
+              .style(style);
+          } else if (element.nombre === "Validador") {
+            if (a + 1 <= 30) {
+              ws.cell(a + 2, cells + 1)
+                .string("Dana")
+                .style(style);
+            } else if (a + 1 > 30 && a + 1 <= 60) {
+              ws.cell(a + 2, cells + 1)
+                .string("Brian")
+                .style(style);
+            } else if (a + 1 > 60 && a + 1 <= 90) {
+              ws.cell(a + 2, cells + 1)
+                .string("Dulce")
+                .style(style);
+            } else if (a + 1 > 90 && a + 1 <= 120) {
+              ws.cell(a + 2, cells + 1)
+                .string("Emmanuel")
+                .style(style);
+            } else {
+              ws.cell(a + 2, cells + 1)
+                .string("Luis Fernando")
+                .style(style);
+            }
+          } else {
+            if (element.type != "string") {
+              ws.cell(a + 2, cells + 1)
+                .number(data[a][element.nombre])
+                .style(style);
+            } else {
+              ws.cell(a + 2, cells + 1)
+                .string(data[a][element.nombre])
+                .style(style);
+            }
+          }
+        }
+      }
+    }
+
+    wb.write(pathExcel, (error, stats) => {
+      if (error) {
+        notificationMailError(
+          `Error al escribir el excel CALL CENTER GLWINBA - Validaciones ${date}.xlsx: ${error}`
+        );
+        reject(error);
+      }
+      logger.info("Se ah generado el documento correctamente...!!!");
+      resolve([pathExcel, namePath]);
+    });
+  });

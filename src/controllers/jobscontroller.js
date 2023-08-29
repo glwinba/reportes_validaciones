@@ -3,6 +3,7 @@ import logger from "../configs/logger";
 import { dateFile } from "../helpers/dateFormat";
 import {
   createExcel,
+  excelCreateCallCenterReport,
   excelCreateInternalValidations,
   excelCreateSpecial,
 } from "./excelcontroller";
@@ -14,6 +15,7 @@ import {
 } from "./filecontroller";
 import {
   sendMailSpecialValidations,
+  sendMailValidationsCallCenter,
   sendMailValidationsDaily,
 } from "./mailcontroller";
 import {
@@ -90,7 +92,7 @@ const extraDocumentsInternals = async () => {
 
 export const createReportsValidationsDaily = async () => {
   logger.info(
-    "El proceso de creacion de reportes de validaciones especiales se a comenzado a ejecutar."
+    "El proceso de creacion de reportes de validaciones diarias se a comenzado a ejecutar."
   );
   try {
     let paths_documents = [];
@@ -99,14 +101,31 @@ export const createReportsValidationsDaily = async () => {
     const extraDocuments = await extraDocumentsInternals();
     await sendMailValidationsDaily(excelReporInternal, extraDocuments);
     paths_documents.push(excelReporInternal[0]);
-    extraDocuments.forEach(element => {
+    extraDocuments.forEach((element) => {
       paths_documents.push(element[0]);
     });
     await removeFiles(paths_documents);
     logger.info(
-      "******** El proceso de creacion de reportes de validaciones especiales se finalizo correctamente. **********"
+      "******** El proceso de creacion de reportes de validaciones diarias se finalizo correctamente. **********"
     );
   } catch (error) {
     notificationMailError(`Error al generar reporte: ${error}`);
+  }
+};
+
+export const createReportCallCenter = async () => {
+  logger.info(
+    "El proceso de creacion de reportes de validaciones CALL CENTER se a comenzado a ejecutar."
+  );
+  try {
+    const data = await execSPDocsValidations();
+    const excelReport = await excelCreateCallCenterReport(data);
+    await sendMailValidationsCallCenter(excelReport);
+    await removeFilesReports(excelReport[0]);
+    logger.info(
+      "******** El proceso de creacion de reportes de validaciones CALL CENTER se finalizo correctamente. **********"
+    );
+  } catch (error) {
+    notificationMailError(`Error al generar reporte de call center: ${error}`);
   }
 };
