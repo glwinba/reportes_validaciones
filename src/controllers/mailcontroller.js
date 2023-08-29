@@ -30,6 +30,8 @@ const htmlFile = `${__dirname}/../templates/index.html`;
 const htmlFileError = `${__dirname}/../templates/error.html`;
 const htmlFileValidationsDaily = `${__dirname}/../templates/validaciones_diarias.html`;
 const htmlFileValidationsCallCenter = `${__dirname}/../templates/validaciones_call_center.html`;
+const htmlFileValidationsMicroformas = `${__dirname}/../templates/validaciones_microformas.html`;
+
 const htmlFileSpecialValidations = (na) => {
   if (na) return `${__dirname}/../templates/validaciones_especiales.html`;
   return `${__dirname}/../templates/validaciones_especiales_na.html`;
@@ -156,6 +158,42 @@ export const sendMailValidationsDaily = (pathDoc, pathReports) =>
       html: htmlToSend,
       cc: ["eavelar@garridolicona.com"],
       attachments: attDocs(),
+    };
+
+    transporterPrivate.sendMail(mailConfigs, (error, info) => {
+      if (error) {
+        logger.error(`Error en el envio de mail ${error}`);
+        reject(error);
+      } else resolve(info);
+    });
+  });
+
+export const sendMailValidationsMicroformas = (pathDoc) =>
+  new Promise((resolve, reject) => {
+    const htmlSync = fs.readFileSync(htmlFileValidationsMicroformas, {
+      encoding: "utf-8",
+    });
+    const template = handlebars.compile(htmlSync);
+    const htmlToSend = template();
+    const date = dateFilesReports();
+    const mailConfigs = {
+      from: config.MAIL_USER_PRIVATE,
+      to: [
+        "cfonseca@glwinba.com",
+        "rhllamas@microformas.com.mx",
+      ],
+      subject: `Microformas / Validaciones ${date}`,
+      html: htmlToSend,
+      cc: [
+        "eavelar@garridolicona.com",
+        "afernandez@glwinba.com",
+      ],
+      attachments: [
+        {
+          filename: pathDoc[1],
+          path: pathDoc[0],
+        },
+      ],
     };
 
     transporterPrivate.sendMail(mailConfigs, (error, info) => {

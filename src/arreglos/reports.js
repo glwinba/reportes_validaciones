@@ -81,6 +81,18 @@ export const cellsExcel = [
 ];
 
 export const headboardFileValidate = (column) => {
+  if (column) {
+    return [
+      "EMPRESA_CONTRATANTE",
+      "RAZON_SOCIAL",
+      "AÑO",
+      "MES",
+      "MES_CUMPLIMIENTO",
+      "TIPO_DOCUMENTO",
+      "FECHA_CARGA",
+      column,
+    ];
+  }
   return [
     "EMPRESA_CONTRATANTE",
     "RAZON_SOCIAL",
@@ -89,21 +101,32 @@ export const headboardFileValidate = (column) => {
     "MES_CUMPLIMIENTO",
     "TIPO_DOCUMENTO",
     "FECHA_CARGA",
-    column,
   ];
 };
 
 export const cellsExcelFileValidate = (column) => {
-  return [
-    { nombre: "EMPRESA_CONTRATANTE", type: "string" },
-    { nombre: "RAZON_SOCIAL", type: "string" },
-    { nombre: "AÑO", type: "number" },
-    { nombre: "MES", type: "string" },
-    { nombre: "MES_CUMPLIMIENTO", type: "string" },
-    { nombre: "TIPO_DOCUMENTO", type: "string" },
-    { nombre: "fecha_carga", type: "string" },
-    { nombre: column, type: "string" },
-  ];
+  if (column) {
+    return [
+      { nombre: "EMPRESA_CONTRATANTE", type: "string" },
+      { nombre: "RAZON_SOCIAL", type: "string" },
+      { nombre: "AÑO", type: "number" },
+      { nombre: "MES", type: "string" },
+      { nombre: "MES_CUMPLIMIENTO", type: "string" },
+      { nombre: "TIPO_DOCUMENTO", type: "string" },
+      { nombre: "fecha_carga", type: "string" },
+      { nombre: column, type: "string" },
+    ];
+  } else {
+    return [
+      { nombre: "EMPRESA_CONTRATANTE", type: "string" },
+      { nombre: "RAZON_SOCIAL", type: "string" },
+      { nombre: "AÑO", type: "number" },
+      { nombre: "MES", type: "string" },
+      { nombre: "MES_CUMPLIMIENTO", type: "string" },
+      { nombre: "TIPO_DOCUMENTO", type: "string" },
+      { nombre: "fecha_carga", type: "string" },
+    ];
+  }
 };
 
 export const styleCabeceras = {

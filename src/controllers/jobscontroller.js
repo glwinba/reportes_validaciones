@@ -6,6 +6,7 @@ import {
   excelCreateCallCenterReport,
   excelCreateInternalValidations,
   excelCreateSpecial,
+  excelMicroformasReport,
 } from "./excelcontroller";
 import {
   fileExist,
@@ -17,6 +18,7 @@ import {
   sendMailSpecialValidations,
   sendMailValidationsCallCenter,
   sendMailValidationsDaily,
+  sendMailValidationsMicroformas,
 } from "./mailcontroller";
 import {
   notificationMail,
@@ -127,5 +129,22 @@ export const createReportCallCenter = async () => {
     );
   } catch (error) {
     notificationMailError(`Error al generar reporte de call center: ${error}`);
+  }
+};
+
+export const createReportMicroformas = async () => {
+  logger.info(
+    "El proceso de creacion de reportes de validaciones Microformas se a comenzado a ejecutar."
+  );
+  try {
+    const data = await execSPDocsValidations();
+    const excelReport = await excelMicroformasReport(data);
+    await sendMailValidationsMicroformas(excelReport);
+    await removeFilesReports(excelReport[0]);
+    logger.info(
+      "******** El proceso de creacion de reportes de validaciones Microformas se finalizo correctamente. **********"
+    );
+  } catch (error) {
+    notificationMailError(`Error al generar reporte de Microformas: ${error}`);
   }
 };

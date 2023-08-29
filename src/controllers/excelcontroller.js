@@ -232,10 +232,9 @@ export const excelCreateInternalValidations = (data) =>
 
 export const excelCreateCallCenterReport = (data) =>
   new Promise((resolve, reject) => {
+    data = data.filter((element) => element.TIPO_DOCUMENTO !== "CFDI Nomina");
     data = data.filter(
-      (element) =>
-        element.TIPO_DOCUMENTO != "CFDI Nomina" ||
-        element.TIPO_DOCUMENTO != "Estatus de Registro"
+      (element) => element.TIPO_DOCUMENTO !== "Estatus de Registro"
     );
     logger.info(`Se esta creando el excel CALL CENTER GLWINBA - VALIDACIONES`);
     const date = dateFilesReports();
@@ -311,6 +310,71 @@ export const excelCreateCallCenterReport = (data) =>
       if (error) {
         notificationMailError(
           `Error al escribir el excel CALL CENTER GLWINBA - Validaciones ${date}.xlsx: ${error}`
+        );
+        reject(error);
+      }
+      logger.info("Se ah generado el documento correctamente...!!!");
+      resolve([pathExcel, namePath]);
+    });
+  });
+
+export const excelMicroformasReport = (data) =>
+  new Promise((resolve, reject) => {
+    data = data.filter((element) => element.TIPO_DOCUMENTO !== "CFDI Nomina");
+    data = data.filter(
+      (element) => element.TIPO_DOCUMENTO !== "Estatus de Registro"
+    );
+    data = data.splice(150, );
+    logger.info(`Se esta creando el excel Microformas - VALIDACIONES`);
+    const date = dateFilesReports();
+    const namePath = `Microformas - Validaciones ${date}.xlsx`;
+    const pathExcel = path.join(
+      `${__dirname}/../files/`,
+      "envio_validaciones",
+      namePath
+    );
+
+    let wb = new xl.Workbook();
+    let ws = wb.addWorksheet("HOJA 1");
+    let style = wb.createStyle(styleCells());
+    let style_cabeceras = wb.createStyle(styleCabeceras);
+    let cabecerasArray = headboardFileValidate();
+
+    for (let a = 0; a < cabecerasArray.length; a++) {
+      ws.cell(1, a + 1)
+        .string(cabecerasArray[a])
+        .style(style_cabeceras);
+    }
+
+    let cellsExcel = cellsExcelFileValidate();
+
+    for (let a = 0; a < data.length; a++) {
+      let fecha_carga = formatDate(data[a].FECHA_CARGA);
+
+      for (let cells = 0; cells < cellsExcel.length; cells++) {
+        const element = cellsExcel[cells];
+        if (element.nombre === "fecha_carga") {
+          ws.cell(a + 2, cells + 1)
+            .string(fecha_carga)
+            .style(style);
+        } else {
+          if (element.type != "string") {
+            ws.cell(a + 2, cells + 1)
+              .number(data[a][element.nombre])
+              .style(style);
+          } else {
+            ws.cell(a + 2, cells + 1)
+              .string(data[a][element.nombre])
+              .style(style);
+          }
+        }
+      }
+    }
+
+    wb.write(pathExcel, (error, stats) => {
+      if (error) {
+        notificationMailError(
+          `Error al escribir el excel Microformas - Validaciones ${date}.xlsx: ${error}`
         );
         reject(error);
       }
