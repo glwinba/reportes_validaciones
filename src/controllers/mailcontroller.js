@@ -6,26 +6,6 @@ import fs from "fs";
 import handlebars from "handlebars";
 import { dateFilesReports } from "../helpers/dateFormat.js";
 
-const mailOptions = (typeValidate, att, htmlSend, date) => {
-  return {
-    from: config.MAIL_USER,
-    to: "crodriguez@glwinba.com",
-    subject: `GLWINBA / REPORTES VALIDACIONES ${typeValidate} ${date}`,
-    html: htmlSend,
-    attachments: [
-      {
-        filename: att,
-        path: att,
-      },
-    ],
-    cc: [
-      "rreyes@glwinba.com",
-      "cfonseca@glwinba.com",
-      "eavelar@garridolicona.com",
-    ],
-  };
-};
-
 const htmlFile = `${__dirname}/../templates/index.html`;
 const htmlFileError = `${__dirname}/../templates/error.html`;
 const htmlFileValidationsDaily = `${__dirname}/../templates/validaciones_diarias.html`;
@@ -37,24 +17,33 @@ const htmlFileSpecialValidations = (na) => {
   return `${__dirname}/../templates/validaciones_especiales_na.html`;
 };
 
-export const sendMail = (type_report, docZip, dateFileName) =>
+export const sendMail = () =>
   new Promise((resolve, reject) => {
+    const dateFileName = dateFilesReports();
     const htmlSync = fs.readFileSync(htmlFile, { encoding: "utf-8" });
     const template = handlebars.compile(htmlSync);
-    const replacements = {
-      type_report,
-    };
+    const htmlToSend = template();
 
-    const htmlToSend = template(replacements);
-    transporter.sendMail(
-      mailOptions(type_report, docZip, htmlToSend, dateFileName),
-      (error, info) => {
-        if (error) {
-          notificationMailError(`Error en el envio de mail ${error}`);
-          reject(error);
-        } else resolve(info);
+    const mailConfigs = {
+      from: config.MAIL_USER,
+      to: "crodriguez@glwinba.com",
+      subject: `GLWINBA / REPORTES VALIDACIONES ${dateFileName}`,
+      html: htmlToSend,
+      cc: [
+        "rreyes@glwinba.com",
+        "cfonseca@glwinba.com",
+        "eavelar@garridolicona.com",
+      ],
+    };
+    transporter.sendMail(mailConfigs, (error, info) => {
+      if (error) {
+        notificationMailError(`Error en el envio de mail ${error}`);
+        reject(error);
+      } else {
+        logger.info(`El correo se envio correctamente`);
+        resolve(info);
       }
-    );
+    });
   });
 
 export const sendMailError = (contenido) =>
@@ -113,7 +102,7 @@ export const sendMailSpecialValidations = (pathDoc, na) =>
 
     transporterPrivate.sendMail(mailConfigs, (error, info) => {
       if (error) {
-        logger.error(`Error en el envio de mail ${error}`);
+        notificationMailError(`Error en el envio de mail ${error}`);
         reject(error);
       } else resolve(info);
     });
@@ -162,7 +151,7 @@ export const sendMailValidationsDaily = (pathDoc, pathReports) =>
 
     transporterPrivate.sendMail(mailConfigs, (error, info) => {
       if (error) {
-        logger.error(`Error en el envio de mail ${error}`);
+        notificationMailError(`Error en el envio de mail ${error}`);
         reject(error);
       } else resolve(info);
     });
@@ -178,16 +167,10 @@ export const sendMailValidationsMicroformas = (pathDoc) =>
     const date = dateFilesReports();
     const mailConfigs = {
       from: config.MAIL_USER_PRIVATE,
-      to: [
-        "cfonseca@glwinba.com",
-        "rhllamas@microformas.com.mx",
-      ],
+      to: ["cfonseca@glwinba.com", "rhllamas@microformas.com.mx"],
       subject: `Microformas / Validaciones ${date}`,
       html: htmlToSend,
-      cc: [
-        "eavelar@garridolicona.com",
-        "afernandez@glwinba.com",
-      ],
+      cc: ["eavelar@garridolicona.com", "afernandez@glwinba.com"],
       attachments: [
         {
           filename: pathDoc[1],
@@ -198,7 +181,7 @@ export const sendMailValidationsMicroformas = (pathDoc) =>
 
     transporterPrivate.sendMail(mailConfigs, (error, info) => {
       if (error) {
-        logger.error(`Error en el envio de mail ${error}`);
+        notificationMailError(`Error en el envio de mail ${error}`);
         reject(error);
       } else resolve(info);
     });
@@ -221,7 +204,6 @@ export const sendMailValidationsCallCenter = (pathDoc) =>
         "dmorales@glwinba.com",
         "fgonzalez@glwinba.com",
       ],
-      to: "crodriguez@glwinba.com",
       subject: `CALL CENTER GLWINBA / Validaciones ${date}`,
       html: htmlToSend,
       cc: [
@@ -239,7 +221,7 @@ export const sendMailValidationsCallCenter = (pathDoc) =>
 
     transporterPrivate.sendMail(mailConfigs, (error, info) => {
       if (error) {
-        logger.error(`Error en el envio de mail ${error}`);
+        notificationMailError(`Error en el envio de mail ${error}`);
         reject(error);
       } else resolve(info);
     });

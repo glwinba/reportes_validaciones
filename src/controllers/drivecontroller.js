@@ -1,34 +1,69 @@
-import config from "../config.js";
 import { google } from "googleapis";
+import apikeys from "../../apiKeys.json";
+import { notificationMailError } from "./notificationcontroller";
+import logger from "../configs/logger";
 import fs from "fs";
-import path from "path";
+const SCOPE = ["https://www.googleapis.com/auth/drive"];
 
-const oauth2Client = new google.auth.OAuth2(config.CLIENT_ID, config.CLIENT_SECRET, config.REDIRECT_URI);
-oauth2Client.setCredentials({refresh_token: config.REFRESH_TOKEN});
+const authorize = async () => {
+  logger.info("Se esta autenticando el usuario de Google...");
+  const jwtClient = new google.auth.JWT(
+    apikeys.client_email,
+    null,
+    apikeys.private_key,
+    SCOPE
+  );
 
-const drive = google.drive({
-    version: 'v3',
-    auth: oauth2Client
-})
-
-export const uploadFile = async () => {
-    console.log(config.CLIENT_ID, config.CLIENT_SECRET)
-    try {
-        const createFile = await drive.files.create({
-            requestBody: {
-                name: "computadora.jpeg",
-                mimeType: 'image/jpeg'
-            },
-            media: {
-                mimeType: 'image/jpeg',
-                body: fs.createReadStream(path.join(__dirname, '../computadora.jpeg'))
-            }
-        })
-
-        console.log(createFile.data)
-    } catch (error) {
-        console.log(error)
-    }
+  try {
+    await jwtClient.authorize();
+    logger.info("Se autentico el usuario correctamente...");
+    return jwtClient;
+  } catch (error) {
+    return notificationMailError(
+      `Error al autenticar usuario de Google: ${error}`
+    );
+  }
 };
 
-export const deleteFile = () => {};
+const uploadFilesDocsValidations = (authClient, pathDoc) => {
+  return new Promise((resolve, rejected) => {
+    logger.info("Se esta subiendo el documento a la carpeta de drive...!!!");
+    const drive = google.drive({ version: "v3", auth: authClient });
+
+    var fileMetaData = {
+      name: pathDoc[1],
+      parents: ["1EYlCfAXex_Kg9ckuKWA4ClmsNwQ_GX-k"],
+    };
+
+    drive.files.create(
+      {
+        resource: fileMetaData,
+        media: {
+          body: fs.createReadStream(pathDoc[0]),
+          mimeType: "*/*",
+        },
+
+        fields: "id",
+        supportsAllDrives: true,
+      },
+      function (error, file) {
+        if (error) {
+          return rejected(
+            notificationMailError(`Error al subir documentos a drive: ${error}`)
+          );
+        }
+        logger.info("Se subio el archivo correctamente..!!!");
+        resolve(file);
+      }
+    );
+  });
+};
+
+export const uploadDrive = async (pathDoc) => {
+  try {
+    const auth = await authorize();
+    await uploadFilesDocsValidations(auth, pathDoc);
+  } catch (error) {
+    notificationMailError(`Error al subir documentos a drive: ${error}`);
+  }
+};

@@ -26,16 +26,6 @@ export const reports = [
   },
 ];
 
-export const dataZip = [
-  { id: 1, name: "reportes.zip", name_path: "excels", type: "" },
-  {
-    id: 2,
-    name: "reportes_femco.zip",
-    name_path: "excels_femco",
-    type: "FEMCO",
-  },
-];
-
 export const mailCabecera = [
   "RFC_EMPRESA",
   "EMPRESA_CONTRATANTE",

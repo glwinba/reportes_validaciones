@@ -16,16 +16,12 @@ export const createExcel = (data, reportSelect, dateFileName) =>
   new Promise((resolve, reject) => {
     logger.info(`Se esta creando el excel ${reportSelect.nombre}`);
 
-    let pathExcel;
     const namePath = `${reportSelect.nombre}_${dateFileName}.xlsx`;
-    if (reportSelect.id === 2 || reportSelect.id === 1) {
-      pathExcel = path.join(`${__dirname}/../files/`, "excels_femco", namePath);
-    } else {
-      pathExcel = path.join(`${__dirname}/../files/`, "excels", namePath);
-    }
+    
+    let pathExcel = path.join(`${__dirname}/../files/${namePath}`);
 
     let wb = new xl.Workbook();
-    let ws = wb.addWorksheet("HOJA 1");
+    let ws = wb.addWorksheet(reportSelect.nombre);
     let style = wb.createStyle(styleCells());
     const styleEstatus = (estatus) => {
       return wb.createStyle(styleCells(estatus));

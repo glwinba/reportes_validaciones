@@ -1,6 +1,7 @@
 import { reports } from "../arreglos/reports";
 import logger from "../configs/logger";
 import { dateFile } from "../helpers/dateFormat";
+import { uploadDrive } from "./drivecontroller";
 import {
   createExcel,
   excelCreateCallCenterReport,
@@ -8,46 +9,36 @@ import {
   excelCreateSpecial,
   excelMicroformasReport,
 } from "./excelcontroller";
+import { fileExist, removeFiles, removeFilesReports } from "./filecontroller";
 import {
-  fileExist,
-  removeFiles,
-  removeFilesReports,
-  removeZip,
-} from "./filecontroller";
-import {
+  sendMail,
   sendMailSpecialValidations,
   sendMailValidationsCallCenter,
   sendMailValidationsDaily,
   sendMailValidationsMicroformas,
 } from "./mailcontroller";
-import {
-  notificationMail,
-  notificationMailError,
-} from "./notificationcontroller";
+import { notificationMailError } from "./notificationcontroller";
 import { execSP, execSPDocsValidations, execSPSpecial } from "./spcontroller";
-import { createZip } from "./zipcontroller";
 
 export const createReportsDaily = async () => {
   logger.info(
     "El proceso de creacion de reportes de validacion diario se a comenzado a ejecutar."
   );
-  let nameFiles = [];
-  const dateFileName = dateFile();
-  await fileExist();
-  for (const report of reports) {
-    try {
+
+  try {
+    const dateFileName = dateFile();
+    await fileExist();
+    for (const report of reports) {
       const data = await execSP(report);
       const excel = await createExcel(data[0], report, dateFileName);
-      nameFiles.push(excel[0]);
-    } catch (error) {
-      notificationMailError(`Error al generar reporte: ${error}`);
+      await uploadDrive(excel);
+      await removeFilesReports(excel[0]);
     }
+    await sendMail();
+  } catch (error) {
+    notificationMailError(`Error al generar reporte: ${error}`);
   }
 
-  await createZip();
-  await removeFiles(nameFiles);
-  await notificationMail(dateFileName);
-  await removeZip();
   logger.info(
     "******** El proceso de creacion de reportes de validacion diario se finalizo correctamente. **********"
   );
