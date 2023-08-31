@@ -17,7 +17,7 @@ export const createExcel = (data, reportSelect, dateFileName) =>
     logger.info(`Se esta creando el excel ${reportSelect.nombre}`);
 
     const namePath = `${reportSelect.nombre}_${dateFileName}.xlsx`;
-    
+
     let pathExcel = path.join(`${__dirname}/../files/${namePath}`);
 
     let wb = new xl.Workbook();
@@ -94,11 +94,7 @@ export const excelCreateSpecial = (data) =>
     logger.info(`Se esta creando el excel FEMSA - VALIDACIONES - ESPECIAL`);
     const date = dateFilesReports();
     const namePath = `FEMSA - Validaciones ${date} - ESPECIAL.xlsx`;
-    const pathExcel = path.join(
-      `${__dirname}/../files/`,
-      "envio_validaciones",
-      namePath
-    );
+    const pathExcel = path.join(`${__dirname}/../files/${namePath}`);
 
     let wb = new xl.Workbook();
     let ws = wb.addWorksheet("HOJA 1");
@@ -153,11 +149,7 @@ export const excelCreateInternalValidations = (data) =>
     logger.info(`Se esta creando el excel FEMSA - VALIDACIONES`);
     const date = dateFilesReports();
     const namePath = `FEMSA - Validaciones ${date}.xlsx`;
-    const pathExcel = path.join(
-      `${__dirname}/../files/`,
-      "envio_validaciones",
-      namePath
-    );
+    const pathExcel = path.join(`${__dirname}/../files/${namePath}`);
 
     let wb = new xl.Workbook();
     let ws = wb.addWorksheet("HOJA 1");
@@ -235,11 +227,7 @@ export const excelCreateCallCenterReport = (data) =>
     logger.info(`Se esta creando el excel CALL CENTER GLWINBA - VALIDACIONES`);
     const date = dateFilesReports();
     const namePath = `CallCenter - Validaciones ${date}.xlsx`;
-    const pathExcel = path.join(
-      `${__dirname}/../files/`,
-      "envio_validaciones",
-      namePath
-    );
+    const pathExcel = path.join(`${__dirname}/../files/${namePath}`);
 
     let wb = new xl.Workbook();
     let ws = wb.addWorksheet("HOJA 1");
@@ -320,15 +308,11 @@ export const excelMicroformasReport = (data) =>
     data = data.filter(
       (element) => element.TIPO_DOCUMENTO !== "Estatus de Registro"
     );
-    data = data.splice(150, );
+    data = data.splice(150);
     logger.info(`Se esta creando el excel Microformas - VALIDACIONES`);
     const date = dateFilesReports();
     const namePath = `Microformas - Validaciones ${date}.xlsx`;
-    const pathExcel = path.join(
-      `${__dirname}/../files/`,
-      "envio_validaciones",
-      namePath
-    );
+    const pathExcel = path.join(`${__dirname}/../files/${namePath}`);
 
     let wb = new xl.Workbook();
     let ws = wb.addWorksheet("HOJA 1");

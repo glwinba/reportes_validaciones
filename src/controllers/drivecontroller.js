@@ -1,16 +1,17 @@
 import { google } from "googleapis";
-import apikeys from "../../apiKeys.json";
 import { notificationMailError } from "./notificationcontroller";
 import logger from "../configs/logger";
 import fs from "fs";
+import config from "../config.js";
+
 const SCOPE = ["https://www.googleapis.com/auth/drive"];
 
 const authorize = async () => {
   logger.info("Se esta autenticando el usuario de Google...");
   const jwtClient = new google.auth.JWT(
-    apikeys.client_email,
+    config.CLIENT_EMAIL,
     null,
-    apikeys.private_key,
+    config.PRIVATE_KEY,
     SCOPE
   );
 
