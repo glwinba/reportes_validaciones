@@ -31,7 +31,7 @@ const uploadFilesDocsValidations = (authClient, pathDoc) => {
     logger.info("Se esta subiendo el documento a la carpeta de drive...!!!");
     const drive = google.drive({ version: "v3", auth: authClient });
 
-    var fileMetaData = {
+    let fileMetaData = {
       name: pathDoc[1],
       parents: ["1EYlCfAXex_Kg9ckuKWA4ClmsNwQ_GX-k"],
     };
