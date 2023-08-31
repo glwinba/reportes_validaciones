@@ -17,7 +17,15 @@ export const createExcel = (data, reportSelect, dateFileName) =>
     logger.info(`Se esta creando el excel ${reportSelect.nombre}`);
 
     const namePath = `${reportSelect.nombre}_${dateFileName}.xlsx`;
-
+    let cabeceras;
+    let cells_excel;
+    if (reportSelect.id != 2) {
+      cabeceras = mailCabecera();
+      cells_excel = cellsExcel();
+    } else {
+      cabeceras = mailCabecera(true);
+      cells_excel = cellsExcel(true);
+    }
     let pathExcel = path.join(`${__dirname}/../files/${namePath}`);
 
     let wb = new xl.Workbook();
@@ -28,9 +36,9 @@ export const createExcel = (data, reportSelect, dateFileName) =>
     };
     let style_cabeceras = wb.createStyle(styleCabeceras);
 
-    for (let a = 0; a < mailCabecera.length; a++) {
+    for (let a = 0; a < cabeceras.length; a++) {
       ws.cell(1, a + 1)
-        .string(mailCabecera[a])
+        .string(cabeceras[a])
         .style(style_cabeceras);
     }
 
@@ -38,8 +46,8 @@ export const createExcel = (data, reportSelect, dateFileName) =>
       let fecha_carga = formatDate(data[a].FECHA_CARGA);
       let fecha_validacion = formatDate(data[a].FECHA_VALIDACION);
 
-      for (let cells = 0; cells < cellsExcel.length; cells++) {
-        const element = cellsExcel[cells];
+      for (let cells = 0; cells < cells_excel.length; cells++) {
+        const element = cells_excel[cells];
         if (
           element.nombre === "fecha_carga" ||
           element.nombre === "fecha_validacion"
@@ -71,9 +79,18 @@ export const createExcel = (data, reportSelect, dateFileName) =>
                 .style(style);
             }
           } else {
-            ws.cell(a + 2, cells + 1)
-              .string(data[a][element.nombre])
-              .style(style);
+            if (
+              element.nombre === "NUMERO_REGISTRO" ||
+              element.nombre === "FECHA_REGISTRO"
+            ) {
+              ws.cell(a + 2, cells + 1)
+                .string(" ")
+                .style(style);
+            } else {
+              ws.cell(a + 2, cells + 1)
+                .string(data[a][element.nombre])
+                .style(style);
+            }
           }
         }
       }
@@ -181,15 +198,15 @@ export const excelCreateInternalValidations = (data) =>
         } else if (element.nombre === "Validador") {
           if (a + 1 <= entero) {
             ws.cell(a + 2, cells + 1)
-              .string("Rosa")
+              .string("Cesar")
               .style(style);
-          } else if (a + 1 > entero && a + 1 < entero * 2) {
+          } else if (a + 1 > entero && a + 1 <= entero * 2) {
             ws.cell(a + 2, cells + 1)
               .string("Arantxa")
               .style(style);
           } else {
             ws.cell(a + 2, cells + 1)
-              .string("Cesar")
+              .string("Rosa")
               .style(style);
           }
         } else {
