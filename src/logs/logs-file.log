@@ -1,0 +1,136 @@
+[1/9/2023, 04:00:00] info: El proceso de creacion de reportes de validacion diario se a comenzado a ejecutar.
+[1/9/2023, 04:00:00] info: La carpeta esta creada correctamente.
+[1/9/2023, 04:00:00] info: El SP se esta ejecutando
+[1/9/2023, 04:01:21] info: El SP termino de ejecutarse
+[1/9/2023, 04:01:21] info: Se esta creando el excel FEMCO_REPORTE
+[1/9/2023, 04:07:26] info: Se ah generado el documento correctamente...!!!
+[1/9/2023, 04:07:26] info: Se esta autenticando el usuario de Google...
+[1/9/2023, 04:07:26] info: Se autentico el usuario correctamente...
+[1/9/2023, 04:07:26] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[1/9/2023, 04:07:30] info: Se subio el archivo correctamente..!!!
+[1/9/2023, 04:07:30] info: Se removieron correctamente todos los archivos generados.
+[1/9/2023, 04:07:30] info: El SP se esta ejecutando
+[1/9/2023, 04:08:41] info: El SP termino de ejecutarse
+[1/9/2023, 04:08:41] info: Se esta creando el excel FEMCO_REPORTE_VALIDACION
+[1/9/2023, 04:15:10] info: Se ah generado el documento correctamente...!!!
+[1/9/2023, 04:15:10] info: Se esta autenticando el usuario de Google...
+[1/9/2023, 04:15:11] info: Se autentico el usuario correctamente...
+[1/9/2023, 04:15:11] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[1/9/2023, 04:15:14] info: Se subio el archivo correctamente..!!!
+[1/9/2023, 04:15:14] info: Se removieron correctamente todos los archivos generados.
+[1/9/2023, 04:15:14] info: El SP se esta ejecutando
+[1/9/2023, 04:15:49] info: El SP termino de ejecutarse
+[1/9/2023, 04:15:49] info: Se esta creando el excel REPORTE_SLA_COMPLETO
+[1/9/2023, 04:18:07] info: Se ah generado el documento correctamente...!!!
+[1/9/2023, 04:18:07] info: Se esta autenticando el usuario de Google...
+[1/9/2023, 04:18:07] info: Se autentico el usuario correctamente...
+[1/9/2023, 04:18:07] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[1/9/2023, 04:18:09] info: Se subio el archivo correctamente..!!!
+[1/9/2023, 04:18:09] info: Se removieron correctamente todos los archivos generados.
+[1/9/2023, 04:18:09] info: El SP se esta ejecutando
+[1/9/2023, 04:18:33] info: El SP termino de ejecutarse
+[1/9/2023, 04:18:33] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[1/9/2023, 04:19:07] info: Se ah generado el documento correctamente...!!!
+[1/9/2023, 04:19:07] info: Se esta autenticando el usuario de Google...
+[1/9/2023, 04:19:07] info: Se autentico el usuario correctamente...
+[1/9/2023, 04:19:07] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[1/9/2023, 04:19:08] info: Se subio el archivo correctamente..!!!
+[1/9/2023, 04:19:08] info: Se removieron correctamente todos los archivos generados.
+[1/9/2023, 04:19:08] info: El SP se esta ejecutando
+[1/9/2023, 04:19:27] info: El SP termino de ejecutarse
+[1/9/2023, 04:19:27] info: Se esta creando el excel INVEX_REPORTE_VALIDACION
+[1/9/2023, 04:20:04] info: Se ah generado el documento correctamente...!!!
+[1/9/2023, 04:20:04] info: Se esta autenticando el usuario de Google...
+[1/9/2023, 04:20:04] info: Se autentico el usuario correctamente...
+[1/9/2023, 04:20:04] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[1/9/2023, 04:20:05] info: Se subio el archivo correctamente..!!!
+[1/9/2023, 04:20:05] info: Se removieron correctamente todos los archivos generados.
+[1/9/2023, 04:20:05] info: El SP se esta ejecutando
+[1/9/2023, 04:20:25] info: El SP termino de ejecutarse
+[1/9/2023, 04:20:25] info: Se esta creando el excel UVM_REPORTE_VALIDACION
+[1/9/2023, 04:21:50] info: Se ah generado el documento correctamente...!!!
+[1/9/2023, 04:21:50] info: Se esta autenticando el usuario de Google...
+[1/9/2023, 04:21:50] info: Se autentico el usuario correctamente...
+[1/9/2023, 04:21:50] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[1/9/2023, 04:21:52] info: Se subio el archivo correctamente..!!!
+[1/9/2023, 04:21:52] info: Se removieron correctamente todos los archivos generados.
+[1/9/2023, 04:21:54] info: El correo se envio correctamente
+[1/9/2023, 04:21:54] info: ******** El proceso de creacion de reportes de validacion diario se finalizo correctamente. **********
+[1/9/2023, 05:00:00] info: El proceso de creacion de reportes de validaciones especiales se a comenzado a ejecutar.
+[1/9/2023, 05:00:00] info: El SP Especial se esta ejecutando
+[1/9/2023, 05:01:53] info: El SP Especial termino de ejecutarse
+[1/9/2023, 09:00:41] info: El proceso de creacion de reportes de validaciones especiales se a comenzado a ejecutar.
+[1/9/2023, 09:00:41] info: El SP Especial se esta ejecutando
+[1/9/2023, 09:00:41] info: El proceso de creacion de reportes de validaciones diarias se a comenzado a ejecutar.
+[1/9/2023, 09:00:41] info: El SP de validaciones diario se esta ejecutando
+[1/9/2023, 09:00:41] info: El proceso de creacion de reportes de validaciones CALL CENTER se a comenzado a ejecutar.
+[1/9/2023, 09:00:41] info: El SP de validaciones diario se esta ejecutando
+[1/9/2023, 09:00:41] info: El proceso de creacion de reportes de validaciones Microformas se a comenzado a ejecutar.
+[1/9/2023, 09:00:41] info: El SP de validaciones diario se esta ejecutando
+[1/9/2023, 09:04:09] info: El SP Especial termino de ejecutarse
+[1/9/2023, 09:07:41] info: El proceso de creacion de reportes de validaciones diarias se a comenzado a ejecutar.
+[1/9/2023, 09:07:41] info: El SP de validaciones diario se esta ejecutando
+[1/9/2023, 09:07:41] info: El proceso de creacion de reportes de validaciones CALL CENTER se a comenzado a ejecutar.
+[1/9/2023, 09:07:41] info: El SP de validaciones diario se esta ejecutando
+[1/9/2023, 09:07:41] info: El proceso de creacion de reportes de validaciones Microformas se a comenzado a ejecutar.
+[1/9/2023, 09:07:41] info: El SP de validaciones diario se esta ejecutando
+[1/9/2023, 09:12:53] error: Error en el envio de mail Error: connect ETIMEDOUT 142.250.138.109:465
+[1/9/2023, 09:12:53] error: connect ETIMEDOUT 142.250.138.109:465
+[1/9/2023, 09:13:35] error: El SP Validaciones diario tuvo un error al ejecutarse SequelizeDatabaseError: socket hang up
+[1/9/2023, 09:13:35] error: Error al generar reporte de Microformas: TypeError: Cannot read properties of undefined (reading 'filter')
+[1/9/2023, 09:13:35] error: El SP Validaciones diario tuvo un error al ejecutarse SequelizeDatabaseError: socket hang up
+[1/9/2023, 09:13:36] error: Error al generar reporte de call center: TypeError: Cannot read properties of undefined (reading 'filter')
+[1/9/2023, 09:13:37] error: El SP Validaciones diario tuvo un error al ejecutarse SequelizeDatabaseError: socket hang up
+[1/9/2023, 09:14:54] info: El proceso de creacion de reportes de validaciones diarias se a comenzado a ejecutar.
+[1/9/2023, 09:14:54] info: El SP de validaciones diario se esta ejecutando
+[1/9/2023, 09:14:54] info: El proceso de creacion de reportes de validaciones CALL CENTER se a comenzado a ejecutar.
+[1/9/2023, 09:14:54] info: El SP de validaciones diario se esta ejecutando
+[1/9/2023, 09:14:54] info: El proceso de creacion de reportes de validaciones Microformas se a comenzado a ejecutar.
+[1/9/2023, 09:14:54] info: El SP de validaciones diario se esta ejecutando
+[1/9/2023, 09:15:33] info: El proceso de creacion de reportes de validaciones diarias se a comenzado a ejecutar.
+[1/9/2023, 09:15:33] info: El SP de validaciones diario se esta ejecutando
+[1/9/2023, 09:15:33] info: El proceso de creacion de reportes de validaciones CALL CENTER se a comenzado a ejecutar.
+[1/9/2023, 09:15:33] info: El SP de validaciones diario se esta ejecutando
+[1/9/2023, 09:15:33] info: El proceso de creacion de reportes de validaciones Microformas se a comenzado a ejecutar.
+[1/9/2023, 09:15:33] info: El SP de validaciones diario se esta ejecutando
+[1/9/2023, 09:19:52] error: Error al generar reporte de call center: TypeError: Cannot read properties of undefined (reading 'filter')
+[1/9/2023, 09:20:09] error: El SP Validaciones diario tuvo un error al ejecutarse SequelizeDatabaseError: socket hang up
+[1/9/2023, 09:20:09] error: Error al generar reporte: TypeError: Cannot read properties of undefined (reading 'filter')
+[1/9/2023, 09:20:09] error: El SP Validaciones diario tuvo un error al ejecutarse SequelizeDatabaseError: socket hang up
+[1/9/2023, 09:20:09] error: El SP Validaciones diario tuvo un error al ejecutarse SequelizeDatabaseError: socket hang up
+[1/9/2023, 09:20:10] error: Error al generar reporte de Microformas: TypeError: Cannot read properties of undefined (reading 'filter')
+[1/9/2023, 09:21:28] info: El proceso de creacion de reportes de validaciones Microformas se a comenzado a ejecutar.
+[1/9/2023, 09:21:28] info: El SP de validaciones diario se esta ejecutando
+[1/9/2023, 09:24:03] info: El SP Validaciones diario termino de ejecutarse
+[1/9/2023, 09:24:03] info: Se esta creando el excel Microformas - VALIDACIONES
+[1/9/2023, 09:24:03] info: Se ah generado el documento correctamente...!!!
+[1/9/2023, 09:24:06] info: Se removieron correctamente todos los archivos generados.
+[1/9/2023, 09:24:06] info: ******** El proceso de creacion de reportes de validaciones Microformas se finalizo correctamente. **********
+[1/9/2023, 09:25:58] info: El proceso de creacion de reportes de validaciones diarias se a comenzado a ejecutar.
+[1/9/2023, 09:25:58] info: El SP de validaciones diario se esta ejecutando
+[1/9/2023, 09:25:58] info: El proceso de creacion de reportes de validaciones CALL CENTER se a comenzado a ejecutar.
+[1/9/2023, 09:25:58] info: El SP de validaciones diario se esta ejecutando
+[1/9/2023, 09:28:34] info: El SP Validaciones diario termino de ejecutarse
+[1/9/2023, 09:28:34] info: Se esta creando el excel FEMSA - VALIDACIONES
+[1/9/2023, 09:28:36] info: El SP Validaciones diario termino de ejecutarse
+[1/9/2023, 09:28:36] info: Se esta creando el excel CALL CENTER GLWINBA - VALIDACIONES
+[1/9/2023, 09:28:36] info: Se ah generado el documento correctamente...!!!
+[1/9/2023, 09:28:36] info: Se ah generado el documento correctamente...!!!
+[1/9/2023, 09:28:36] info: El SP se esta ejecutando
+[1/9/2023, 09:28:37] info: Se removieron correctamente todos los archivos generados.
+[1/9/2023, 09:28:37] info: ******** El proceso de creacion de reportes de validaciones CALL CENTER se finalizo correctamente. **********
+[1/9/2023, 09:28:56] info: El SP termino de ejecutarse
+[1/9/2023, 09:28:56] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[1/9/2023, 09:29:46] info: Se ah generado el documento correctamente...!!!
+[1/9/2023, 09:29:46] info: El SP se esta ejecutando
+[1/9/2023, 09:30:02] info: El SP termino de ejecutarse
+[1/9/2023, 09:30:02] info: Se esta creando el excel INVEX_REPORTE_VALIDACION
+[1/9/2023, 09:30:54] info: Se ah generado el documento correctamente...!!!
+[1/9/2023, 09:31:06] info: Se removieron correctamente todos los archivos generados.
+[1/9/2023, 09:31:06] info: ******** El proceso de creacion de reportes de validaciones diarias se finalizo correctamente. **********
+[1/9/2023, 09:47:25] info: El proceso de creacion de reportes de validaciones especiales se a comenzado a ejecutar.
+[1/9/2023, 09:47:25] info: El SP Especial se esta ejecutando
+[1/9/2023, 09:47:39] info: El SP Especial termino de ejecutarse
+[1/9/2023, 09:58:30] info: El proceso de creacion de reportes de validaciones especiales se a comenzado a ejecutar.
+[1/9/2023, 09:58:30] info: El SP Especial se esta ejecutando
+[1/9/2023, 10:00:46] info: El SP Especial termino de ejecutarse

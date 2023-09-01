@@ -61,12 +61,12 @@ export const sendMailError = (contenido) =>
       to: "crodriguez@glwinba.com",
       subject: `GLWINBA / ¡ERROR! REPORTES VALIDACIONES`,
       html: htmlToSend,
-      cc: [
-        "cfonseca@glwinba.com",
-        "eavelar@garridolicona.com",
-        "dbetanzos@glwinba.com",
-        "afernandez@glwinba.com",
-      ],
+      // cc: [
+      //   "cfonseca@glwinba.com",
+      //   "eavelar@garridolicona.com",
+      //   "dbetanzos@glwinba.com",
+      //   "afernandez@glwinba.com",
+      // ],
     };
 
     transporter.sendMail(mailConfigs, (error, info) => {
@@ -85,20 +85,30 @@ export const sendMailSpecialValidations = (pathDoc, na) =>
     const template = handlebars.compile(htmlSync);
     const htmlToSend = template();
     const date = dateFilesReports();
-
-    const mailConfigs = {
-      from: config.MAIL_USER_PRIVATE,
-      to: "acuauhtemoc@glwinba.com",
-      subject: `CESE / Validaciones especiales ${date}`,
-      html: htmlToSend,
-      cc: ["cfonseca@glwinba.com"],
-      attachments: [
-        {
-          filename: pathDoc[1],
-          path: pathDoc[0],
-        },
-      ],
-    };
+    let mailConfigs;
+    if (na) {
+      mailConfigs = {
+        from: config.MAIL_USER_PRIVATE,
+        to: "acuauhtemoc@glwinba.com",
+        subject: `CESE / Validaciones especiales ${date}`,
+        html: htmlToSend,
+        cc: ["cfonseca@glwinba.com"],
+        attachments: [
+          {
+            filename: pathDoc[1],
+            path: pathDoc[0],
+          },
+        ],
+      };
+    } else {
+      mailConfigs = {
+        from: config.MAIL_USER_PRIVATE,
+        to: "acuauhtemoc@glwinba.com",
+        subject: `CESE / Validaciones especiales ${date}`,
+        html: htmlToSend,
+        cc: ["cfonseca@glwinba.com"]
+      };
+    }
 
     transporterPrivate.sendMail(mailConfigs, (error, info) => {
       if (error) {
