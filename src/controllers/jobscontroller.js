@@ -49,6 +49,7 @@ export const createDocumentSpecialValidations = async () => {
     "El proceso de creacion de reportes de validaciones especiales se a comenzado a ejecutar."
   );
   try {
+    await fileExist();
     const data = await execSPSpecial();
     if (data.length === 0) {
       return sendMailSpecialValidations(pathExcel, false);
@@ -88,6 +89,7 @@ export const createReportsValidationsDaily = async () => {
     "El proceso de creacion de reportes de validaciones diarias se a comenzado a ejecutar."
   );
   try {
+    await fileExist();
     let paths_documents = [];
     const data = await execSPDocsValidations();
     const excelReporInternal = await excelCreateInternalValidations(data);
@@ -111,6 +113,7 @@ export const createReportCallCenter = async () => {
     "El proceso de creacion de reportes de validaciones CALL CENTER se a comenzado a ejecutar."
   );
   try {
+    await fileExist();
     const data = await execSPDocsValidations();
     const excelReport = await excelCreateCallCenterReport(data);
     await sendMailValidationsCallCenter(excelReport);
@@ -128,6 +131,7 @@ export const createReportMicroformas = async () => {
     "El proceso de creacion de reportes de validaciones Microformas se a comenzado a ejecutar."
   );
   try {
+    await fileExist();
     const data = await execSPDocsValidations();
     const excelReport = await excelMicroformasReport(data);
     await sendMailValidationsMicroformas(excelReport);

@@ -23,11 +23,17 @@ export const removeFilesReports = async (file) => {
 };
 
 export const fileExist = async () => {
-  if (fs.existsSync(`${__dirname}/../files`)) {
+  if (fs.existsSync(`${__dirname}/../files`) && fs.existsSync(`${__dirname}/../logs`)) {
     return logger.info("La carpeta esta creada correctamente.");
   }
 
-  fs.mkdirSync(`${__dirname}/../files`, { recursive: true });
+  if (!fs.existsSync(`${__dirname}/../files`)) {
+    fs.mkdirSync(`${__dirname}/../files`, { recursive: true });
+  }
+
+  if (!fs.existsSync(`${__dirname}/../logs`)) {
+    fs.mkdirSync(`${__dirname}/../logs`, { recursive: true });
+  }
 
   return logger.info("La carpeta no existe pero se creo nuevamente.");
 };
