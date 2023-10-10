@@ -4,18 +4,14 @@ import { dateFile } from "../helpers/dateFormat";
 import { uploadDrive } from "./drivecontroller";
 import {
   createExcel,
-  excelCreateCallCenterReport,
   excelCreateInternalValidations,
   excelCreateSpecial,
-  excelMicroformasReport,
 } from "./excelcontroller";
 import { fileExist, removeFiles, removeFilesReports } from "./filecontroller";
 import {
   sendMail,
   sendMailSpecialValidations,
-  sendMailValidationsCallCenter,
   sendMailValidationsDaily,
-  sendMailValidationsMicroformas,
 } from "./mailcontroller";
 import { notificationMailError } from "./notificationcontroller";
 import { execSP, execSPDocsValidations, execSPSpecial } from "./spcontroller";
@@ -108,38 +104,3 @@ export const createReportsValidationsDaily = async () => {
   }
 };
 
-export const createReportCallCenter = async () => {
-  logger.info(
-    "El proceso de creacion de reportes de validaciones CALL CENTER se a comenzado a ejecutar."
-  );
-  try {
-    await fileExist();
-    const data = await execSPDocsValidations();
-    const excelReport = await excelCreateCallCenterReport(data);
-    await sendMailValidationsCallCenter(excelReport);
-    await removeFilesReports(excelReport[0]);
-    logger.info(
-      "******** El proceso de creacion de reportes de validaciones CALL CENTER se finalizo correctamente. **********"
-    );
-  } catch (error) {
-    notificationMailError(`Error al generar reporte de call center: ${error}`);
-  }
-};
-
-export const createReportMicroformas = async () => {
-  logger.info(
-    "El proceso de creacion de reportes de validaciones Microformas se a comenzado a ejecutar."
-  );
-  try {
-    await fileExist();
-    const data = await execSPDocsValidations();
-    const excelReport = await excelMicroformasReport(data);
-    await sendMailValidationsMicroformas(excelReport);
-    await removeFilesReports(excelReport[0]);
-    logger.info(
-      "******** El proceso de creacion de reportes de validaciones Microformas se finalizo correctamente. **********"
-    );
-  } catch (error) {
-    notificationMailError(`Error al generar reporte de Microformas: ${error}`);
-  }
-};

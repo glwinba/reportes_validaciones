@@ -23,7 +23,7 @@ export const reports = [
   {
     id: 6,
     nombre: "UVM_REPORTE_VALIDACION",
-  },
+  }
 ];
 
 export const mailCabecera = (femsaEstatus = false) => {
