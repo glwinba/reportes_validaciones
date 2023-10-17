@@ -128,8 +128,12 @@ export const execSPDocsValidations = async () => {
       }
     });
 
-    dataFemco[0] = dataFemco[0].filter((element) => element.ESTATUS === 3 && element.REGIMEN_ESPECIAL === "");
-    dataSla[0] = dataSla[0].filter((element) => element.ESTATUS === 3 && element.REGIMEN_ESPECIAL === "");
+    dataFemco[0] = dataFemco[0].filter(
+      (element) => element.ESTATUS === 3 && element.REGIMEN_ESPECIAL === ""
+    );
+    dataSla[0] = dataSla[0].filter(
+      (element) => element.ESTATUS === 3 && element.REGIMEN_ESPECIAL === ""
+    );
     dataUvm[0] = dataUvm[0].filter(
       (element) =>
         element.ESTATUS === 3 &&
@@ -159,6 +163,30 @@ export const execSPDocsValidations = async () => {
   } catch (error) {
     notificationMailError(
       `El SP Validaciones diario tuvo un error al ejecutarse ${error}`
+    );
+  }
+};
+
+export const execSPLaureate = async () => {
+  logger.info("El SP de Luareate se esta ejecutando...");
+
+  try {
+    let data = await sequelize.query(
+      `EXEC [BM_SERV_ESP].[SP_TABLEROS_SCORE_GLOBAL]`
+    );
+
+    const sortedData = data[0].sort((a, b) => {
+      if (a.MARCA < b.MARCA) return -1;
+      if (a.MARCA > b.MARCA) return 1;
+      return a.RFC.localeCompare(b.RFC);
+    });
+    
+    logger.info("El SP Validaciones diario termino de ejecutarse");
+
+    return sortedData;
+  } catch (error) {
+    notificationMailError(
+      `El SP de LUAREATE tuvo un error al ejecutarse ${error}`
     );
   }
 };

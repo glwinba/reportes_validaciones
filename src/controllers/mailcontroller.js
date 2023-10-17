@@ -9,6 +9,7 @@ import { dateFilesReports } from "../helpers/dateFormat.js";
 const htmlFile = `${__dirname}/../templates/index.html`;
 const htmlFileError = `${__dirname}/../templates/error.html`;
 const htmlFileValidationsDaily = `${__dirname}/../templates/validaciones_diarias.html`;
+const htmlFileLaureate = `${__dirname}/../templates/reportes_laureate.html`;
 
 const htmlFileSpecialValidations = (na) => {
   if (na) return `${__dirname}/../templates/validaciones_especiales.html`;
@@ -104,7 +105,7 @@ export const sendMailSpecialValidations = (pathDoc, na) =>
         to: "acuauhtemoc@glwinba.com",
         subject: `CESE / Validaciones especiales ${date}`,
         html: htmlToSend,
-        cc: ["cfonseca@glwinba.com"]
+        cc: ["cfonseca@glwinba.com"],
       };
     }
 
@@ -143,7 +144,7 @@ export const sendMailValidationsDaily = (pathDoc, pathReports) =>
     };
     const mailConfigs = {
       from: config.MAIL_USER_PRIVATE,
-      to: [    
+      to: [
         "gpichardo@glwinba.com",
         "rrojas@glwinba.com",
         "aespindola@glwinba.com",
@@ -156,7 +157,11 @@ export const sendMailValidationsDaily = (pathDoc, pathReports) =>
       ],
       subject: `GLWINBA / Validaciones ${date}`,
       html: htmlToSend,
-      cc: ["eavelar@garridolicona.com", "afernandez@glwinba.com", "cfonseca@glwinba.com"],
+      cc: [
+        "eavelar@garridolicona.com",
+        "afernandez@glwinba.com",
+        "cfonseca@glwinba.com",
+      ],
       attachments: attDocs(),
     };
 
@@ -168,3 +173,61 @@ export const sendMailValidationsDaily = (pathDoc, pathReports) =>
     });
   });
 
+export const sendMailLaureate = (pathDoc) =>
+  new Promise((resolve, reject) => {
+    const htmlSync = fs.readFileSync(htmlFileLaureate, {
+      encoding: "utf-8",
+    });
+    const template = handlebars.compile(htmlSync);
+    const htmlToSend = template();
+
+    let attachments = [
+      {
+        filename: pathDoc[1],
+        path: pathDoc[0],
+      },
+    ];
+    const mailConfigs = {
+      from: config.MAIL_USER_PRIVATE,
+      to: [
+        "juan.arellanoa@laureate.mx",
+        "olivia.peralta@laureate.mx",
+        "eduin.jimenez@laureate.mx",
+        "liliana.garcia@laureate.mx",
+        "jaime.mendoza@laureate.mx",
+        "diana.salgado@laureate.mx",
+        "brandon.marquez@laureate.mx",
+        "zuleyka.carrizalez@laureate.mx",
+        "elizabeth.ruiz@laureate.mx",
+        "luis.rendon@laureate.mx",
+        "leticia.sanchez@laureate.mx",
+        "alejandro.pineda@laureate.mx",
+        "berenice.cedillo@laureate.mx",
+        "aylin.calderon@laureate.mx",
+        "gustavo.peralta@laureate.mx",
+        "tania.azua@laureate.mx",
+        "cristhian.bermejo@laureate.mx",
+        "carla.lara@laureate.mx",
+        "alba.paniagua@laureate.mx",
+        "rocio.jimenez@laureate.mx",
+        "viridiana.sanchez@laureate.mx",
+        "itzel.badillo@laureate.mx",
+        "paola.magallon@laureate.mx"
+      ],
+      subject: `LAUREATE / REPORTE DE CUMPLIMIETO AL DIA`,
+      html: htmlToSend,
+      cc: [
+        "eavelar@garridolicona.com",
+        "afernandez@glwinba.com",
+        "cfonseca@glwinba.com",
+      ],
+      attachments: attachments,
+    };
+
+    transporterPrivate.sendMail(mailConfigs, (error, info) => {
+      if (error) {
+        notificationMailError(`Error en el envio de mail ${error}`);
+        reject(error);
+      } else resolve(info);
+    });
+  });

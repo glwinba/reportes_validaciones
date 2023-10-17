@@ -23,7 +23,7 @@ export const reports = [
   {
     id: 6,
     nombre: "UVM_REPORTE_VALIDACION",
-  }
+  },
 ];
 
 export const mailCabecera = (femsaEstatus = false) => {
@@ -122,7 +122,7 @@ export const cellsExcel = (femsaEstatus = false) => {
     { nombre: "PAGADO", type: "number" },
     { nombre: "REGIMEN_ESPECIAL", type: "string" },
   ];
-}
+};
 
 export const headboardFileValidate = (column) => {
   if (column) {
@@ -286,3 +286,37 @@ export const styleCells = (estatus) => {
     };
   }
 };
+
+export const cellsExcelLaureate = [
+  { nombre: "MARCA", type: "string" },
+  { nombre: "RFC", type: "string" },
+  { nombre: "RAZON_SOCIAL", type: "string" },
+  { nombre: "2023-03", type: "number" },
+  { nombre: "2023-04", type: "number" },
+  { nombre: "2023-05", type: "number" },
+  { nombre: "2023-06", type: "number" },
+  { nombre: "2023-07", type: "number" },
+  { nombre: "2023-08", type: "number" },
+  { nombre: "2023-09", type: "number" },
+  { nombre: "2023-10", type: "number" },
+  { nombre: "2023-11", type: "number" },
+  { nombre: "2023-12", type: "number" },
+  { nombre: "Cumplimiento Acumulado", type: "string" },
+];
+
+export const cabeceraLuareate = [
+  "MARCA",
+  "RFC",
+  "RAZON_SOCIAL",
+  "MARZO",
+  "ABRIL",
+  "MAYO",
+  "JUNIO",
+  "JULIO",
+  "AGOSTO",
+  "SEPTIEMBRE",
+  "OCTUBRE",
+  "NOVIEMBRE",
+  "DICIEMBRE",
+  "Cumplimiento Acumulado"
+];

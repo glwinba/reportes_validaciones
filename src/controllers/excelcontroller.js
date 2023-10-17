@@ -3,14 +3,17 @@ import path from "path";
 import { dateFilesReports, formatDate } from "../helpers/dateFormat";
 import logger from "../configs/logger";
 import {
+  cabeceraLuareate,
   cellsExcel,
   cellsExcelFileValidate,
+  cellsExcelLaureate,
   headboardFileValidate,
   mailCabecera,
   styleCabeceras,
   styleCells,
 } from "../arreglos/reports";
 import { notificationMailError } from "./notificationcontroller";
+import { addColumn } from "../helpers/addColumnLaureate";
 
 export const createExcel = (data, reportSelect, dateFileName) =>
   new Promise((resolve, reject) => {
@@ -199,27 +202,27 @@ export const excelCreateInternalValidations = (data) =>
             ws.cell(a + 2, cells + 1)
               .string("Cesar")
               .style(style);
-          } else if (a + 1 > entero && a + 1 <= (entero * 2)) {
+          } else if (a + 1 > entero && a + 1 <= entero * 2) {
             ws.cell(a + 2, cells + 1)
               .string("Arantxa")
               .style(style);
-          } else if (a + 1 > (entero * 2) && a + 1 <= (entero * 3)) {
+          } else if (a + 1 > entero * 2 && a + 1 <= entero * 3) {
             ws.cell(a + 2, cells + 1)
               .string("Dana")
               .style(style);
-          } else if (a + 1 > (entero * 3) && a + 1 <= (entero * 4)) {
+          } else if (a + 1 > entero * 3 && a + 1 <= entero * 4) {
             ws.cell(a + 2, cells + 1)
               .string("Brian")
               .style(style);
-          } else if (a + 1 > (entero * 4) && a + 1 <= (entero * 5)) {
+          } else if (a + 1 > entero * 4 && a + 1 <= entero * 5) {
             ws.cell(a + 2, cells + 1)
               .string("Dulce")
               .style(style);
-          } else if (a + 1 > (entero * 5) && a + 1 <= (entero * 6)) {
+          } else if (a + 1 > entero * 5 && a + 1 <= entero * 6) {
             ws.cell(a + 2, cells + 1)
               .string("Emmanuel")
               .style(style);
-          } else if (a + 1 > (entero * 6) && a + 1 <= (entero * 7)) {
+          } else if (a + 1 > entero * 6 && a + 1 <= entero * 7) {
             ws.cell(a + 2, cells + 1)
               .string("Luis Fernando")
               .style(style);
@@ -254,4 +257,58 @@ export const excelCreateInternalValidations = (data) =>
     });
   });
 
+export const createExcelLaureate = (data) =>
+  new Promise((resolve, reject) => {
+    logger.info(`Se esta creando el excel de Laureate`);
+    const date = dateFilesReports();
+    const namePath = `LAUREATE_CUMPLIMIENTO ${date}.xlsx`;
+    const cabeceras = cabeceraLuareate;
+    const cells_excel = cellsExcelLaureate;
 
+    let pathExcel = path.join(`${__dirname}/../files/${namePath}`);
+
+    let wb = new xl.Workbook();
+    let ws = wb.addWorksheet("RESUMEN_CUMPLIMIENTO");
+    let style_cells = wb.createStyle(styleCells());
+    let style_cabeceras = wb.createStyle(styleCabeceras);
+
+    let dataModified = addColumn(data);
+
+    for (let a = 0; a < cabeceras.length; a++) {
+      ws.cell(1, a + 1)
+        .string(cabeceras[a])
+        .style(style_cabeceras);
+    }
+
+    for (let a = 0; a < dataModified.length; a++) {
+      for (let cells = 0; cells < cells_excel.length; cells++) {
+        const element = cells_excel[cells];
+        if (element.type != "string") {
+          if (dataModified[a][element.nombre] === null) {
+            ws.cell(a + 2, cells + 1)
+              .string("NA")
+              .style(style_cells);
+          } else {
+            ws.cell(a + 2, cells + 1)
+              .number(dataModified[a][element.nombre])
+              .style(style_cells);
+          }
+        } else {
+          ws.cell(a + 2, cells + 1)
+            .string(dataModified[a][element.nombre])
+            .style(style_cells);
+        }
+      }
+    }
+
+    wb.write(pathExcel, (error, stats) => {
+      if (error) {
+        notificationMailError(`Error al escribir el excel: ${error}`);
+        reject(error);
+      }
+      logger.info(
+        "Se ah generado el documento de cumplimiento diario Laureate correctamente...!!!"
+      );
+      resolve([pathExcel, namePath]);
+    });
+  });

@@ -4,17 +4,19 @@ import { dateFile } from "../helpers/dateFormat";
 import { uploadDrive } from "./drivecontroller";
 import {
   createExcel,
+  createExcelLaureate,
   excelCreateInternalValidations,
   excelCreateSpecial,
 } from "./excelcontroller";
 import { fileExist, removeFiles, removeFilesReports } from "./filecontroller";
 import {
   sendMail,
+  sendMailLaureate,
   sendMailSpecialValidations,
   sendMailValidationsDaily,
 } from "./mailcontroller";
 import { notificationMailError } from "./notificationcontroller";
-import { execSP, execSPDocsValidations, execSPSpecial } from "./spcontroller";
+import { execSP, execSPDocsValidations, execSPLaureate, execSPSpecial } from "./spcontroller";
 
 export const createReportsDaily = async () => {
   logger.info(
@@ -103,4 +105,22 @@ export const createReportsValidationsDaily = async () => {
     notificationMailError(`Error al generar reporte: ${error}`);
   }
 };
+
+export const createDailyReportLaureate = async () => {
+  logger.info(
+    "El proceso de creacion del reporte diario de laureate se a comenzado a ejecutar."
+  );
+  try {
+    await fileExist();
+    const data = await execSPLaureate();
+    const pathExcel = await createExcelLaureate(data);
+    await sendMailLaureate(pathExcel);
+    await removeFilesReports(pathExcel[0]);
+    logger.info(
+      "******** El proceso de creacion del reporte diario de laureate se finalizo correctamente. **********"
+    );
+  } catch (error) {
+    notificationMailError(`Error al generar reporte: ${error}`);
+  }
+}
 
