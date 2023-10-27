@@ -224,10 +224,6 @@ export const excelCreateInternalValidations = (data) =>
               .style(style);
           } else if (a + 1 > entero * 5 && a + 1 <= entero * 6) {
             ws.cell(a + 2, cells + 1)
-              .string("Emmanuel")
-              .style(style);
-          } else if (a + 1 > entero * 6 && a + 1 <= entero * 7) {
-            ws.cell(a + 2, cells + 1)
               .string("Luis Fernando")
               .style(style);
           } else {

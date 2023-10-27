@@ -153,7 +153,6 @@ export const sendMailValidationsDaily = (pathDoc, pathReports) =>
         "ctecalco@glwinba.com",
         "dramirez@glwinba.com",
         "bgonzalez@glwinba.com",
-        "eflores@glwinba.com",
         "dmorales@glwinba.com",
         "fgonzalez@glwinba.com",
       ],
