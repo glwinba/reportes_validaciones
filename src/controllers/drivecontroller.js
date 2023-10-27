@@ -1,6 +1,6 @@
 import { google } from "googleapis";
-import { notificationMailError } from "./notificationcontroller";
-import logger from "../configs/logger";
+import { notificationMailError } from "./notificationcontroller.js";
+import logger from "../configs/logger.js";
 import fs from "fs";
 import config from "../config.js";
 

@@ -1,5 +1,5 @@
-import logger from "../configs/logger";
-import { sendMailError } from "./mailcontroller";
+import logger from "../configs/logger.js";
+import { sendMailError } from "./mailcontroller.js";
 
 export const notificationMailError = async (getError) => {
   try {

@@ -1,7 +1,7 @@
 import xl from "excel4node";
 import path from "path";
-import { dateFilesReports, formatDate } from "../helpers/dateFormat";
-import logger from "../configs/logger";
+import { dateFilesReports, formatDate } from "../helpers/dateFormat.js";
+import logger from "../configs/logger.js";
 import {
   cabeceraLuareate,
   cellsExcel,
@@ -11,10 +11,12 @@ import {
   mailCabecera,
   styleCabeceras,
   styleCells,
-} from "../arreglos/reports";
-import { notificationMailError } from "./notificationcontroller";
-import { addColumn } from "../helpers/addColumnLaureate";
+} from "../arreglos/reports.js";
+import { notificationMailError } from "./notificationcontroller.js";
+import { addColumn } from "../helpers/addColumnLaureate.js";
+import * as url from "url";
 
+const __dirname = url.fileURLToPath(new URL(".", import.meta.url));
 export const createExcel = (data, reportSelect, dateFileName) =>
   new Promise((resolve, reject) => {
     logger.info(`Se esta creando el excel ${reportSelect.nombre}`);

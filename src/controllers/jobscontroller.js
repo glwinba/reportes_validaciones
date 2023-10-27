@@ -1,22 +1,22 @@
-import { reports } from "../arreglos/reports";
-import logger from "../configs/logger";
-import { dateFile } from "../helpers/dateFormat";
-import { uploadDrive } from "./drivecontroller";
+import { reports } from "../arreglos/reports.js";
+import logger from "../configs/logger.js";
+import { dateFile } from "../helpers/dateFormat.js";
+import { uploadDrive } from "./drivecontroller.js";
 import {
   createExcel,
   createExcelLaureate,
   excelCreateInternalValidations,
   excelCreateSpecial,
-} from "./excelcontroller";
-import { fileExist, removeFiles, removeFilesReports } from "./filecontroller";
+} from "./excelcontroller.js";
+import { fileExist, removeFiles, removeFilesReports } from "./filecontroller.js";
 import {
   sendMail,
   sendMailLaureate,
   sendMailSpecialValidations,
   sendMailValidationsDaily,
-} from "./mailcontroller";
-import { notificationMailError } from "./notificationcontroller";
-import { execSP, execSPDocsValidations, execSPLaureate, execSPSpecial } from "./spcontroller";
+} from "./mailcontroller.js";
+import { notificationMailError } from "./notificationcontroller.js";
+import { execSP, execSPDocsValidations, execSPLaureate, execSPSpecial } from "./spcontroller.js";
 
 export const createReportsDaily = async () => {
   logger.info(

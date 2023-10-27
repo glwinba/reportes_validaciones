@@ -1,5 +1,5 @@
 import logger from "../configs/logger.js";
-import { sequelize } from "../database/connection.js";
+import sequelize from "../database/connection.js";
 import { notificationMailError } from "./notificationcontroller.js";
 
 export const execSP = async (reportSelect) => {
@@ -8,11 +8,6 @@ export const execSP = async (reportSelect) => {
     let data = await sequelize.query(
       `EXEC [BM_SERV_ESP].[SP_REPORTES_DIARIOS] @OPCION = ${reportSelect.id}`
     );
-    if (reportSelect.id === 2) {
-      data[0] = data[0].filter(
-        (element) => element.RFC_EMPRESA != "FAR970429SE2"
-      );
-    }
 
     if (reportSelect.id != 5) {
       data[0].forEach((element) => {
