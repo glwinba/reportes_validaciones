@@ -529,3 +529,93 @@
 [26/10/2023, 05:06:54] info: Se ah generado el documento de cumplimiento diario Laureate correctamente...!!!
 [26/10/2023, 05:06:56] info: Se removieron correctamente todos los archivos generados.
 [26/10/2023, 05:06:56] info: ******** El proceso de creacion del reporte diario de laureate se finalizo correctamente. **********
+[27/10/2023, 04:00:00] info: El proceso de creacion de reportes de validacion diario se a comenzado a ejecutar.
+[27/10/2023, 04:00:00] info: La carpeta esta creada correctamente.
+[27/10/2023, 04:00:00] info: El SP se esta ejecutando
+[27/10/2023, 04:01:23] info: El SP termino de ejecutarse
+[27/10/2023, 04:01:23] info: Se esta creando el excel FEMCO_REPORTE
+[27/10/2023, 04:07:38] info: Se ah generado el documento correctamente...!!!
+[27/10/2023, 04:07:38] info: Se esta autenticando el usuario de Google...
+[27/10/2023, 04:07:39] info: Se autentico el usuario correctamente...
+[27/10/2023, 04:07:39] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[27/10/2023, 04:07:42] info: Se subio el archivo correctamente..!!!
+[27/10/2023, 04:07:42] info: Se removieron correctamente todos los archivos generados.
+[27/10/2023, 04:07:42] info: El SP se esta ejecutando
+[27/10/2023, 04:08:46] info: El SP termino de ejecutarse
+[27/10/2023, 04:08:46] info: Se esta creando el excel FEMCO_REPORTE_VALIDACION
+[27/10/2023, 04:15:29] info: Se ah generado el documento correctamente...!!!
+[27/10/2023, 04:15:29] info: Se esta autenticando el usuario de Google...
+[27/10/2023, 04:15:29] info: Se autentico el usuario correctamente...
+[27/10/2023, 04:15:29] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[27/10/2023, 04:15:33] info: Se subio el archivo correctamente..!!!
+[27/10/2023, 04:15:33] info: Se removieron correctamente todos los archivos generados.
+[27/10/2023, 04:15:33] info: El SP se esta ejecutando
+[27/10/2023, 04:16:11] info: El SP termino de ejecutarse
+[27/10/2023, 04:16:11] info: Se esta creando el excel REPORTE_SLA_COMPLETO
+[27/10/2023, 04:18:52] info: Se ah generado el documento correctamente...!!!
+[27/10/2023, 04:18:52] info: Se esta autenticando el usuario de Google...
+[27/10/2023, 04:18:52] info: Se autentico el usuario correctamente...
+[27/10/2023, 04:18:52] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[27/10/2023, 04:18:53] info: Se subio el archivo correctamente..!!!
+[27/10/2023, 04:18:53] info: Se removieron correctamente todos los archivos generados.
+[27/10/2023, 04:18:53] info: El SP se esta ejecutando
+[27/10/2023, 04:19:17] info: El SP termino de ejecutarse
+[27/10/2023, 04:19:17] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[27/10/2023, 04:19:57] info: Se ah generado el documento correctamente...!!!
+[27/10/2023, 04:19:57] info: Se esta autenticando el usuario de Google...
+[27/10/2023, 04:19:57] info: Se autentico el usuario correctamente...
+[27/10/2023, 04:19:57] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[27/10/2023, 04:19:58] info: Se subio el archivo correctamente..!!!
+[27/10/2023, 04:19:58] info: Se removieron correctamente todos los archivos generados.
+[27/10/2023, 04:19:58] info: El SP se esta ejecutando
+[27/10/2023, 04:20:17] info: El SP termino de ejecutarse
+[27/10/2023, 04:20:17] info: Se esta creando el excel INVEX_REPORTE_VALIDACION
+[27/10/2023, 04:20:59] info: Se ah generado el documento correctamente...!!!
+[27/10/2023, 04:20:59] info: Se esta autenticando el usuario de Google...
+[27/10/2023, 04:20:59] info: Se autentico el usuario correctamente...
+[27/10/2023, 04:20:59] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[27/10/2023, 04:21:01] info: Se subio el archivo correctamente..!!!
+[27/10/2023, 04:21:01] info: Se removieron correctamente todos los archivos generados.
+[27/10/2023, 04:21:01] info: El SP se esta ejecutando
+[27/10/2023, 04:21:16] info: El SP termino de ejecutarse
+[27/10/2023, 04:21:16] info: Se esta creando el excel UVM_REPORTE_VALIDACION
+[27/10/2023, 04:21:43] info: Se ah generado el documento correctamente...!!!
+[27/10/2023, 04:21:43] info: Se esta autenticando el usuario de Google...
+[27/10/2023, 04:21:43] info: Se autentico el usuario correctamente...
+[27/10/2023, 04:21:43] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[27/10/2023, 04:21:45] info: Se subio el archivo correctamente..!!!
+[27/10/2023, 04:21:45] info: Se removieron correctamente todos los archivos generados.
+[27/10/2023, 04:21:49] info: El correo se envio correctamente
+[27/10/2023, 04:21:49] info: ******** El proceso de creacion de reportes de validacion diario se finalizo correctamente. **********
+[27/10/2023, 05:00:00] info: El proceso de creacion de reportes de validaciones especiales se a comenzado a ejecutar.
+[27/10/2023, 05:00:00] info: La carpeta esta creada correctamente.
+[27/10/2023, 05:00:00] info: El SP Especial se esta ejecutando
+[27/10/2023, 05:01:38] info: El SP Especial termino de ejecutarse
+[27/10/2023, 05:01:38] info: Se esta creando el excel FEMSA - VALIDACIONES - ESPECIAL
+[27/10/2023, 05:01:38] info: Se ah generado el documento correctamente...!!!
+[27/10/2023, 05:01:40] info: Se removieron correctamente todos los archivos generados.
+[27/10/2023, 05:01:40] info: ******** El proceso de creacion de reportes de validaciones especiales se finalizo correctamente. **********
+[27/10/2023, 05:01:40] info: El proceso de creacion de reportes de validaciones diarias se a comenzado a ejecutar.
+[27/10/2023, 05:01:40] info: La carpeta esta creada correctamente.
+[27/10/2023, 05:01:40] info: El SP de validaciones diario se esta ejecutando
+[27/10/2023, 05:03:32] info: El SP Validaciones diario termino de ejecutarse
+[27/10/2023, 05:03:32] info: Se esta creando el excel FEMSA - VALIDACIONES
+[27/10/2023, 05:03:32] info: Se ah generado el documento correctamente...!!!
+[27/10/2023, 05:03:32] info: El SP se esta ejecutando
+[27/10/2023, 05:03:54] info: El SP termino de ejecutarse
+[27/10/2023, 05:03:54] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[27/10/2023, 05:04:32] info: Se ah generado el documento correctamente...!!!
+[27/10/2023, 05:04:32] info: El SP se esta ejecutando
+[27/10/2023, 05:04:50] info: El SP termino de ejecutarse
+[27/10/2023, 05:04:50] info: Se esta creando el excel INVEX_REPORTE_VALIDACION
+[27/10/2023, 05:05:32] info: Se ah generado el documento correctamente...!!!
+[27/10/2023, 05:05:42] info: Se removieron correctamente todos los archivos generados.
+[27/10/2023, 05:05:42] info: ******** El proceso de creacion de reportes de validaciones diarias se finalizo correctamente. **********
+[27/10/2023, 05:05:42] info: El proceso de creacion del reporte diario de laureate se a comenzado a ejecutar.
+[27/10/2023, 05:05:42] info: La carpeta esta creada correctamente.
+[27/10/2023, 05:05:42] info: El SP de Luareate se esta ejecutando...
+[27/10/2023, 05:06:01] info: El SP Validaciones diario termino de ejecutarse
+[27/10/2023, 05:06:01] info: Se esta creando el excel de Laureate
+[27/10/2023, 05:06:01] info: Se ah generado el documento de cumplimiento diario Laureate correctamente...!!!
+[27/10/2023, 05:06:03] info: Se removieron correctamente todos los archivos generados.
+[27/10/2023, 05:06:03] info: ******** El proceso de creacion del reporte diario de laureate se finalizo correctamente. **********

@@ -47,6 +47,8 @@ export const createExcel = (data, reportSelect, dateFileName) =>
         .style(style_cabeceras);
     }
 
+    ws.row(1).filter();
+
     for (let a = 0; a < data.length; a++) {
       let fecha_carga = formatDate(data[a].FECHA_CARGA);
       let fecha_validacion = formatDate(data[a].FECHA_VALIDACION);
