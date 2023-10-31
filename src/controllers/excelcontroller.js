@@ -188,7 +188,7 @@ export const excelCreateInternalValidations = (data) =>
 
     let cellsExcel = cellsExcelFileValidate("Validador");
 
-    let numero_repartir = data.length / 8;
+    let numero_repartir = data.length / 7;
 
     let entero = Math.trunc(numero_repartir);
 
