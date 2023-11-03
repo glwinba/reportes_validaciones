@@ -17,6 +17,7 @@ import {
 } from "./mailcontroller.js";
 import { notificationMailError } from "./notificationcontroller.js";
 import { execSP, execSPDocsValidations, execSPLaureate, execSPSpecial } from "./spcontroller.js";
+import { getValidators } from "./validatorscontroller.js";
 
 export const createReportsDaily = async () => {
   logger.info(
@@ -49,10 +50,11 @@ export const createDocumentSpecialValidations = async () => {
   try {
     await fileExist();
     const data = await execSPSpecial();
+    let pathExcel = "";
     if (data.length === 0) {
       return sendMailSpecialValidations(pathExcel, false);
     }
-    const pathExcel = await excelCreateSpecial(data);
+    pathExcel = await excelCreateSpecial(data);
     await sendMailSpecialValidations(pathExcel, true);
     await removeFilesReports(pathExcel[0]);
     logger.info(
@@ -90,7 +92,8 @@ export const createReportsValidationsDaily = async () => {
     await fileExist();
     let paths_documents = [];
     const data = await execSPDocsValidations();
-    const excelReporInternal = await excelCreateInternalValidations(data);
+    const validators = await getValidators();
+    const excelReporInternal = await excelCreateInternalValidations(data, validators);
     const extraDocuments = await extraDocumentsInternals();
     await sendMailValidationsDaily(excelReporInternal, extraDocuments);
     paths_documents.push(excelReporInternal[0]);

@@ -167,7 +167,7 @@ export const excelCreateSpecial = (data) =>
     });
   });
 
-export const excelCreateInternalValidations = (data) =>
+export const excelCreateInternalValidations = (data, validators) =>
   new Promise((resolve, reject) => {
     logger.info(`Se esta creando el excel FEMSA - VALIDACIONES`);
     const date = dateFilesReports();
@@ -188,7 +188,7 @@ export const excelCreateInternalValidations = (data) =>
 
     let cellsExcel = cellsExcelFileValidate("Validador");
 
-    let numero_repartir = data.length / 7;
+    let numero_repartir = data.length / validators.length;
 
     let entero = Math.trunc(numero_repartir);
 
@@ -202,34 +202,28 @@ export const excelCreateInternalValidations = (data) =>
             .string(fecha_carga)
             .style(style);
         } else if (element.nombre === "Validador") {
-          if (a + 1 <= entero) {
-            ws.cell(a + 2, cells + 1)
-              .string("Cesar")
-              .style(style);
-          } else if (a + 1 > entero && a + 1 <= entero * 2) {
-            ws.cell(a + 2, cells + 1)
-              .string("Arantxa")
-              .style(style);
-          } else if (a + 1 > entero * 2 && a + 1 <= entero * 3) {
-            ws.cell(a + 2, cells + 1)
-              .string("Dana")
-              .style(style);
-          } else if (a + 1 > entero * 3 && a + 1 <= entero * 4) {
-            ws.cell(a + 2, cells + 1)
-              .string("Brian")
-              .style(style);
-          } else if (a + 1 > entero * 4 && a + 1 <= entero * 5) {
-            ws.cell(a + 2, cells + 1)
-              .string("Dulce")
-              .style(style);
-          } else if (a + 1 > entero * 5 && a + 1 <= entero * 6) {
-            ws.cell(a + 2, cells + 1)
-              .string("Luis Fernando")
-              .style(style);
-          } else {
-            ws.cell(a + 2, cells + 1)
-              .string("Rosa")
-              .style(style);
+          for (const [index, value] of validators.entries()) {
+            if (index == 0) {
+              if (a + 1 <= entero) {
+                ws.cell(a + 2, cells + 1)
+                  .string(value.Nombre)
+                  .style(style);
+              }
+            } else {
+              if (index != (validators.length - 1)) {
+                if (a + 1 > entero * index && a + 1 <= entero * (index + 1)) {
+                  ws.cell(a + 2, cells + 1)
+                    .string(value.Nombre)
+                    .style(style);
+                }
+              } else {
+                if (a + 1 > entero * index && a + 1 <= data.length) {
+                  ws.cell(a + 2, cells + 1)
+                    .string(value.Nombre)
+                    .style(style);
+                }
+              }
+            }
           }
         } else {
           if (element.type != "string") {
