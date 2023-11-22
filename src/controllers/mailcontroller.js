@@ -93,7 +93,7 @@ export const sendMailSpecialValidations = (pathDoc, na) =>
         to: "acuauhtemoc@glwinba.com",
         subject: `CESE / Validaciones especiales ${date}`,
         html: htmlToSend,
-        cc: ["cfonseca@glwinba.com"],
+        cc: ["cfonseca@glwinba.com", "eguevara@glwinba.com"],
         attachments: [
           {
             filename: pathDoc[1],
@@ -107,7 +107,7 @@ export const sendMailSpecialValidations = (pathDoc, na) =>
         to: "acuauhtemoc@glwinba.com",
         subject: `CESE / Validaciones especiales ${date}`,
         html: htmlToSend,
-        cc: ["cfonseca@glwinba.com"],
+        cc: ["cfonseca@glwinba.com", "eguevara@glwinba.com", "rrojas@glwinba.com"],
       };
     }
 
@@ -154,7 +154,7 @@ export const sendMailValidationsDaily = (pathDoc, pathReports) =>
         "dramirez@glwinba.com",
         "bgonzalez@glwinba.com",
         "dmorales@glwinba.com",
-        "fgonzalez@glwinba.com",
+        "fgonzalez@glwinba.com"
       ],
       subject: `GLWINBA / Validaciones ${date}`,
       html: htmlToSend,
@@ -162,6 +162,7 @@ export const sendMailValidationsDaily = (pathDoc, pathReports) =>
         "eavelar@garridolicona.com",
         "afernandez@glwinba.com",
         "cfonseca@glwinba.com",
+        "eguevara@glwinba.com"
       ],
       attachments: attDocs(),
     };
