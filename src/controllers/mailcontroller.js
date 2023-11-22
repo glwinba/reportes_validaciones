@@ -5,9 +5,7 @@ import { notificationMailError } from "./notificationcontroller.js";
 import fs from "fs";
 import handlebars from "handlebars";
 import { dateFilesReports } from "../helpers/dateFormat.js";
-import * as url from "url";
 
-const __dirname = url.fileURLToPath(new URL(".", import.meta.url));
 const htmlFile = `${__dirname}/../templates/index.html`;
 const htmlFileError = `${__dirname}/../templates/error.html`;
 const htmlFileValidationsDaily = `${__dirname}/../templates/validaciones_diarias.html`;

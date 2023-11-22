@@ -14,9 +14,7 @@ import {
 } from "../arreglos/reports.js";
 import { notificationMailError } from "./notificationcontroller.js";
 import { addColumn } from "../helpers/addColumnLaureate.js";
-import * as url from "url";
 
-const __dirname = url.fileURLToPath(new URL(".", import.meta.url));
 export const createExcel = (data, reportSelect, dateFileName) =>
   new Promise((resolve, reject) => {
     logger.info(`Se esta creando el excel ${reportSelect.nombre}`);

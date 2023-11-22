@@ -1,9 +1,7 @@
 import fs from "fs";
 import logger from "../configs/logger.js";
 import { notificationMailError } from "./notificationcontroller.js";
-import * as url from "url";
 
-const __dirname = url.fileURLToPath(new URL(".", import.meta.url));
 export const removeFiles = async (files) => {
   for (const file of files) {
     fs.rm(file, function (err) {
