@@ -117,8 +117,8 @@ export const createDailyReportLaureate = async () => {
     await fileExist();
     const data = await execSPLaureate();
     const pathExcel = await createExcelLaureate(data);
-    await sendMailLaureate(pathExcel);
-    await removeFilesReports(pathExcel[0]);
+    // await sendMailLaureate(pathExcel);
+    // await removeFilesReports(pathExcel[0]);
     logger.info(
       "******** El proceso de creacion del reporte diario de laureate se finalizo correctamente. **********"
     );

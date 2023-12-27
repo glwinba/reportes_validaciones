@@ -9,8 +9,9 @@ export const addColumn = (data) => {
     let sum = 0;
     let count = 0;
     const monthSelect = getMonthLimitAverage(new Date());
-    for (let i = 3; i <= 9; i++) {
-      const value = item[`2023-0${i}`];
+    for (let i = 3; i <= 10; i++) {
+      let value;
+      i >= 10 ? value = item[`2023-${i}`] :  value = item[`2023-0${i}`];
       if (value !== null) {
         sum += value;
         count++;

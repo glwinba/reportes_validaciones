@@ -152,7 +152,10 @@ export const sendMailValidationsDaily = (pathDoc, pathReports) =>
         "dramirez@glwinba.com",
         "bgonzalez@glwinba.com",
         "dmorales@glwinba.com",
-        "fgonzalez@glwinba.com"
+        "fgonzalez@glwinba.com",
+        "acuauhtemoc@glwinba.com",
+        "cbueno@glwinba.com",
+        "mgudino@glwinba.com"
       ],
       subject: `GLWINBA / Validaciones ${date}`,
       html: htmlToSend,
