@@ -11,3 +11,5 @@ schedule.scheduleJob(config.TIME_EXEC_REPORTS, async function (dateTime) {
   await createReportsValidationsDaily();
   await createDailyReportLaureate();
 });
+
+createDailyReportLaureate();

@@ -1,0 +1,1570 @@
+[2/1/2024, 09:56:26] info: El proceso de creacion del reporte diario de laureate se a comenzado a ejecutar.
+[2/1/2024, 09:56:26] info: La carpeta esta creada correctamente.
+[2/1/2024, 09:56:26] info: El SP de Luareate se esta ejecutando...
+[2/1/2024, 09:56:53] info: El SP Validaciones diario termino de ejecutarse
+[2/1/2024, 09:56:53] info: Se esta creando el excel de Laureate
+[2/1/2024, 09:56:53] info: Se ah generado el documento de cumplimiento diario Laureate correctamente...!!!
+[2/1/2024, 09:56:53] info: ******** El proceso de creacion del reporte diario de laureate se finalizo correctamente. **********
+[3/1/2024, 07:23:16] info: El proceso de creacion de reportes de validacion diario se a comenzado a ejecutar.
+[3/1/2024, 07:23:16] info: La carpeta esta creada correctamente.
+[3/1/2024, 07:23:16] info: El SP se esta ejecutando
+[3/1/2024, 07:23:16] info: El proceso de creacion de reportes de validaciones especiales se a comenzado a ejecutar.
+[3/1/2024, 07:23:17] info: La carpeta esta creada correctamente.
+[3/1/2024, 07:23:17] info: El SP Especial se esta ejecutando
+[3/1/2024, 07:23:18] info: ******** El proceso de creacion de reportes de validacion diario se finalizo correctamente. **********
+[3/1/2024, 07:23:18] info: El proceso de creacion de reportes de validaciones diarias se a comenzado a ejecutar.
+[3/1/2024, 07:23:18] info: La carpeta esta creada correctamente.
+[3/1/2024, 07:23:18] info: El SP de validaciones diario se esta ejecutando
+[3/1/2024, 07:23:18] info: El proceso de creacion del reporte diario de laureate se a comenzado a ejecutar.
+[3/1/2024, 07:23:18] info: La carpeta esta creada correctamente.
+[3/1/2024, 07:23:18] info: El SP de Luareate se esta ejecutando...
+[3/1/2024, 07:23:18] info: Se esta creando el excel de Laureate
+[3/1/2024, 07:23:21] error: El SP tuvo un error al ejecutarse SequelizeConnectionError: Connection lost - read ECONNRESET
+[3/1/2024, 07:23:21] error: Error al generar reporte: SequelizeConnectionError: Failed to connect to 127.0.0.1:8282 - Could not connect (sequence)
+[3/1/2024, 07:23:21] error: Error al generar reporte validaciones especiales: TypeError: Cannot read properties of undefined (reading 'length')
+[3/1/2024, 07:23:21] error: Error al generar reporte: TypeError: Cannot read properties of undefined (reading 'forEach')
+[3/1/2024, 07:23:26] error: Error al generar reporte: TypeError: Cannot read properties of undefined (reading '0')
+[3/1/2024, 07:23:26] error: El SP Especial tuvo un error al ejecutarse SequelizeConnectionError: Connection lost - read ECONNRESET
+[3/1/2024, 07:23:26] error: El SP Validaciones diario tuvo un error al ejecutarse SequelizeConnectionError: Failed to connect to 127.0.0.1:8282 - Could not connect (sequence)
+[3/1/2024, 07:23:26] error: El SP de LUAREATE tuvo un error al ejecutarse SequelizeConnectionError: Failed to connect to 127.0.0.1:8282 - Could not connect (sequence)
+[3/1/2024, 07:25:17] info: El proceso de creacion de reportes de validacion diario se a comenzado a ejecutar.
+[3/1/2024, 07:25:17] info: La carpeta esta creada correctamente.
+[3/1/2024, 07:25:17] info: El SP se esta ejecutando
+[3/1/2024, 07:26:53] info: El SP termino de ejecutarse
+[3/1/2024, 07:26:53] info: Se esta creando el excel FEMCO_REPORTE_VALIDACION
+[3/1/2024, 07:32:41] info: Se ah generado el documento correctamente...!!!
+[3/1/2024, 07:32:41] info: Se esta autenticando el usuario de Google...
+[3/1/2024, 07:32:44] info: Se autentico el usuario correctamente...
+[3/1/2024, 07:32:44] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[3/1/2024, 07:32:47] info: Se subio el archivo correctamente..!!!
+[3/1/2024, 07:32:47] info: Se removieron correctamente todos los archivos generados.
+[3/1/2024, 07:32:47] info: El SP se esta ejecutando
+[3/1/2024, 07:34:19] info: El SP termino de ejecutarse
+[3/1/2024, 07:34:19] info: Se esta creando el excel FEMCO_REPORTE
+[3/1/2024, 07:38:11] info: Se ah generado el documento correctamente...!!!
+[3/1/2024, 07:38:11] info: Se esta autenticando el usuario de Google...
+[3/1/2024, 07:38:11] info: Se autentico el usuario correctamente...
+[3/1/2024, 07:38:11] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[3/1/2024, 07:38:14] info: Se subio el archivo correctamente..!!!
+[3/1/2024, 07:38:14] info: Se removieron correctamente todos los archivos generados.
+[3/1/2024, 07:38:14] info: El SP se esta ejecutando
+[3/1/2024, 07:39:06] info: El SP termino de ejecutarse
+[3/1/2024, 07:39:07] info: Se esta creando el excel REPORTE_SLA_COMPLETO
+[3/1/2024, 07:41:21] info: Se ah generado el documento correctamente...!!!
+[3/1/2024, 07:41:21] info: Se esta autenticando el usuario de Google...
+[3/1/2024, 07:41:21] info: Se autentico el usuario correctamente...
+[3/1/2024, 07:41:21] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[3/1/2024, 07:41:24] info: Se subio el archivo correctamente..!!!
+[3/1/2024, 07:41:24] info: Se removieron correctamente todos los archivos generados.
+[3/1/2024, 07:41:24] info: El SP se esta ejecutando
+[3/1/2024, 07:41:45] info: El SP termino de ejecutarse
+[3/1/2024, 07:41:45] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[3/1/2024, 07:42:26] info: Se ah generado el documento correctamente...!!!
+[3/1/2024, 07:42:26] info: Se esta autenticando el usuario de Google...
+[3/1/2024, 07:42:26] info: Se autentico el usuario correctamente...
+[3/1/2024, 07:42:26] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[3/1/2024, 07:42:28] info: Se subio el archivo correctamente..!!!
+[3/1/2024, 07:42:28] info: Se removieron correctamente todos los archivos generados.
+[3/1/2024, 07:42:28] info: El SP se esta ejecutando
+[3/1/2024, 07:42:49] info: El SP termino de ejecutarse
+[3/1/2024, 07:42:49] info: Se esta creando el excel INVEX_REPORTE_VALIDACION
+[3/1/2024, 07:43:12] info: Se ah generado el documento correctamente...!!!
+[3/1/2024, 07:43:12] info: Se esta autenticando el usuario de Google...
+[3/1/2024, 07:43:12] info: Se autentico el usuario correctamente...
+[3/1/2024, 07:43:12] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[3/1/2024, 07:43:14] info: Se subio el archivo correctamente..!!!
+[3/1/2024, 07:43:14] info: Se removieron correctamente todos los archivos generados.
+[3/1/2024, 07:43:14] info: El SP se esta ejecutando
+[3/1/2024, 07:43:30] info: El SP termino de ejecutarse
+[3/1/2024, 07:43:30] info: Se esta creando el excel UVM_REPORTE_VALIDACION
+[3/1/2024, 07:43:44] info: Se ah generado el documento correctamente...!!!
+[3/1/2024, 07:43:44] info: Se esta autenticando el usuario de Google...
+[3/1/2024, 07:43:44] info: Se autentico el usuario correctamente...
+[3/1/2024, 07:43:44] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[3/1/2024, 07:43:45] info: Se subio el archivo correctamente..!!!
+[3/1/2024, 07:43:45] info: Se removieron correctamente todos los archivos generados.
+[3/1/2024, 07:43:47] info: El correo se envio correctamente
+[3/1/2024, 07:43:47] info: ******** El proceso de creacion de reportes de validacion diario se finalizo correctamente. **********
+[3/1/2024, 07:48:27] info: El proceso de creacion de reportes de validaciones especiales se a comenzado a ejecutar.
+[3/1/2024, 07:48:27] info: La carpeta esta creada correctamente.
+[3/1/2024, 07:48:27] info: El proceso de creacion de reportes de validaciones diarias se a comenzado a ejecutar.
+[3/1/2024, 07:48:27] info: La carpeta esta creada correctamente.
+[3/1/2024, 07:48:27] info: El proceso de creacion del reporte diario de laureate se a comenzado a ejecutar.
+[3/1/2024, 07:48:27] info: La carpeta esta creada correctamente.
+[3/1/2024, 07:48:27] info: El SP Especial se esta ejecutando
+[3/1/2024, 07:48:27] info: El SP de validaciones diario se esta ejecutando
+[3/1/2024, 07:48:27] info: El SP de Luareate se esta ejecutando...
+[3/1/2024, 07:48:59] info: El SP Validaciones diario termino de ejecutarse
+[3/1/2024, 07:48:59] info: Se esta creando el excel de Laureate
+[3/1/2024, 07:48:59] info: Se ah generado el documento de cumplimiento diario Laureate correctamente...!!!
+[3/1/2024, 07:48:59] info: ******** El proceso de creacion del reporte diario de laureate se finalizo correctamente. **********
+[3/1/2024, 07:51:02] info: El SP Especial termino de ejecutarse
+[3/1/2024, 07:51:02] info: Se esta creando el excel FEMSA - VALIDACIONES - ESPECIAL
+[3/1/2024, 07:51:02] info: Se ah generado el documento correctamente...!!!
+[3/1/2024, 07:51:03] info: Se removieron correctamente todos los archivos generados.
+[3/1/2024, 07:51:03] info: ******** El proceso de creacion de reportes de validaciones especiales se finalizo correctamente. **********
+[3/1/2024, 07:51:15] info: El SP Validaciones diario termino de ejecutarse
+[3/1/2024, 07:51:15] info: Se esta creando el excel FEMSA - VALIDACIONES
+[3/1/2024, 07:51:16] info: Se ah generado el documento correctamente...!!!
+[3/1/2024, 07:51:16] info: El SP se esta ejecutando
+[3/1/2024, 07:51:38] info: El SP termino de ejecutarse
+[3/1/2024, 07:51:38] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[3/1/2024, 07:52:13] info: Se ah generado el documento correctamente...!!!
+[3/1/2024, 07:52:13] info: El SP se esta ejecutando
+[3/1/2024, 07:52:41] info: El SP termino de ejecutarse
+[3/1/2024, 07:52:41] info: Se esta creando el excel INVEX_REPORTE_VALIDACION
+[3/1/2024, 07:53:10] info: Se ah generado el documento correctamente...!!!
+[3/1/2024, 07:53:23] info: Se removieron correctamente todos los archivos generados.
+[3/1/2024, 07:53:23] info: ******** El proceso de creacion de reportes de validaciones diarias se finalizo correctamente. **********
+[4/1/2024, 04:00:00] info: El proceso de creacion de reportes de validacion diario se a comenzado a ejecutar.
+[4/1/2024, 04:00:00] info: La carpeta esta creada correctamente.
+[4/1/2024, 04:00:00] info: El SP se esta ejecutando
+[4/1/2024, 04:01:18] info: El SP termino de ejecutarse
+[4/1/2024, 04:01:18] info: Se esta creando el excel FEMCO_REPORTE_VALIDACION
+[4/1/2024, 04:05:43] info: Se ah generado el documento correctamente...!!!
+[4/1/2024, 04:05:43] info: Se esta autenticando el usuario de Google...
+[4/1/2024, 04:05:45] info: Se autentico el usuario correctamente...
+[4/1/2024, 04:05:45] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[4/1/2024, 04:05:49] info: Se subio el archivo correctamente..!!!
+[4/1/2024, 04:05:49] info: Se removieron correctamente todos los archivos generados.
+[4/1/2024, 04:05:49] info: El SP se esta ejecutando
+[4/1/2024, 04:07:23] info: El SP termino de ejecutarse
+[4/1/2024, 04:07:23] info: Se esta creando el excel FEMCO_REPORTE
+[4/1/2024, 04:11:31] info: Se ah generado el documento correctamente...!!!
+[4/1/2024, 04:11:31] info: Se esta autenticando el usuario de Google...
+[4/1/2024, 04:11:31] info: Se autentico el usuario correctamente...
+[4/1/2024, 04:11:31] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[4/1/2024, 04:11:36] info: Se subio el archivo correctamente..!!!
+[4/1/2024, 04:11:36] info: Se removieron correctamente todos los archivos generados.
+[4/1/2024, 04:11:36] info: El SP se esta ejecutando
+[4/1/2024, 04:12:25] info: El SP termino de ejecutarse
+[4/1/2024, 04:12:25] info: Se esta creando el excel REPORTE_SLA_COMPLETO
+[4/1/2024, 04:14:27] info: Se ah generado el documento correctamente...!!!
+[4/1/2024, 04:14:27] info: Se esta autenticando el usuario de Google...
+[4/1/2024, 04:14:28] info: Se autentico el usuario correctamente...
+[4/1/2024, 04:14:28] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[4/1/2024, 04:14:30] info: Se subio el archivo correctamente..!!!
+[4/1/2024, 04:14:30] info: Se removieron correctamente todos los archivos generados.
+[4/1/2024, 04:14:30] info: El SP se esta ejecutando
+[4/1/2024, 04:14:53] info: El SP termino de ejecutarse
+[4/1/2024, 04:14:53] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[4/1/2024, 04:15:26] info: Se ah generado el documento correctamente...!!!
+[4/1/2024, 04:15:26] info: Se esta autenticando el usuario de Google...
+[4/1/2024, 04:15:27] info: Se autentico el usuario correctamente...
+[4/1/2024, 04:15:27] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[4/1/2024, 04:15:28] info: Se subio el archivo correctamente..!!!
+[4/1/2024, 04:15:28] info: Se removieron correctamente todos los archivos generados.
+[4/1/2024, 04:15:28] info: El SP se esta ejecutando
+[4/1/2024, 04:15:52] info: El SP termino de ejecutarse
+[4/1/2024, 04:15:52] info: Se esta creando el excel INVEX_REPORTE_VALIDACION
+[4/1/2024, 04:16:19] info: Se ah generado el documento correctamente...!!!
+[4/1/2024, 04:16:19] info: Se esta autenticando el usuario de Google...
+[4/1/2024, 04:16:19] info: Se autentico el usuario correctamente...
+[4/1/2024, 04:16:19] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[4/1/2024, 04:16:20] info: Se subio el archivo correctamente..!!!
+[4/1/2024, 04:16:20] info: Se removieron correctamente todos los archivos generados.
+[4/1/2024, 04:16:20] info: El SP se esta ejecutando
+[4/1/2024, 04:16:39] info: El SP termino de ejecutarse
+[4/1/2024, 04:16:39] info: Se esta creando el excel UVM_REPORTE_VALIDACION
+[4/1/2024, 04:16:56] info: Se ah generado el documento correctamente...!!!
+[4/1/2024, 04:16:56] info: Se esta autenticando el usuario de Google...
+[4/1/2024, 04:16:56] info: Se autentico el usuario correctamente...
+[4/1/2024, 04:16:56] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[4/1/2024, 04:16:57] info: Se subio el archivo correctamente..!!!
+[4/1/2024, 04:16:57] info: Se removieron correctamente todos los archivos generados.
+[4/1/2024, 04:16:59] info: El correo se envio correctamente
+[4/1/2024, 04:16:59] info: ******** El proceso de creacion de reportes de validacion diario se finalizo correctamente. **********
+[4/1/2024, 05:00:00] info: El proceso de creacion de reportes de validaciones especiales se a comenzado a ejecutar.
+[4/1/2024, 05:00:00] info: La carpeta esta creada correctamente.
+[4/1/2024, 05:00:00] info: El SP Especial se esta ejecutando
+[4/1/2024, 05:04:03] info: El SP Especial termino de ejecutarse
+[4/1/2024, 05:04:03] info: Se esta creando el excel FEMSA - VALIDACIONES - ESPECIAL
+[4/1/2024, 05:04:04] info: Se ah generado el documento correctamente...!!!
+[4/1/2024, 05:04:06] info: Se removieron correctamente todos los archivos generados.
+[4/1/2024, 05:04:06] info: ******** El proceso de creacion de reportes de validaciones especiales se finalizo correctamente. **********
+[4/1/2024, 05:04:06] info: El proceso de creacion de reportes de validaciones diarias se a comenzado a ejecutar.
+[4/1/2024, 05:04:06] info: La carpeta esta creada correctamente.
+[4/1/2024, 05:04:06] info: El SP de validaciones diario se esta ejecutando
+[4/1/2024, 05:07:11] info: El SP Validaciones diario termino de ejecutarse
+[4/1/2024, 05:07:11] info: Se esta creando el excel FEMSA - VALIDACIONES
+[4/1/2024, 05:07:12] info: Se ah generado el documento correctamente...!!!
+[4/1/2024, 05:07:12] info: El SP se esta ejecutando
+[4/1/2024, 05:07:34] info: El SP termino de ejecutarse
+[4/1/2024, 05:07:34] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[4/1/2024, 05:08:05] info: Se ah generado el documento correctamente...!!!
+[4/1/2024, 05:08:05] info: El SP se esta ejecutando
+[4/1/2024, 05:08:26] info: El SP termino de ejecutarse
+[4/1/2024, 05:08:26] info: Se esta creando el excel INVEX_REPORTE_VALIDACION
+[4/1/2024, 05:08:54] info: Se ah generado el documento correctamente...!!!
+[4/1/2024, 05:09:06] info: Se removieron correctamente todos los archivos generados.
+[4/1/2024, 05:09:06] info: ******** El proceso de creacion de reportes de validaciones diarias se finalizo correctamente. **********
+[4/1/2024, 05:09:06] info: El proceso de creacion del reporte diario de laureate se a comenzado a ejecutar.
+[4/1/2024, 05:09:06] info: La carpeta esta creada correctamente.
+[4/1/2024, 05:09:06] info: El SP de Luareate se esta ejecutando...
+[4/1/2024, 05:09:34] info: El SP Validaciones diario termino de ejecutarse
+[4/1/2024, 05:09:34] info: Se esta creando el excel de Laureate
+[4/1/2024, 05:09:34] info: Se ah generado el documento de cumplimiento diario Laureate correctamente...!!!
+[4/1/2024, 05:09:34] info: ******** El proceso de creacion del reporte diario de laureate se finalizo correctamente. **********
+[5/1/2024, 10:10:51] info: El proceso de creacion del reporte diario de laureate se a comenzado a ejecutar.
+[5/1/2024, 10:10:51] info: La carpeta esta creada correctamente.
+[5/1/2024, 10:10:51] info: El SP de Luareate se esta ejecutando...
+[5/1/2024, 10:11:22] info: El SP Validaciones diario termino de ejecutarse
+[5/1/2024, 10:11:22] info: Se esta creando el excel de Laureate
+[5/1/2024, 10:11:22] info: Se ah generado el documento de cumplimiento diario Laureate correctamente...!!!
+[5/1/2024, 10:11:22] info: ******** El proceso de creacion del reporte diario de laureate se finalizo correctamente. **********
+[8/1/2024, 16:09:27] info: El proceso de creacion del reporte diario de laureate se a comenzado a ejecutar.
+[8/1/2024, 16:09:27] info: La carpeta esta creada correctamente.
+[8/1/2024, 16:09:27] info: El SP de Luareate se esta ejecutando...
+[8/1/2024, 16:11:12] info: El SP Validaciones diario termino de ejecutarse
+[8/1/2024, 16:11:12] info: Se esta creando el excel de Laureate
+[8/1/2024, 16:11:12] info: Se ah generado el documento de cumplimiento diario Laureate correctamente...!!!
+[8/1/2024, 16:11:12] info: ******** El proceso de creacion del reporte diario de laureate se finalizo correctamente. **********
+[9/1/2024, 08:13:26] info: El proceso de creacion de reportes de validacion diario se a comenzado a ejecutar.
+[9/1/2024, 08:13:26] info: La carpeta esta creada correctamente.
+[9/1/2024, 08:13:26] info: El SP se esta ejecutando
+[9/1/2024, 08:15:07] info: El SP termino de ejecutarse
+[9/1/2024, 08:15:07] info: Se esta creando el excel FEMCO_REPORTE_VALIDACION
+[9/1/2024, 08:20:46] info: Se ah generado el documento correctamente...!!!
+[9/1/2024, 08:20:46] info: Se esta autenticando el usuario de Google...
+[9/1/2024, 08:20:56] info: Se autentico el usuario correctamente...
+[9/1/2024, 08:20:56] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[9/1/2024, 08:21:03] info: Se subio el archivo correctamente..!!!
+[9/1/2024, 08:21:03] info: Se removieron correctamente todos los archivos generados.
+[9/1/2024, 08:21:03] info: El SP se esta ejecutando
+[9/1/2024, 08:24:13] info: El SP termino de ejecutarse
+[9/1/2024, 08:24:13] info: Se esta creando el excel FEMCO_REPORTE
+[9/1/2024, 08:28:29] info: Se ah generado el documento correctamente...!!!
+[9/1/2024, 08:28:29] info: Se esta autenticando el usuario de Google...
+[9/1/2024, 08:28:29] info: Se autentico el usuario correctamente...
+[9/1/2024, 08:28:29] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[9/1/2024, 08:28:32] info: Se subio el archivo correctamente..!!!
+[9/1/2024, 08:28:32] info: Se removieron correctamente todos los archivos generados.
+[9/1/2024, 08:28:32] info: El SP se esta ejecutando
+[9/1/2024, 08:30:48] info: El SP termino de ejecutarse
+[9/1/2024, 08:30:48] info: Se esta creando el excel REPORTE_SLA_COMPLETO
+[9/1/2024, 08:32:50] info: Se ah generado el documento correctamente...!!!
+[9/1/2024, 08:32:50] info: Se esta autenticando el usuario de Google...
+[9/1/2024, 08:32:50] info: Se autentico el usuario correctamente...
+[9/1/2024, 08:32:50] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[9/1/2024, 08:32:52] info: Se subio el archivo correctamente..!!!
+[9/1/2024, 08:32:52] info: Se removieron correctamente todos los archivos generados.
+[9/1/2024, 08:32:52] info: El SP se esta ejecutando
+[9/1/2024, 08:33:55] info: El SP termino de ejecutarse
+[9/1/2024, 08:33:55] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[9/1/2024, 08:34:25] info: Se ah generado el documento correctamente...!!!
+[9/1/2024, 08:34:25] info: Se esta autenticando el usuario de Google...
+[9/1/2024, 08:34:25] info: Se autentico el usuario correctamente...
+[9/1/2024, 08:34:25] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[9/1/2024, 08:34:27] info: Se subio el archivo correctamente..!!!
+[9/1/2024, 08:34:27] info: Se removieron correctamente todos los archivos generados.
+[9/1/2024, 08:34:27] info: El SP se esta ejecutando
+[9/1/2024, 08:35:26] info: El SP termino de ejecutarse
+[9/1/2024, 08:35:26] info: Se esta creando el excel INVEX_REPORTE_VALIDACION
+[9/1/2024, 08:35:51] info: Se ah generado el documento correctamente...!!!
+[9/1/2024, 08:35:51] info: Se esta autenticando el usuario de Google...
+[9/1/2024, 08:35:51] info: Se autentico el usuario correctamente...
+[9/1/2024, 08:35:51] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[9/1/2024, 08:35:52] info: Se subio el archivo correctamente..!!!
+[9/1/2024, 08:35:52] info: Se removieron correctamente todos los archivos generados.
+[9/1/2024, 08:35:52] info: El SP se esta ejecutando
+[9/1/2024, 08:36:32] info: El SP termino de ejecutarse
+[9/1/2024, 08:36:32] info: Se esta creando el excel UVM_REPORTE_VALIDACION
+[9/1/2024, 08:36:48] info: Se ah generado el documento correctamente...!!!
+[9/1/2024, 08:36:48] info: Se esta autenticando el usuario de Google...
+[9/1/2024, 08:36:48] info: Se autentico el usuario correctamente...
+[9/1/2024, 08:36:48] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[9/1/2024, 08:36:50] info: Se subio el archivo correctamente..!!!
+[9/1/2024, 08:36:50] info: Se removieron correctamente todos los archivos generados.
+[9/1/2024, 08:36:52] info: El correo se envio correctamente
+[9/1/2024, 08:36:52] info: ******** El proceso de creacion de reportes de validacion diario se finalizo correctamente. **********
+[10/1/2024, 04:00:00] info: El proceso de creacion de reportes de validacion diario se a comenzado a ejecutar.
+[10/1/2024, 04:00:00] info: La carpeta esta creada correctamente.
+[10/1/2024, 04:00:00] info: El SP se esta ejecutando
+[10/1/2024, 04:01:16] info: El SP termino de ejecutarse
+[10/1/2024, 04:01:16] info: Se esta creando el excel FEMCO_REPORTE_VALIDACION
+[10/1/2024, 04:05:52] info: Se ah generado el documento correctamente...!!!
+[10/1/2024, 04:05:52] info: Se esta autenticando el usuario de Google...
+[10/1/2024, 04:05:52] info: Se autentico el usuario correctamente...
+[10/1/2024, 04:05:52] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[10/1/2024, 04:05:58] info: Se subio el archivo correctamente..!!!
+[10/1/2024, 04:05:58] info: Se removieron correctamente todos los archivos generados.
+[10/1/2024, 04:05:58] info: El SP se esta ejecutando
+[10/1/2024, 04:07:27] info: El SP termino de ejecutarse
+[10/1/2024, 04:07:27] info: Se esta creando el excel FEMCO_REPORTE
+[10/1/2024, 04:11:38] info: Se ah generado el documento correctamente...!!!
+[10/1/2024, 04:11:38] info: Se esta autenticando el usuario de Google...
+[10/1/2024, 04:11:38] info: Se autentico el usuario correctamente...
+[10/1/2024, 04:11:38] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[10/1/2024, 04:11:43] info: Se subio el archivo correctamente..!!!
+[10/1/2024, 04:11:43] info: Se removieron correctamente todos los archivos generados.
+[10/1/2024, 04:11:43] info: El SP se esta ejecutando
+[10/1/2024, 04:12:37] info: El SP termino de ejecutarse
+[10/1/2024, 04:12:37] info: Se esta creando el excel REPORTE_SLA_COMPLETO
+[10/1/2024, 04:14:56] info: Se ah generado el documento correctamente...!!!
+[10/1/2024, 04:14:56] info: Se esta autenticando el usuario de Google...
+[10/1/2024, 04:14:56] info: Se autentico el usuario correctamente...
+[10/1/2024, 04:14:56] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[10/1/2024, 04:14:58] info: Se subio el archivo correctamente..!!!
+[10/1/2024, 04:14:58] info: Se removieron correctamente todos los archivos generados.
+[10/1/2024, 04:14:58] info: El SP se esta ejecutando
+[10/1/2024, 04:15:25] info: El SP termino de ejecutarse
+[10/1/2024, 04:15:25] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[10/1/2024, 04:16:03] info: Se ah generado el documento correctamente...!!!
+[10/1/2024, 04:16:03] info: Se esta autenticando el usuario de Google...
+[10/1/2024, 04:16:03] info: Se autentico el usuario correctamente...
+[10/1/2024, 04:16:03] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[10/1/2024, 04:16:04] info: Se subio el archivo correctamente..!!!
+[10/1/2024, 04:16:04] info: Se removieron correctamente todos los archivos generados.
+[10/1/2024, 04:16:04] info: El SP se esta ejecutando
+[10/1/2024, 04:16:32] info: El SP termino de ejecutarse
+[10/1/2024, 04:16:32] info: Se esta creando el excel INVEX_REPORTE_VALIDACION
+[10/1/2024, 04:17:04] info: Se ah generado el documento correctamente...!!!
+[10/1/2024, 04:17:04] info: Se esta autenticando el usuario de Google...
+[10/1/2024, 04:17:04] info: Se autentico el usuario correctamente...
+[10/1/2024, 04:17:04] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[10/1/2024, 04:17:06] info: Se subio el archivo correctamente..!!!
+[10/1/2024, 04:17:06] info: Se removieron correctamente todos los archivos generados.
+[10/1/2024, 04:17:06] info: El SP se esta ejecutando
+[10/1/2024, 04:17:29] info: El SP termino de ejecutarse
+[10/1/2024, 04:17:29] info: Se esta creando el excel UVM_REPORTE_VALIDACION
+[10/1/2024, 04:17:49] info: Se ah generado el documento correctamente...!!!
+[10/1/2024, 04:17:49] info: Se esta autenticando el usuario de Google...
+[10/1/2024, 04:17:49] info: Se autentico el usuario correctamente...
+[10/1/2024, 04:17:49] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[10/1/2024, 04:17:51] info: Se subio el archivo correctamente..!!!
+[10/1/2024, 04:17:51] info: Se removieron correctamente todos los archivos generados.
+[10/1/2024, 04:17:53] info: El correo se envio correctamente
+[10/1/2024, 04:17:53] info: ******** El proceso de creacion de reportes de validacion diario se finalizo correctamente. **********
+[10/1/2024, 05:00:00] info: El proceso de creacion de reportes de validaciones especiales se a comenzado a ejecutar.
+[10/1/2024, 05:00:00] info: La carpeta esta creada correctamente.
+[10/1/2024, 05:00:00] info: El SP Especial se esta ejecutando
+[10/1/2024, 05:04:19] info: El SP Especial termino de ejecutarse
+[10/1/2024, 05:04:19] info: Se esta creando el excel FEMSA - VALIDACIONES - ESPECIAL
+[10/1/2024, 05:04:19] info: Se ah generado el documento correctamente...!!!
+[10/1/2024, 05:04:21] info: Se removieron correctamente todos los archivos generados.
+[10/1/2024, 05:04:21] info: ******** El proceso de creacion de reportes de validaciones especiales se finalizo correctamente. **********
+[10/1/2024, 05:04:21] info: El proceso de creacion de reportes de validaciones diarias se a comenzado a ejecutar.
+[10/1/2024, 05:04:21] info: La carpeta esta creada correctamente.
+[10/1/2024, 05:04:21] info: El SP de validaciones diario se esta ejecutando
+[10/1/2024, 05:07:14] info: El SP Validaciones diario termino de ejecutarse
+[10/1/2024, 05:07:14] info: Se esta creando el excel FEMSA - VALIDACIONES
+[10/1/2024, 05:07:14] info: Se ah generado el documento correctamente...!!!
+[10/1/2024, 05:07:14] info: El SP se esta ejecutando
+[10/1/2024, 05:07:36] info: El SP termino de ejecutarse
+[10/1/2024, 05:07:36] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[10/1/2024, 05:08:11] info: Se ah generado el documento correctamente...!!!
+[10/1/2024, 05:08:11] info: El SP se esta ejecutando
+[10/1/2024, 05:08:34] info: El SP termino de ejecutarse
+[10/1/2024, 05:08:34] info: Se esta creando el excel INVEX_REPORTE_VALIDACION
+[10/1/2024, 05:09:05] info: Se ah generado el documento correctamente...!!!
+[10/1/2024, 05:09:17] info: Se removieron correctamente todos los archivos generados.
+[10/1/2024, 05:09:17] info: ******** El proceso de creacion de reportes de validaciones diarias se finalizo correctamente. **********
+[10/1/2024, 05:09:17] info: El proceso de creacion del reporte diario de laureate se a comenzado a ejecutar.
+[10/1/2024, 05:09:17] info: La carpeta esta creada correctamente.
+[10/1/2024, 05:09:17] info: El SP de Luareate se esta ejecutando...
+[10/1/2024, 05:09:43] info: El SP Validaciones diario termino de ejecutarse
+[10/1/2024, 05:09:43] info: Se esta creando el excel de Laureate
+[10/1/2024, 05:09:43] info: Se ah generado el documento de cumplimiento diario Laureate correctamente...!!!
+[10/1/2024, 05:09:43] info: ******** El proceso de creacion del reporte diario de laureate se finalizo correctamente. **********
+[11/1/2024, 12:07:36] info: El proceso de creacion del reporte diario de laureate se a comenzado a ejecutar.
+[11/1/2024, 12:07:36] info: La carpeta esta creada correctamente.
+[11/1/2024, 12:07:36] info: El SP de Luareate se esta ejecutando...
+[11/1/2024, 12:09:34] info: El SP Validaciones diario termino de ejecutarse
+[11/1/2024, 12:09:34] info: Se esta creando el excel de Laureate
+[11/1/2024, 12:09:35] info: Se ah generado el documento de cumplimiento diario Laureate correctamente...!!!
+[11/1/2024, 12:09:35] info: ******** El proceso de creacion del reporte diario de laureate se finalizo correctamente. **********
+[12/1/2024, 04:00:00] info: El proceso de creacion de reportes de validacion diario se a comenzado a ejecutar.
+[12/1/2024, 04:00:00] info: La carpeta esta creada correctamente.
+[12/1/2024, 04:00:00] info: El SP se esta ejecutando
+[12/1/2024, 04:01:20] info: El SP termino de ejecutarse
+[12/1/2024, 04:01:20] info: Se esta creando el excel FEMCO_REPORTE_VALIDACION
+[12/1/2024, 04:05:23] info: Se ah generado el documento correctamente...!!!
+[12/1/2024, 04:05:23] info: Se esta autenticando el usuario de Google...
+[12/1/2024, 04:05:24] info: Se autentico el usuario correctamente...
+[12/1/2024, 04:05:24] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[12/1/2024, 04:05:32] info: Se subio el archivo correctamente..!!!
+[12/1/2024, 04:05:32] info: Se removieron correctamente todos los archivos generados.
+[12/1/2024, 04:05:32] info: El SP se esta ejecutando
+[12/1/2024, 04:06:57] info: El SP termino de ejecutarse
+[12/1/2024, 04:06:57] info: Se esta creando el excel FEMCO_REPORTE
+[12/1/2024, 04:10:42] info: Se ah generado el documento correctamente...!!!
+[12/1/2024, 04:10:42] info: Se esta autenticando el usuario de Google...
+[12/1/2024, 04:10:42] info: Se autentico el usuario correctamente...
+[12/1/2024, 04:10:42] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[12/1/2024, 04:10:45] info: Se subio el archivo correctamente..!!!
+[12/1/2024, 04:10:45] info: Se removieron correctamente todos los archivos generados.
+[12/1/2024, 04:10:45] info: El SP se esta ejecutando
+[12/1/2024, 04:11:37] info: El SP termino de ejecutarse
+[12/1/2024, 04:11:37] info: Se esta creando el excel REPORTE_SLA_COMPLETO
+[12/1/2024, 04:13:40] info: Se ah generado el documento correctamente...!!!
+[12/1/2024, 04:13:40] info: Se esta autenticando el usuario de Google...
+[12/1/2024, 04:13:40] info: Se autentico el usuario correctamente...
+[12/1/2024, 04:13:40] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[12/1/2024, 04:13:42] info: Se subio el archivo correctamente..!!!
+[12/1/2024, 04:13:42] info: Se removieron correctamente todos los archivos generados.
+[12/1/2024, 04:13:42] info: El SP se esta ejecutando
+[12/1/2024, 04:14:08] info: El SP termino de ejecutarse
+[12/1/2024, 04:14:08] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[12/1/2024, 04:14:42] info: Se ah generado el documento correctamente...!!!
+[12/1/2024, 04:14:42] info: Se esta autenticando el usuario de Google...
+[12/1/2024, 04:14:42] info: Se autentico el usuario correctamente...
+[12/1/2024, 04:14:42] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[12/1/2024, 04:14:43] info: Se subio el archivo correctamente..!!!
+[12/1/2024, 04:14:43] info: Se removieron correctamente todos los archivos generados.
+[12/1/2024, 04:14:43] info: El SP se esta ejecutando
+[12/1/2024, 04:15:07] info: El SP termino de ejecutarse
+[12/1/2024, 04:15:07] info: Se esta creando el excel INVEX_REPORTE_VALIDACION
+[12/1/2024, 04:15:34] info: Se ah generado el documento correctamente...!!!
+[12/1/2024, 04:15:34] info: Se esta autenticando el usuario de Google...
+[12/1/2024, 04:15:34] info: Se autentico el usuario correctamente...
+[12/1/2024, 04:15:34] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[12/1/2024, 04:15:36] info: Se subio el archivo correctamente..!!!
+[12/1/2024, 04:15:36] info: Se removieron correctamente todos los archivos generados.
+[12/1/2024, 04:15:36] info: El SP se esta ejecutando
+[12/1/2024, 04:15:54] info: El SP termino de ejecutarse
+[12/1/2024, 04:15:54] info: Se esta creando el excel UVM_REPORTE_VALIDACION
+[12/1/2024, 04:16:11] info: Se ah generado el documento correctamente...!!!
+[12/1/2024, 04:16:11] info: Se esta autenticando el usuario de Google...
+[12/1/2024, 04:16:11] info: Se autentico el usuario correctamente...
+[12/1/2024, 04:16:11] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[12/1/2024, 04:16:12] info: Se subio el archivo correctamente..!!!
+[12/1/2024, 04:16:12] info: Se removieron correctamente todos los archivos generados.
+[12/1/2024, 04:16:14] info: El correo se envio correctamente
+[12/1/2024, 04:16:14] info: ******** El proceso de creacion de reportes de validacion diario se finalizo correctamente. **********
+[12/1/2024, 05:00:00] info: El proceso de creacion de reportes de validaciones especiales se a comenzado a ejecutar.
+[12/1/2024, 05:00:00] info: La carpeta esta creada correctamente.
+[12/1/2024, 05:00:00] info: El SP Especial se esta ejecutando
+[12/1/2024, 05:05:08] info: El SP Especial termino de ejecutarse
+[12/1/2024, 05:05:08] info: Se esta creando el excel FEMSA - VALIDACIONES - ESPECIAL
+[12/1/2024, 05:05:08] info: Se ah generado el documento correctamente...!!!
+[12/1/2024, 05:05:10] info: Se removieron correctamente todos los archivos generados.
+[12/1/2024, 05:05:10] info: ******** El proceso de creacion de reportes de validaciones especiales se finalizo correctamente. **********
+[12/1/2024, 05:05:10] info: El proceso de creacion de reportes de validaciones diarias se a comenzado a ejecutar.
+[12/1/2024, 05:05:10] info: La carpeta esta creada correctamente.
+[12/1/2024, 05:05:10] info: El SP de validaciones diario se esta ejecutando
+[12/1/2024, 05:08:13] info: El SP Validaciones diario termino de ejecutarse
+[12/1/2024, 05:08:13] info: Se esta creando el excel FEMSA - VALIDACIONES
+[12/1/2024, 05:08:13] info: Se ah generado el documento correctamente...!!!
+[12/1/2024, 05:08:13] info: El SP se esta ejecutando
+[12/1/2024, 05:08:37] info: El SP termino de ejecutarse
+[12/1/2024, 05:08:37] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[12/1/2024, 05:09:09] info: Se ah generado el documento correctamente...!!!
+[12/1/2024, 05:09:09] info: El SP se esta ejecutando
+[12/1/2024, 05:09:31] info: El SP termino de ejecutarse
+[12/1/2024, 05:09:31] info: Se esta creando el excel INVEX_REPORTE_VALIDACION
+[12/1/2024, 05:09:58] info: Se ah generado el documento correctamente...!!!
+[12/1/2024, 05:10:11] info: Se removieron correctamente todos los archivos generados.
+[12/1/2024, 05:10:11] info: ******** El proceso de creacion de reportes de validaciones diarias se finalizo correctamente. **********
+[12/1/2024, 05:10:11] info: El proceso de creacion del reporte diario de laureate se a comenzado a ejecutar.
+[12/1/2024, 05:10:11] info: La carpeta esta creada correctamente.
+[12/1/2024, 05:10:11] info: El SP de Luareate se esta ejecutando...
+[12/1/2024, 05:10:38] info: El SP Validaciones diario termino de ejecutarse
+[12/1/2024, 05:10:38] info: Se esta creando el excel de Laureate
+[12/1/2024, 05:10:38] info: Se ah generado el documento de cumplimiento diario Laureate correctamente...!!!
+[12/1/2024, 05:10:38] info: ******** El proceso de creacion del reporte diario de laureate se finalizo correctamente. **********
+[15/1/2024, 09:10:24] info: El proceso de creacion del reporte diario de laureate se a comenzado a ejecutar.
+[15/1/2024, 09:10:24] info: La carpeta esta creada correctamente.
+[15/1/2024, 09:10:24] info: El SP de Luareate se esta ejecutando...
+[15/1/2024, 09:11:13] info: El SP Validaciones diario termino de ejecutarse
+[15/1/2024, 09:11:13] info: Se esta creando el excel de Laureate
+[15/1/2024, 09:11:13] info: Se ah generado el documento de cumplimiento diario Laureate correctamente...!!!
+[15/1/2024, 09:11:13] info: ******** El proceso de creacion del reporte diario de laureate se finalizo correctamente. **********
+[16/1/2024, 10:08:01] info: El proceso de creacion de reportes de validacion diario se a comenzado a ejecutar.
+[16/1/2024, 10:08:01] info: La carpeta esta creada correctamente.
+[16/1/2024, 10:08:01] info: El proceso de creacion del reporte diario de laureate se a comenzado a ejecutar.
+[16/1/2024, 10:08:01] info: La carpeta esta creada correctamente.
+[16/1/2024, 10:08:01] info: El SP se esta ejecutando
+[16/1/2024, 10:08:01] info: El SP de Luareate se esta ejecutando...
+[16/1/2024, 10:08:36] info: El SP Validaciones diario termino de ejecutarse
+[16/1/2024, 10:08:36] info: Se esta creando el excel de Laureate
+[16/1/2024, 10:08:36] info: Se ah generado el documento de cumplimiento diario Laureate correctamente...!!!
+[16/1/2024, 10:08:36] info: ******** El proceso de creacion del reporte diario de laureate se finalizo correctamente. **********
+[16/1/2024, 10:09:38] info: El SP termino de ejecutarse
+[16/1/2024, 10:09:38] info: Se esta creando el excel FEMCO_REPORTE_VALIDACION
+[16/1/2024, 10:13:25] info: Se ah generado el documento correctamente...!!!
+[16/1/2024, 10:13:25] info: Se esta autenticando el usuario de Google...
+[16/1/2024, 10:13:36] error: Error en el envio de mail Error: getaddrinfo ENOTFOUND smtp.gmail.com
+[16/1/2024, 10:13:36] error: getaddrinfo ENOTFOUND smtp.gmail.com
+[16/1/2024, 10:13:36] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[16/1/2024, 10:13:36] info: Se removieron correctamente todos los archivos generados.
+[16/1/2024, 10:13:36] info: El SP se esta ejecutando
+[16/1/2024, 10:13:37] error: Error en el envio de mail Error: getaddrinfo ENOTFOUND smtp.gmail.com
+[16/1/2024, 10:13:37] error: getaddrinfo ENOTFOUND smtp.gmail.com
+[16/1/2024, 10:13:37] error: Error en el envio de mail Error: getaddrinfo ENOTFOUND smtp.gmail.com
+[16/1/2024, 10:13:37] error: getaddrinfo ENOTFOUND smtp.gmail.com
+[16/1/2024, 10:13:44] info: ******** El proceso de creacion de reportes de validacion diario se finalizo correctamente. **********
+[16/1/2024, 10:13:44] error: Error en el envio de mail Error: getaddrinfo ENOTFOUND smtp.gmail.com
+[16/1/2024, 10:13:44] error: getaddrinfo ENOTFOUND smtp.gmail.com
+[16/1/2024, 10:13:44] error: Error en el envio de mail Error: getaddrinfo ENOTFOUND smtp.gmail.com
+[16/1/2024, 10:13:44] error: getaddrinfo ENOTFOUND smtp.gmail.com
+[16/1/2024, 10:17:30] info: El proceso de creacion de reportes de validacion diario se a comenzado a ejecutar.
+[16/1/2024, 10:17:30] info: La carpeta esta creada correctamente.
+[16/1/2024, 10:17:30] info: El SP se esta ejecutando
+[16/1/2024, 10:19:05] info: El SP termino de ejecutarse
+[16/1/2024, 10:19:05] info: Se esta creando el excel FEMCO_REPORTE
+[16/1/2024, 10:22:46] info: Se ah generado el documento correctamente...!!!
+[16/1/2024, 10:22:46] info: Se esta autenticando el usuario de Google...
+[16/1/2024, 10:22:46] info: Se autentico el usuario correctamente...
+[16/1/2024, 10:22:46] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[16/1/2024, 10:22:49] info: Se subio el archivo correctamente..!!!
+[16/1/2024, 10:22:49] info: Se removieron correctamente todos los archivos generados.
+[16/1/2024, 10:22:49] info: El SP se esta ejecutando
+[16/1/2024, 10:24:14] info: El SP termino de ejecutarse
+[16/1/2024, 10:24:14] info: Se esta creando el excel FEMCO_REPORTE_VALIDACION
+[16/1/2024, 10:27:53] info: Se ah generado el documento correctamente...!!!
+[16/1/2024, 10:27:53] info: Se esta autenticando el usuario de Google...
+[16/1/2024, 10:27:53] info: Se autentico el usuario correctamente...
+[16/1/2024, 10:27:53] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[16/1/2024, 10:27:57] info: Se subio el archivo correctamente..!!!
+[16/1/2024, 10:27:57] info: Se removieron correctamente todos los archivos generados.
+[16/1/2024, 10:27:57] info: El SP se esta ejecutando
+[16/1/2024, 10:28:57] info: El SP termino de ejecutarse
+[16/1/2024, 10:28:57] info: Se esta creando el excel REPORTE_SLA_COMPLETO
+[16/1/2024, 10:30:37] info: Se ah generado el documento correctamente...!!!
+[16/1/2024, 10:30:37] info: Se esta autenticando el usuario de Google...
+[16/1/2024, 10:30:37] info: Se autentico el usuario correctamente...
+[16/1/2024, 10:30:37] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[16/1/2024, 10:30:39] info: Se subio el archivo correctamente..!!!
+[16/1/2024, 10:30:39] info: Se removieron correctamente todos los archivos generados.
+[16/1/2024, 10:30:39] info: El SP se esta ejecutando
+[16/1/2024, 10:31:05] info: El SP termino de ejecutarse
+[16/1/2024, 10:31:05] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[16/1/2024, 10:31:39] info: Se ah generado el documento correctamente...!!!
+[16/1/2024, 10:31:39] info: Se esta autenticando el usuario de Google...
+[16/1/2024, 10:31:39] info: Se autentico el usuario correctamente...
+[16/1/2024, 10:31:39] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[16/1/2024, 10:31:41] info: Se subio el archivo correctamente..!!!
+[16/1/2024, 10:31:41] info: Se removieron correctamente todos los archivos generados.
+[16/1/2024, 10:31:41] info: El SP se esta ejecutando
+[16/1/2024, 10:32:06] info: El SP termino de ejecutarse
+[16/1/2024, 10:32:06] info: Se esta creando el excel INVEX_REPORTE_VALIDACION
+[16/1/2024, 10:32:32] info: Se ah generado el documento correctamente...!!!
+[16/1/2024, 10:32:32] info: Se esta autenticando el usuario de Google...
+[16/1/2024, 10:32:32] info: Se autentico el usuario correctamente...
+[16/1/2024, 10:32:32] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[16/1/2024, 10:32:34] info: Se subio el archivo correctamente..!!!
+[16/1/2024, 10:32:34] info: Se removieron correctamente todos los archivos generados.
+[16/1/2024, 10:32:34] info: El SP se esta ejecutando
+[16/1/2024, 10:32:54] info: El SP termino de ejecutarse
+[16/1/2024, 10:32:54] info: Se esta creando el excel UVM_REPORTE_VALIDACION
+[16/1/2024, 10:33:10] info: Se ah generado el documento correctamente...!!!
+[16/1/2024, 10:33:10] info: Se esta autenticando el usuario de Google...
+[16/1/2024, 10:33:10] info: Se autentico el usuario correctamente...
+[16/1/2024, 10:33:10] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[16/1/2024, 10:33:11] info: Se subio el archivo correctamente..!!!
+[16/1/2024, 10:33:11] info: Se removieron correctamente todos los archivos generados.
+[16/1/2024, 10:33:13] info: El correo se envio correctamente
+[16/1/2024, 10:33:13] info: ******** El proceso de creacion de reportes de validacion diario se finalizo correctamente. **********
+[16/1/2024, 15:11:48] info: El proceso de creacion del reporte diario de laureate se a comenzado a ejecutar.
+[16/1/2024, 15:11:48] info: La carpeta esta creada correctamente.
+[16/1/2024, 15:11:48] info: El SP de Luareate se esta ejecutando...
+[16/1/2024, 15:12:20] info: El SP Validaciones diario termino de ejecutarse
+[16/1/2024, 15:12:20] info: Se esta creando el excel de Laureate
+[16/1/2024, 15:12:20] info: Se ah generado el documento de cumplimiento diario Laureate correctamente...!!!
+[16/1/2024, 15:12:20] info: ******** El proceso de creacion del reporte diario de laureate se finalizo correctamente. **********
+[17/1/2024, 04:00:00] info: El proceso de creacion de reportes de validacion diario se a comenzado a ejecutar.
+[17/1/2024, 04:00:00] info: La carpeta esta creada correctamente.
+[17/1/2024, 04:00:00] info: El SP se esta ejecutando
+[17/1/2024, 04:01:22] info: El SP termino de ejecutarse
+[17/1/2024, 04:01:22] info: Se esta creando el excel FEMCO_REPORTE
+[17/1/2024, 04:07:17] info: Se ah generado el documento correctamente...!!!
+[17/1/2024, 04:07:17] info: Se esta autenticando el usuario de Google...
+[17/1/2024, 04:07:18] info: Se autentico el usuario correctamente...
+[17/1/2024, 04:07:18] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[17/1/2024, 04:07:21] info: Se subio el archivo correctamente..!!!
+[17/1/2024, 04:07:21] info: Se removieron correctamente todos los archivos generados.
+[17/1/2024, 04:07:21] info: El SP se esta ejecutando
+[17/1/2024, 04:08:43] info: El SP termino de ejecutarse
+[17/1/2024, 04:08:43] info: Se esta creando el excel FEMCO_REPORTE_VALIDACION
+[17/1/2024, 04:15:12] info: Se ah generado el documento correctamente...!!!
+[17/1/2024, 04:15:12] info: Se esta autenticando el usuario de Google...
+[17/1/2024, 04:15:13] info: Se autentico el usuario correctamente...
+[17/1/2024, 04:15:13] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[17/1/2024, 04:15:16] info: Se subio el archivo correctamente..!!!
+[17/1/2024, 04:15:16] info: Se removieron correctamente todos los archivos generados.
+[17/1/2024, 04:15:16] info: El SP se esta ejecutando
+[17/1/2024, 04:16:16] info: El SP termino de ejecutarse
+[17/1/2024, 04:16:16] info: Se esta creando el excel REPORTE_SLA_COMPLETO
+[17/1/2024, 04:19:27] info: Se ah generado el documento correctamente...!!!
+[17/1/2024, 04:19:27] info: Se esta autenticando el usuario de Google...
+[17/1/2024, 04:19:27] info: Se autentico el usuario correctamente...
+[17/1/2024, 04:19:27] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[17/1/2024, 04:19:29] info: Se subio el archivo correctamente..!!!
+[17/1/2024, 04:19:29] info: Se removieron correctamente todos los archivos generados.
+[17/1/2024, 04:19:29] info: El SP se esta ejecutando
+[17/1/2024, 04:19:53] info: El SP termino de ejecutarse
+[17/1/2024, 04:19:53] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[17/1/2024, 04:20:47] info: Se ah generado el documento correctamente...!!!
+[17/1/2024, 04:20:47] info: Se esta autenticando el usuario de Google...
+[17/1/2024, 04:20:47] info: Se autentico el usuario correctamente...
+[17/1/2024, 04:20:47] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[17/1/2024, 04:20:49] info: Se subio el archivo correctamente..!!!
+[17/1/2024, 04:20:49] info: Se removieron correctamente todos los archivos generados.
+[17/1/2024, 04:20:49] info: El SP se esta ejecutando
+[17/1/2024, 04:21:13] info: El SP termino de ejecutarse
+[17/1/2024, 04:21:13] info: Se esta creando el excel INVEX_REPORTE_VALIDACION
+[17/1/2024, 04:21:54] info: Se ah generado el documento correctamente...!!!
+[17/1/2024, 04:21:54] info: Se esta autenticando el usuario de Google...
+[17/1/2024, 04:21:54] info: Se autentico el usuario correctamente...
+[17/1/2024, 04:21:54] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[17/1/2024, 04:21:56] info: Se subio el archivo correctamente..!!!
+[17/1/2024, 04:21:56] info: Se removieron correctamente todos los archivos generados.
+[17/1/2024, 04:21:56] info: El SP se esta ejecutando
+[17/1/2024, 04:22:16] info: El SP termino de ejecutarse
+[17/1/2024, 04:22:16] info: Se esta creando el excel UVM_REPORTE_VALIDACION
+[17/1/2024, 04:22:43] info: Se ah generado el documento correctamente...!!!
+[17/1/2024, 04:22:43] info: Se esta autenticando el usuario de Google...
+[17/1/2024, 04:22:43] info: Se autentico el usuario correctamente...
+[17/1/2024, 04:22:43] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[17/1/2024, 04:22:44] info: Se subio el archivo correctamente..!!!
+[17/1/2024, 04:22:44] info: Se removieron correctamente todos los archivos generados.
+[17/1/2024, 04:22:46] info: El correo se envio correctamente
+[17/1/2024, 04:22:46] info: ******** El proceso de creacion de reportes de validacion diario se finalizo correctamente. **********
+[17/1/2024, 05:00:00] info: El proceso de creacion de reportes de validaciones especiales se a comenzado a ejecutar.
+[17/1/2024, 05:00:00] info: La carpeta esta creada correctamente.
+[17/1/2024, 05:00:00] info: El SP Especial se esta ejecutando
+[17/1/2024, 05:05:05] info: El SP Especial termino de ejecutarse
+[17/1/2024, 05:05:05] info: Se esta creando el excel FEMSA - VALIDACIONES - ESPECIAL
+[17/1/2024, 05:05:05] info: Se ah generado el documento correctamente...!!!
+[17/1/2024, 05:05:07] info: Se removieron correctamente todos los archivos generados.
+[17/1/2024, 05:05:07] info: ******** El proceso de creacion de reportes de validaciones especiales se finalizo correctamente. **********
+[17/1/2024, 05:05:07] info: El proceso de creacion de reportes de validaciones diarias se a comenzado a ejecutar.
+[17/1/2024, 05:05:07] info: La carpeta esta creada correctamente.
+[17/1/2024, 05:05:07] info: El SP de validaciones diario se esta ejecutando
+[17/1/2024, 05:08:04] info: El SP Validaciones diario termino de ejecutarse
+[17/1/2024, 05:08:04] info: Se esta creando el excel FEMSA - VALIDACIONES
+[17/1/2024, 05:08:04] info: Se ah generado el documento correctamente...!!!
+[17/1/2024, 05:08:04] info: El SP se esta ejecutando
+[17/1/2024, 05:08:27] info: El SP termino de ejecutarse
+[17/1/2024, 05:08:27] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[17/1/2024, 05:09:17] info: Se ah generado el documento correctamente...!!!
+[17/1/2024, 05:09:17] info: El SP se esta ejecutando
+[17/1/2024, 05:09:41] info: El SP termino de ejecutarse
+[17/1/2024, 05:09:41] info: Se esta creando el excel INVEX_REPORTE_VALIDACION
+[17/1/2024, 05:10:22] info: Se ah generado el documento correctamente...!!!
+[17/1/2024, 05:10:32] info: Se removieron correctamente todos los archivos generados.
+[17/1/2024, 05:10:32] info: ******** El proceso de creacion de reportes de validaciones diarias se finalizo correctamente. **********
+[17/1/2024, 05:10:32] info: El proceso de creacion del reporte diario de laureate se a comenzado a ejecutar.
+[17/1/2024, 05:10:32] info: La carpeta esta creada correctamente.
+[17/1/2024, 05:10:32] info: El SP de Luareate se esta ejecutando...
+[17/1/2024, 05:10:55] info: El SP Validaciones diario termino de ejecutarse
+[17/1/2024, 05:10:55] info: Se esta creando el excel de Laureate
+[17/1/2024, 05:10:55] info: Se ah generado el documento de cumplimiento diario Laureate correctamente...!!!
+[17/1/2024, 05:10:55] info: ******** El proceso de creacion del reporte diario de laureate se finalizo correctamente. **********
+[17/1/2024, 11:32:46] info: El proceso de creacion del reporte diario de laureate se a comenzado a ejecutar.
+[17/1/2024, 11:32:46] info: La carpeta esta creada correctamente.
+[17/1/2024, 11:32:46] info: El SP de Luareate se esta ejecutando...
+[17/1/2024, 11:33:41] info: El SP Validaciones diario termino de ejecutarse
+[17/1/2024, 11:33:41] info: Se esta creando el excel de Laureate
+[17/1/2024, 11:33:41] info: Se ah generado el documento de cumplimiento diario Laureate correctamente...!!!
+[17/1/2024, 11:33:41] info: ******** El proceso de creacion del reporte diario de laureate se finalizo correctamente. **********
+[17/1/2024, 11:34:53] info: El proceso de creacion del reporte diario de laureate se a comenzado a ejecutar.
+[17/1/2024, 11:34:53] info: La carpeta esta creada correctamente.
+[17/1/2024, 11:34:53] info: El SP de Luareate se esta ejecutando...
+[17/1/2024, 11:36:21] info: El SP Validaciones diario termino de ejecutarse
+[17/1/2024, 11:36:21] info: Se esta creando el excel de Laureate
+[17/1/2024, 11:36:21] info: Se ah generado el documento de cumplimiento diario Laureate correctamente...!!!
+[17/1/2024, 11:36:21] info: ******** El proceso de creacion del reporte diario de laureate se finalizo correctamente. **********
+[19/1/2024, 10:31:29] info: El proceso de creacion del reporte diario de laureate se a comenzado a ejecutar.
+[19/1/2024, 10:31:29] info: La carpeta esta creada correctamente.
+[19/1/2024, 10:31:29] info: El SP de Luareate se esta ejecutando...
+[19/1/2024, 10:34:15] info: El SP Validaciones diario termino de ejecutarse
+[19/1/2024, 10:34:15] info: Se esta creando el excel de Laureate
+[19/1/2024, 10:34:15] info: Se ah generado el documento de cumplimiento diario Laureate correctamente...!!!
+[19/1/2024, 10:34:15] info: ******** El proceso de creacion del reporte diario de laureate se finalizo correctamente. **********
+[22/1/2024, 09:06:32] info: El proceso de creacion del reporte diario de laureate se a comenzado a ejecutar.
+[22/1/2024, 09:06:32] info: La carpeta esta creada correctamente.
+[22/1/2024, 09:06:32] info: El SP de Luareate se esta ejecutando...
+[22/1/2024, 09:07:25] info: El SP Validaciones diario termino de ejecutarse
+[22/1/2024, 09:07:25] info: Se esta creando el excel de Laureate
+[22/1/2024, 09:07:26] info: Se ah generado el documento de cumplimiento diario Laureate correctamente...!!!
+[22/1/2024, 09:07:26] info: ******** El proceso de creacion del reporte diario de laureate se finalizo correctamente. **********
+[23/1/2024, 09:37:11] info: El proceso de creacion del reporte diario de laureate se a comenzado a ejecutar.
+[23/1/2024, 09:37:11] info: La carpeta esta creada correctamente.
+[23/1/2024, 09:37:11] info: El proceso de creacion de reportes de validacion diario se a comenzado a ejecutar.
+[23/1/2024, 09:37:11] info: La carpeta esta creada correctamente.
+[23/1/2024, 09:37:11] info: El SP de Luareate se esta ejecutando...
+[23/1/2024, 09:37:11] info: El SP se esta ejecutando
+[23/1/2024, 09:37:50] info: El SP Validaciones diario termino de ejecutarse
+[23/1/2024, 09:37:50] info: Se esta creando el excel de Laureate
+[23/1/2024, 09:37:50] info: Se ah generado el documento de cumplimiento diario Laureate correctamente...!!!
+[23/1/2024, 09:37:50] info: ******** El proceso de creacion del reporte diario de laureate se finalizo correctamente. **********
+[23/1/2024, 09:39:10] info: El SP termino de ejecutarse
+[23/1/2024, 09:39:10] info: Se esta creando el excel FEMCO_REPORTE
+[23/1/2024, 09:43:43] info: Se ah generado el documento correctamente...!!!
+[23/1/2024, 09:43:43] info: Se esta autenticando el usuario de Google...
+[23/1/2024, 09:43:43] info: Se autentico el usuario correctamente...
+[23/1/2024, 09:43:43] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[23/1/2024, 09:43:46] info: Se subio el archivo correctamente..!!!
+[23/1/2024, 09:43:46] info: Se removieron correctamente todos los archivos generados.
+[23/1/2024, 09:43:46] info: El SP se esta ejecutando
+[23/1/2024, 09:45:17] info: El SP termino de ejecutarse
+[23/1/2024, 09:45:17] info: Se esta creando el excel FEMCO_REPORTE_VALIDACION
+[23/1/2024, 09:48:48] info: Se ah generado el documento correctamente...!!!
+[23/1/2024, 09:48:48] info: Se esta autenticando el usuario de Google...
+[23/1/2024, 09:48:48] info: Se autentico el usuario correctamente...
+[23/1/2024, 09:48:48] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[23/1/2024, 09:48:51] info: Se subio el archivo correctamente..!!!
+[23/1/2024, 09:48:51] info: Se removieron correctamente todos los archivos generados.
+[23/1/2024, 09:48:51] info: El SP se esta ejecutando
+[23/1/2024, 09:49:47] info: El SP termino de ejecutarse
+[23/1/2024, 09:49:47] info: Se esta creando el excel REPORTE_SLA_COMPLETO
+[23/1/2024, 09:51:49] info: Se ah generado el documento correctamente...!!!
+[23/1/2024, 09:51:49] info: Se esta autenticando el usuario de Google...
+[23/1/2024, 09:51:49] info: Se autentico el usuario correctamente...
+[23/1/2024, 09:51:49] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[23/1/2024, 09:51:51] info: Se subio el archivo correctamente..!!!
+[23/1/2024, 09:51:51] info: Se removieron correctamente todos los archivos generados.
+[23/1/2024, 09:51:51] info: El SP se esta ejecutando
+[23/1/2024, 09:52:21] info: El SP termino de ejecutarse
+[23/1/2024, 09:52:21] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[23/1/2024, 09:52:54] info: Se ah generado el documento correctamente...!!!
+[23/1/2024, 09:52:54] info: Se esta autenticando el usuario de Google...
+[23/1/2024, 09:52:54] info: Se autentico el usuario correctamente...
+[23/1/2024, 09:52:54] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[23/1/2024, 09:52:56] info: Se subio el archivo correctamente..!!!
+[23/1/2024, 09:52:56] info: Se removieron correctamente todos los archivos generados.
+[23/1/2024, 09:52:56] info: El SP se esta ejecutando
+[23/1/2024, 09:53:21] info: El SP termino de ejecutarse
+[23/1/2024, 09:53:21] info: Se esta creando el excel INVEX_REPORTE_VALIDACION
+[23/1/2024, 09:53:57] info: Se ah generado el documento correctamente...!!!
+[23/1/2024, 09:53:57] info: Se esta autenticando el usuario de Google...
+[23/1/2024, 09:53:57] info: Se autentico el usuario correctamente...
+[23/1/2024, 09:53:57] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[23/1/2024, 09:53:58] info: Se subio el archivo correctamente..!!!
+[23/1/2024, 09:53:58] info: Se removieron correctamente todos los archivos generados.
+[23/1/2024, 09:53:58] info: El SP se esta ejecutando
+[23/1/2024, 09:54:44] info: El SP termino de ejecutarse
+[23/1/2024, 09:54:44] info: Se esta creando el excel UVM_REPORTE_VALIDACION
+[23/1/2024, 09:55:02] info: Se ah generado el documento correctamente...!!!
+[23/1/2024, 09:55:02] info: Se esta autenticando el usuario de Google...
+[23/1/2024, 09:55:02] info: Se autentico el usuario correctamente...
+[23/1/2024, 09:55:02] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[23/1/2024, 09:55:03] info: Se subio el archivo correctamente..!!!
+[23/1/2024, 09:55:03] info: Se removieron correctamente todos los archivos generados.
+[23/1/2024, 09:55:07] info: El correo se envio correctamente
+[23/1/2024, 09:55:07] info: ******** El proceso de creacion de reportes de validacion diario se finalizo correctamente. **********
+[24/1/2024, 10:33:36] info: El proceso de creacion del reporte diario de laureate se a comenzado a ejecutar.
+[24/1/2024, 10:33:36] info: La carpeta esta creada correctamente.
+[24/1/2024, 10:33:36] info: El SP de Luareate se esta ejecutando...
+[24/1/2024, 10:34:05] info: El SP Validaciones diario termino de ejecutarse
+[24/1/2024, 10:34:05] info: Se esta creando el excel de Laureate
+[24/1/2024, 10:34:06] info: Se ah generado el documento de cumplimiento diario Laureate correctamente...!!!
+[24/1/2024, 10:34:06] info: ******** El proceso de creacion del reporte diario de laureate se finalizo correctamente. **********
+[26/1/2024, 08:27:19] info: El proceso de creacion del reporte diario de laureate se a comenzado a ejecutar.
+[26/1/2024, 08:27:19] info: La carpeta esta creada correctamente.
+[26/1/2024, 08:27:19] info: El SP de Luareate se esta ejecutando...
+[26/1/2024, 08:27:56] info: El SP Validaciones diario termino de ejecutarse
+[26/1/2024, 08:27:56] info: Se esta creando el excel de Laureate
+[26/1/2024, 08:27:56] info: Se ah generado el documento de cumplimiento diario Laureate correctamente...!!!
+[26/1/2024, 08:27:56] info: ******** El proceso de creacion del reporte diario de laureate se finalizo correctamente. **********
+[29/1/2024, 04:00:00] info: El proceso de creacion de reportes de validacion diario se a comenzado a ejecutar.
+[29/1/2024, 04:00:00] info: La carpeta esta creada correctamente.
+[29/1/2024, 04:00:00] info: El SP se esta ejecutando
+[29/1/2024, 04:01:31] info: El SP termino de ejecutarse
+[29/1/2024, 04:01:31] info: Se esta creando el excel FEMCO_REPORTE
+[29/1/2024, 04:07:12] info: Se ah generado el documento correctamente...!!!
+[29/1/2024, 04:07:12] info: Se esta autenticando el usuario de Google...
+[29/1/2024, 04:07:12] info: Se autentico el usuario correctamente...
+[29/1/2024, 04:07:12] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[29/1/2024, 04:07:18] info: Se subio el archivo correctamente..!!!
+[29/1/2024, 04:07:18] info: Se removieron correctamente todos los archivos generados.
+[29/1/2024, 04:07:18] info: El SP se esta ejecutando
+[29/1/2024, 04:08:48] info: El SP termino de ejecutarse
+[29/1/2024, 04:08:48] info: Se esta creando el excel FEMCO_REPORTE_VALIDACION
+[29/1/2024, 04:15:29] info: Se ah generado el documento correctamente...!!!
+[29/1/2024, 04:15:29] info: Se esta autenticando el usuario de Google...
+[29/1/2024, 04:15:29] info: Se autentico el usuario correctamente...
+[29/1/2024, 04:15:29] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[29/1/2024, 04:15:35] info: Se subio el archivo correctamente..!!!
+[29/1/2024, 04:15:35] info: Se removieron correctamente todos los archivos generados.
+[29/1/2024, 04:15:35] info: El SP se esta ejecutando
+[29/1/2024, 04:16:39] info: El SP termino de ejecutarse
+[29/1/2024, 04:16:39] info: Se esta creando el excel REPORTE_SLA_COMPLETO
+[29/1/2024, 04:19:52] info: Se ah generado el documento correctamente...!!!
+[29/1/2024, 04:19:52] info: Se esta autenticando el usuario de Google...
+[29/1/2024, 04:19:52] info: Se autentico el usuario correctamente...
+[29/1/2024, 04:19:52] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[29/1/2024, 04:19:55] info: Se subio el archivo correctamente..!!!
+[29/1/2024, 04:19:55] info: Se removieron correctamente todos los archivos generados.
+[29/1/2024, 04:19:55] info: El SP se esta ejecutando
+[29/1/2024, 04:20:19] info: El SP termino de ejecutarse
+[29/1/2024, 04:20:19] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[29/1/2024, 04:21:14] info: Se ah generado el documento correctamente...!!!
+[29/1/2024, 04:21:14] info: Se esta autenticando el usuario de Google...
+[29/1/2024, 04:21:14] info: Se autentico el usuario correctamente...
+[29/1/2024, 04:21:14] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[29/1/2024, 04:21:15] info: Se subio el archivo correctamente..!!!
+[29/1/2024, 04:21:15] info: Se removieron correctamente todos los archivos generados.
+[29/1/2024, 04:21:15] info: El SP se esta ejecutando
+[29/1/2024, 04:21:41] info: El SP termino de ejecutarse
+[29/1/2024, 04:21:41] info: Se esta creando el excel INVEX_REPORTE_VALIDACION
+[29/1/2024, 04:22:27] info: Se ah generado el documento correctamente...!!!
+[29/1/2024, 04:22:27] info: Se esta autenticando el usuario de Google...
+[29/1/2024, 04:22:28] info: Se autentico el usuario correctamente...
+[29/1/2024, 04:22:28] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[29/1/2024, 04:22:29] info: Se subio el archivo correctamente..!!!
+[29/1/2024, 04:22:29] info: Se removieron correctamente todos los archivos generados.
+[29/1/2024, 04:22:29] info: El SP se esta ejecutando
+[29/1/2024, 04:22:50] info: El SP termino de ejecutarse
+[29/1/2024, 04:22:50] info: Se esta creando el excel UVM_REPORTE_VALIDACION
+[29/1/2024, 04:23:18] info: Se ah generado el documento correctamente...!!!
+[29/1/2024, 04:23:18] info: Se esta autenticando el usuario de Google...
+[29/1/2024, 04:23:19] info: Se autentico el usuario correctamente...
+[29/1/2024, 04:23:19] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[29/1/2024, 04:23:20] info: Se subio el archivo correctamente..!!!
+[29/1/2024, 04:23:20] info: Se removieron correctamente todos los archivos generados.
+[29/1/2024, 04:23:22] info: El correo se envio correctamente
+[29/1/2024, 04:23:22] info: ******** El proceso de creacion de reportes de validacion diario se finalizo correctamente. **********
+[29/1/2024, 05:00:00] info: El proceso de creacion de reportes de validaciones especiales se a comenzado a ejecutar.
+[29/1/2024, 05:00:00] info: La carpeta esta creada correctamente.
+[29/1/2024, 05:00:00] info: El SP Especial se esta ejecutando
+[29/1/2024, 05:02:57] info: El SP Especial termino de ejecutarse
+[29/1/2024, 05:02:57] info: Se esta creando el excel FEMSA - VALIDACIONES - ESPECIAL
+[29/1/2024, 05:02:57] info: Se ah generado el documento correctamente...!!!
+[29/1/2024, 05:02:59] info: Se removieron correctamente todos los archivos generados.
+[29/1/2024, 05:02:59] info: ******** El proceso de creacion de reportes de validaciones especiales se finalizo correctamente. **********
+[29/1/2024, 05:02:59] info: El proceso de creacion de reportes de validaciones diarias se a comenzado a ejecutar.
+[29/1/2024, 05:02:59] info: La carpeta esta creada correctamente.
+[29/1/2024, 05:02:59] info: El SP de validaciones diario se esta ejecutando
+[29/1/2024, 05:05:38] info: El SP Validaciones diario termino de ejecutarse
+[29/1/2024, 05:05:38] info: Se esta creando el excel FEMSA - VALIDACIONES
+[29/1/2024, 05:05:39] info: Se ah generado el documento correctamente...!!!
+[29/1/2024, 05:05:39] info: El SP se esta ejecutando
+[29/1/2024, 05:06:10] info: El SP termino de ejecutarse
+[29/1/2024, 05:06:10] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[29/1/2024, 05:07:00] info: Se ah generado el documento correctamente...!!!
+[29/1/2024, 05:07:00] info: El SP se esta ejecutando
+[29/1/2024, 05:07:28] info: El SP termino de ejecutarse
+[29/1/2024, 05:07:28] info: Se esta creando el excel INVEX_REPORTE_VALIDACION
+[29/1/2024, 05:08:13] info: Se ah generado el documento correctamente...!!!
+[29/1/2024, 05:08:29] info: Se removieron correctamente todos los archivos generados.
+[29/1/2024, 05:08:29] info: ******** El proceso de creacion de reportes de validaciones diarias se finalizo correctamente. **********
+[29/1/2024, 05:08:29] info: El proceso de creacion del reporte diario de laureate se a comenzado a ejecutar.
+[29/1/2024, 05:08:29] info: La carpeta esta creada correctamente.
+[29/1/2024, 05:08:29] info: El SP de Luareate se esta ejecutando...
+[29/1/2024, 05:08:52] info: El SP Validaciones diario termino de ejecutarse
+[29/1/2024, 05:08:52] info: Se esta creando el excel de Laureate
+[29/1/2024, 05:08:52] info: Se ah generado el documento de cumplimiento diario Laureate correctamente...!!!
+[29/1/2024, 05:08:52] info: ******** El proceso de creacion del reporte diario de laureate se finalizo correctamente. **********
+[30/1/2024, 08:09:28] info: El proceso de creacion del reporte diario de laureate se a comenzado a ejecutar.
+[30/1/2024, 08:09:28] info: La carpeta esta creada correctamente.
+[30/1/2024, 08:09:28] info: El SP de Luareate se esta ejecutando...
+[30/1/2024, 08:10:19] info: El SP Validaciones diario termino de ejecutarse
+[30/1/2024, 08:10:19] info: Se esta creando el excel de Laureate
+[30/1/2024, 08:10:20] info: Se ah generado el documento de cumplimiento diario Laureate correctamente...!!!
+[30/1/2024, 08:10:20] info: ******** El proceso de creacion del reporte diario de laureate se finalizo correctamente. **********
+[31/1/2024, 03:55:16] info: El proceso de creacion del reporte diario de laureate se a comenzado a ejecutar.
+[31/1/2024, 03:55:16] info: La carpeta esta creada correctamente.
+[31/1/2024, 03:55:16] info: El SP de Luareate se esta ejecutando...
+[31/1/2024, 03:55:47] info: El SP Validaciones diario termino de ejecutarse
+[31/1/2024, 03:55:47] info: Se esta creando el excel de Laureate
+[31/1/2024, 03:55:47] info: Se ah generado el documento de cumplimiento diario Laureate correctamente...!!!
+[31/1/2024, 03:55:47] info: ******** El proceso de creacion del reporte diario de laureate se finalizo correctamente. **********
+[31/1/2024, 04:00:00] info: El proceso de creacion de reportes de validacion diario se a comenzado a ejecutar.
+[31/1/2024, 04:00:00] info: La carpeta esta creada correctamente.
+[31/1/2024, 04:00:00] info: El SP se esta ejecutando
+[31/1/2024, 04:01:24] info: El SP termino de ejecutarse
+[31/1/2024, 04:01:24] info: Se esta creando el excel FEMCO_REPORTE
+[31/1/2024, 04:04:30] info: Se ah generado el documento correctamente...!!!
+[31/1/2024, 04:04:30] info: Se esta autenticando el usuario de Google...
+[31/1/2024, 04:04:31] info: Se autentico el usuario correctamente...
+[31/1/2024, 04:04:31] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[31/1/2024, 04:04:34] info: Se subio el archivo correctamente..!!!
+[31/1/2024, 04:04:34] info: Se removieron correctamente todos los archivos generados.
+[31/1/2024, 04:04:34] info: El SP se esta ejecutando
+[31/1/2024, 04:05:53] info: El SP termino de ejecutarse
+[31/1/2024, 04:05:53] info: Se esta creando el excel FEMCO_REPORTE_VALIDACION
+[31/1/2024, 04:09:19] info: Se ah generado el documento correctamente...!!!
+[31/1/2024, 04:09:19] info: Se esta autenticando el usuario de Google...
+[31/1/2024, 04:09:19] info: Se autentico el usuario correctamente...
+[31/1/2024, 04:09:19] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[31/1/2024, 04:09:25] info: Se subio el archivo correctamente..!!!
+[31/1/2024, 04:09:25] info: Se removieron correctamente todos los archivos generados.
+[31/1/2024, 04:09:25] info: El SP se esta ejecutando
+[31/1/2024, 04:10:17] info: El SP termino de ejecutarse
+[31/1/2024, 04:10:17] info: Se esta creando el excel REPORTE_SLA_COMPLETO
+[31/1/2024, 04:11:57] info: Se ah generado el documento correctamente...!!!
+[31/1/2024, 04:11:57] info: Se esta autenticando el usuario de Google...
+[31/1/2024, 04:11:57] info: Se autentico el usuario correctamente...
+[31/1/2024, 04:11:57] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[31/1/2024, 04:11:59] info: Se subio el archivo correctamente..!!!
+[31/1/2024, 04:11:59] info: Se removieron correctamente todos los archivos generados.
+[31/1/2024, 04:11:59] info: El SP se esta ejecutando
+[31/1/2024, 04:12:22] info: El SP termino de ejecutarse
+[31/1/2024, 04:12:22] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[31/1/2024, 04:12:51] info: Se ah generado el documento correctamente...!!!
+[31/1/2024, 04:12:51] info: Se esta autenticando el usuario de Google...
+[31/1/2024, 04:12:51] info: Se autentico el usuario correctamente...
+[31/1/2024, 04:12:51] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[31/1/2024, 04:12:52] info: Se subio el archivo correctamente..!!!
+[31/1/2024, 04:12:52] info: Se removieron correctamente todos los archivos generados.
+[31/1/2024, 04:12:52] info: El SP se esta ejecutando
+[31/1/2024, 04:13:15] info: El SP termino de ejecutarse
+[31/1/2024, 04:13:15] info: Se esta creando el excel INVEX_REPORTE_VALIDACION
+[31/1/2024, 04:13:38] info: Se ah generado el documento correctamente...!!!
+[31/1/2024, 04:13:38] info: Se esta autenticando el usuario de Google...
+[31/1/2024, 04:13:38] info: Se autentico el usuario correctamente...
+[31/1/2024, 04:13:38] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[31/1/2024, 04:13:39] info: Se subio el archivo correctamente..!!!
+[31/1/2024, 04:13:39] info: Se removieron correctamente todos los archivos generados.
+[31/1/2024, 04:13:39] info: El SP se esta ejecutando
+[31/1/2024, 04:14:02] info: El SP termino de ejecutarse
+[31/1/2024, 04:14:02] info: Se esta creando el excel UVM_REPORTE_VALIDACION
+[31/1/2024, 04:14:17] info: Se ah generado el documento correctamente...!!!
+[31/1/2024, 04:14:17] info: Se esta autenticando el usuario de Google...
+[31/1/2024, 04:14:17] info: Se autentico el usuario correctamente...
+[31/1/2024, 04:14:17] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[31/1/2024, 04:14:18] info: Se subio el archivo correctamente..!!!
+[31/1/2024, 04:14:18] info: Se removieron correctamente todos los archivos generados.
+[31/1/2024, 04:14:20] info: El correo se envio correctamente
+[31/1/2024, 04:14:20] info: ******** El proceso de creacion de reportes de validacion diario se finalizo correctamente. **********
+[1/2/2024, 08:53:47] info: El proceso de creacion de reportes de validaciones especiales se a comenzado a ejecutar.
+[1/2/2024, 08:53:47] info: La carpeta esta creada correctamente.
+[1/2/2024, 08:53:47] info: El proceso de creacion de reportes de validaciones diarias se a comenzado a ejecutar.
+[1/2/2024, 08:53:47] info: La carpeta esta creada correctamente.
+[1/2/2024, 08:53:47] info: El proceso de creacion del reporte diario de laureate se a comenzado a ejecutar.
+[1/2/2024, 08:53:47] info: La carpeta esta creada correctamente.
+[1/2/2024, 08:53:47] info: El SP Especial se esta ejecutando
+[1/2/2024, 08:53:47] info: El SP de validaciones diario se esta ejecutando
+[1/2/2024, 08:53:47] info: El SP de Luareate se esta ejecutando...
+[1/2/2024, 08:53:47] info: Se esta creando el excel de Laureate
+[1/2/2024, 08:53:48] error: El SP Especial tuvo un error al ejecutarse SequelizeConnectionError: Failed to connect to 127.0.0.1:8282 - Could not connect (sequence)
+[1/2/2024, 08:53:49] error: El SP Validaciones diario tuvo un error al ejecutarse SequelizeConnectionError: Failed to connect to 127.0.0.1:8282 - Could not connect (sequence)
+[1/2/2024, 08:53:49] error: Error al generar reporte: TypeError: Cannot read properties of undefined (reading 'forEach')
+[1/2/2024, 08:53:49] error: El SP de LUAREATE tuvo un error al ejecutarse SequelizeConnectionError: Failed to connect to 127.0.0.1:8282 - Could not connect (sequence)
+[1/2/2024, 08:53:49] error: Error al generar reporte: SequelizeConnectionError: Failed to connect to 127.0.0.1:8282 - Could not connect (sequence)
+[1/2/2024, 08:53:53] error: Error al generar reporte validaciones especiales: TypeError: Cannot read properties of undefined (reading 'length')
+[1/2/2024, 08:54:33] info: El proceso de creacion de reportes de validaciones especiales se a comenzado a ejecutar.
+[1/2/2024, 08:54:33] info: La carpeta esta creada correctamente.
+[1/2/2024, 08:54:33] info: El proceso de creacion de reportes de validaciones diarias se a comenzado a ejecutar.
+[1/2/2024, 08:54:33] info: La carpeta esta creada correctamente.
+[1/2/2024, 08:54:33] info: El proceso de creacion del reporte diario de laureate se a comenzado a ejecutar.
+[1/2/2024, 08:54:33] info: La carpeta esta creada correctamente.
+[1/2/2024, 08:54:33] info: El SP Especial se esta ejecutando
+[1/2/2024, 08:54:33] info: El SP de validaciones diario se esta ejecutando
+[1/2/2024, 08:54:33] info: El SP de Luareate se esta ejecutando...
+[1/2/2024, 08:56:24] info: El SP Validaciones diario termino de ejecutarse
+[1/2/2024, 08:56:24] info: Se esta creando el excel de Laureate
+[1/2/2024, 08:56:25] info: Se ah generado el documento de cumplimiento diario Laureate correctamente...!!!
+[1/2/2024, 08:56:25] info: ******** El proceso de creacion del reporte diario de laureate se finalizo correctamente. **********
+[1/2/2024, 08:58:43] info: El SP Validaciones diario termino de ejecutarse
+[1/2/2024, 08:58:43] info: Se esta creando el excel FEMSA - VALIDACIONES
+[1/2/2024, 08:58:43] info: Se ah generado el documento correctamente...!!!
+[1/2/2024, 08:58:43] info: El SP se esta ejecutando
+[1/2/2024, 08:59:12] info: El SP termino de ejecutarse
+[1/2/2024, 08:59:12] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[1/2/2024, 08:59:39] info: Se ah generado el documento correctamente...!!!
+[1/2/2024, 08:59:39] info: El SP se esta ejecutando
+[1/2/2024, 08:59:45] info: El SP Especial termino de ejecutarse
+[1/2/2024, 08:59:45] info: Se esta creando el excel FEMSA - VALIDACIONES - ESPECIAL
+[1/2/2024, 08:59:46] info: Se ah generado el documento correctamente...!!!
+[1/2/2024, 08:59:48] error: Error al generar reporte validaciones especiales: Error: Invalid login: 534-5.7.14 <https://accounts.google.com/signin/continue?sarp=1&scc=1&plt=AKgnsbv
+534-5.7.14 29_Pg_yrAVoSX4lpRuXhB8pyo3W1tyiRqAfNtBNfT4KZ-sXtVyGgClWGEdPUwO-C6i-S-
+534-5.7.14 mIzX13jYcxV3amnSASot5ldobTvSPOtww2Ftv_nrsLKFVmiIDxGZ2QjQQ_jcS4oo>
+534-5.7.14 Please log in via your web browser and then try again.
+534-5.7.14  For more information, go to
+534 5.7.14  https://support.google.com/mail/answer/78754 j13-20020a9d768d000000b006dde112dc5esm2781249otl.29 - gsmtp
+[1/2/2024, 08:59:48] error: Error en el envio de mail Error: Invalid login: 534-5.7.14 <https://accounts.google.com/signin/continue?sarp=1&scc=1&plt=AKgnsbv
+534-5.7.14 29_Pg_yrAVoSX4lpRuXhB8pyo3W1tyiRqAfNtBNfT4KZ-sXtVyGgClWGEdPUwO-C6i-S-
+534-5.7.14 mIzX13jYcxV3amnSASot5ldobTvSPOtww2Ftv_nrsLKFVmiIDxGZ2QjQQ_jcS4oo>
+534-5.7.14 Please log in via your web browser and then try again.
+534-5.7.14  For more information, go to
+534 5.7.14  https://support.google.com/mail/answer/78754 j13-20020a9d768d000000b006dde112dc5esm2781249otl.29 - gsmtp
+[1/2/2024, 09:00:06] info: El SP termino de ejecutarse
+[1/2/2024, 09:00:06] info: Se esta creando el excel INVEX_REPORTE_VALIDACION
+[1/2/2024, 09:00:30] info: Se ah generado el documento correctamente...!!!
+[1/2/2024, 09:00:31] error: Error en el envio de mail Error: Invalid login: 534-5.7.14 <https://accounts.google.com/signin/continue?sarp=1&scc=1&plt=AKgnsbv
+534-5.7.14 62-JaTZAUqatC5-VYTZWUWb1WUoBtUJ59wk9DXnBWuVtqZsFIaQG6XF94iCgwLvlQdc6P
+534-5.7.14 E_Hqm_CSi21W-ickRqm-7Hyz5KhJYzq57z_4uhVM6iooSMAFP9A0ydKqvdDOOirP>
+534-5.7.14 Please log in via your web browser and then try again.
+534-5.7.14  For more information, go to
+534 5.7.14  https://support.google.com/mail/answer/78754 i12-20020a056830010c00b006e13e8df5b6sm991891otp.63 - gsmtp
+[1/2/2024, 09:00:32] error: Error al generar reporte: Error: Invalid login: 534-5.7.14 <https://accounts.google.com/signin/continue?sarp=1&scc=1&plt=AKgnsbv
+534-5.7.14 62-JaTZAUqatC5-VYTZWUWb1WUoBtUJ59wk9DXnBWuVtqZsFIaQG6XF94iCgwLvlQdc6P
+534-5.7.14 E_Hqm_CSi21W-ickRqm-7Hyz5KhJYzq57z_4uhVM6iooSMAFP9A0ydKqvdDOOirP>
+534-5.7.14 Please log in via your web browser and then try again.
+534-5.7.14  For more information, go to
+534 5.7.14  https://support.google.com/mail/answer/78754 i12-20020a056830010c00b006e13e8df5b6sm991891otp.63 - gsmtp
+[2/2/2024, 07:23:46] info: El proceso de creacion de reportes de validaciones especiales se a comenzado a ejecutar.
+[2/2/2024, 07:23:46] info: La carpeta esta creada correctamente.
+[2/2/2024, 07:23:46] info: El proceso de creacion de reportes de validaciones diarias se a comenzado a ejecutar.
+[2/2/2024, 07:23:46] info: La carpeta esta creada correctamente.
+[2/2/2024, 07:23:46] info: El proceso de creacion del reporte diario de laureate se a comenzado a ejecutar.
+[2/2/2024, 07:23:46] info: La carpeta esta creada correctamente.
+[2/2/2024, 07:23:46] info: El SP Especial se esta ejecutando
+[2/2/2024, 07:23:46] info: El SP de validaciones diario se esta ejecutando
+[2/2/2024, 07:23:46] info: El SP de Luareate se esta ejecutando...
+[2/2/2024, 07:23:47] info: Se esta creando el excel de Laureate
+[2/2/2024, 07:23:49] error: El SP Especial tuvo un error al ejecutarse SequelizeConnectionError: Failed to connect to 127.0.0.1:8282 - Could not connect (sequence)
+[2/2/2024, 07:23:49] error: Error al generar reporte: TypeError: Cannot read properties of undefined (reading 'forEach')
+[2/2/2024, 07:23:50] error: Error al generar reporte validaciones especiales: TypeError: Cannot read properties of undefined (reading 'length')
+[2/2/2024, 07:23:50] error: El SP Validaciones diario tuvo un error al ejecutarse SequelizeConnectionError: Failed to connect to 127.0.0.1:8282 - Could not connect (sequence)
+[2/2/2024, 07:23:50] error: El SP de LUAREATE tuvo un error al ejecutarse SequelizeConnectionError: Failed to connect to 127.0.0.1:8282 - Could not connect (sequence)
+[2/2/2024, 07:23:53] error: Error al generar reporte: SequelizeConnectionError: Failed to connect to 127.0.0.1:8282 - Could not connect (sequence)
+[2/2/2024, 07:24:48] info: El proceso de creacion de reportes de validaciones especiales se a comenzado a ejecutar.
+[2/2/2024, 07:24:48] info: La carpeta esta creada correctamente.
+[2/2/2024, 07:24:48] info: El proceso de creacion de reportes de validaciones diarias se a comenzado a ejecutar.
+[2/2/2024, 07:24:48] info: La carpeta esta creada correctamente.
+[2/2/2024, 07:24:48] info: El proceso de creacion del reporte diario de laureate se a comenzado a ejecutar.
+[2/2/2024, 07:24:48] info: La carpeta esta creada correctamente.
+[2/2/2024, 07:24:48] info: El SP Especial se esta ejecutando
+[2/2/2024, 07:24:48] info: El SP de validaciones diario se esta ejecutando
+[2/2/2024, 07:24:48] info: El SP de Luareate se esta ejecutando...
+[2/2/2024, 07:25:23] info: El SP Validaciones diario termino de ejecutarse
+[2/2/2024, 07:25:23] info: Se esta creando el excel de Laureate
+[2/2/2024, 07:25:23] info: Se ah generado el documento de cumplimiento diario Laureate correctamente...!!!
+[2/2/2024, 07:25:23] info: ******** El proceso de creacion del reporte diario de laureate se finalizo correctamente. **********
+[2/2/2024, 07:29:30] info: El SP Especial termino de ejecutarse
+[2/2/2024, 07:29:30] info: Se esta creando el excel FEMSA - VALIDACIONES - ESPECIAL
+[2/2/2024, 07:29:32] info: Se ah generado el documento correctamente...!!!
+[2/2/2024, 07:29:33] info: Se removieron correctamente todos los archivos generados.
+[2/2/2024, 07:29:33] info: ******** El proceso de creacion de reportes de validaciones especiales se finalizo correctamente. **********
+[2/2/2024, 07:29:49] info: El SP Validaciones diario termino de ejecutarse
+[2/2/2024, 07:29:50] info: Se esta creando el excel FEMSA - VALIDACIONES
+[2/2/2024, 07:29:50] info: Se ah generado el documento correctamente...!!!
+[2/2/2024, 07:29:50] info: El SP se esta ejecutando
+[2/2/2024, 07:30:19] info: El SP termino de ejecutarse
+[2/2/2024, 07:30:19] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[2/2/2024, 07:30:48] info: Se ah generado el documento correctamente...!!!
+[2/2/2024, 07:30:48] info: El SP se esta ejecutando
+[2/2/2024, 07:31:18] info: El SP termino de ejecutarse
+[2/2/2024, 07:31:18] info: Se esta creando el excel INVEX_REPORTE_VALIDACION
+[2/2/2024, 07:31:44] info: Se ah generado el documento correctamente...!!!
+[2/2/2024, 07:32:01] info: Se removieron correctamente todos los archivos generados.
+[2/2/2024, 07:32:01] info: ******** El proceso de creacion de reportes de validaciones diarias se finalizo correctamente. **********
+[6/2/2024, 08:17:31] info: El proceso de creacion de reportes de validaciones especiales se a comenzado a ejecutar.
+[6/2/2024, 08:17:31] info: La carpeta esta creada correctamente.
+[6/2/2024, 08:17:31] info: El proceso de creacion de reportes de validaciones diarias se a comenzado a ejecutar.
+[6/2/2024, 08:17:31] info: La carpeta esta creada correctamente.
+[6/2/2024, 08:17:31] info: El proceso de creacion del reporte diario de laureate se a comenzado a ejecutar.
+[6/2/2024, 08:17:31] info: La carpeta esta creada correctamente.
+[6/2/2024, 08:17:31] info: El SP Especial se esta ejecutando
+[6/2/2024, 08:17:31] info: El SP de validaciones diario se esta ejecutando
+[6/2/2024, 08:17:31] info: El SP de Luareate se esta ejecutando...
+[6/2/2024, 08:21:37] info: El SP Validaciones diario termino de ejecutarse
+[6/2/2024, 08:21:37] info: Se esta creando el excel de Laureate
+[6/2/2024, 08:21:37] info: Se ah generado el documento de cumplimiento diario Laureate correctamente...!!!
+[6/2/2024, 08:21:37] info: ******** El proceso de creacion del reporte diario de laureate se finalizo correctamente. **********
+[6/2/2024, 08:30:36] info: El SP Validaciones diario termino de ejecutarse
+[6/2/2024, 08:30:36] info: Se esta creando el excel FEMSA - VALIDACIONES
+[6/2/2024, 08:30:37] info: Se ah generado el documento correctamente...!!!
+[6/2/2024, 08:30:37] info: El SP se esta ejecutando
+[6/2/2024, 08:30:41] info: El SP Especial termino de ejecutarse
+[6/2/2024, 08:30:41] info: Se esta creando el excel FEMSA - VALIDACIONES - ESPECIAL
+[6/2/2024, 08:30:41] info: Se ah generado el documento correctamente...!!!
+[6/2/2024, 08:30:42] info: Se removieron correctamente todos los archivos generados.
+[6/2/2024, 08:30:42] info: ******** El proceso de creacion de reportes de validaciones especiales se finalizo correctamente. **********
+[6/2/2024, 08:32:11] info: El SP termino de ejecutarse
+[6/2/2024, 08:32:11] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[6/2/2024, 08:32:39] info: Se ah generado el documento correctamente...!!!
+[6/2/2024, 08:32:39] info: El SP se esta ejecutando
+[6/2/2024, 08:33:51] info: El SP termino de ejecutarse
+[6/2/2024, 08:33:51] info: Se esta creando el excel INVEX_REPORTE_VALIDACION
+[6/2/2024, 08:34:23] info: Se ah generado el documento correctamente...!!!
+[6/2/2024, 08:34:36] info: Se removieron correctamente todos los archivos generados.
+[6/2/2024, 08:34:36] info: ******** El proceso de creacion de reportes de validaciones diarias se finalizo correctamente. **********
+[7/2/2024, 04:00:00] info: El proceso de creacion de reportes de validacion diario se a comenzado a ejecutar.
+[7/2/2024, 04:00:00] info: La carpeta esta creada correctamente.
+[7/2/2024, 04:00:00] info: El SP se esta ejecutando
+[7/2/2024, 04:01:30] info: El SP termino de ejecutarse
+[7/2/2024, 04:01:30] info: Se esta creando el excel FEMCO_REPORTE
+[7/2/2024, 04:05:29] info: Se ah generado el documento correctamente...!!!
+[7/2/2024, 04:05:29] info: Se esta autenticando el usuario de Google...
+[7/2/2024, 04:05:29] info: Se autentico el usuario correctamente...
+[7/2/2024, 04:05:29] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[7/2/2024, 04:05:33] info: Se subio el archivo correctamente..!!!
+[7/2/2024, 04:05:33] info: Se removieron correctamente todos los archivos generados.
+[7/2/2024, 04:05:33] info: El SP se esta ejecutando
+[7/2/2024, 04:07:03] info: El SP termino de ejecutarse
+[7/2/2024, 04:07:03] info: Se esta creando el excel FEMCO_REPORTE_VALIDACION
+[7/2/2024, 04:11:27] info: Se ah generado el documento correctamente...!!!
+[7/2/2024, 04:11:27] info: Se esta autenticando el usuario de Google...
+[7/2/2024, 04:11:28] info: Se autentico el usuario correctamente...
+[7/2/2024, 04:11:28] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[7/2/2024, 04:11:31] info: Se subio el archivo correctamente..!!!
+[7/2/2024, 04:11:31] info: Se removieron correctamente todos los archivos generados.
+[7/2/2024, 04:11:31] info: El SP se esta ejecutando
+[7/2/2024, 04:12:30] info: El SP termino de ejecutarse
+[7/2/2024, 04:12:30] info: Se esta creando el excel REPORTE_SLA_COMPLETO
+[7/2/2024, 04:14:30] info: Se ah generado el documento correctamente...!!!
+[7/2/2024, 04:14:30] info: Se esta autenticando el usuario de Google...
+[7/2/2024, 04:14:30] info: Se autentico el usuario correctamente...
+[7/2/2024, 04:14:30] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[7/2/2024, 04:14:32] info: Se subio el archivo correctamente..!!!
+[7/2/2024, 04:14:32] info: Se removieron correctamente todos los archivos generados.
+[7/2/2024, 04:14:32] info: El SP se esta ejecutando
+[7/2/2024, 04:15:04] info: El SP termino de ejecutarse
+[7/2/2024, 04:15:04] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[7/2/2024, 04:15:41] info: Se ah generado el documento correctamente...!!!
+[7/2/2024, 04:15:41] info: Se esta autenticando el usuario de Google...
+[7/2/2024, 04:15:41] info: Se autentico el usuario correctamente...
+[7/2/2024, 04:15:41] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[7/2/2024, 04:15:42] info: Se subio el archivo correctamente..!!!
+[7/2/2024, 04:15:42] info: Se removieron correctamente todos los archivos generados.
+[7/2/2024, 04:15:42] info: El SP se esta ejecutando
+[7/2/2024, 04:16:21] info: El SP termino de ejecutarse
+[7/2/2024, 04:16:21] info: Se esta creando el excel INVEX_REPORTE_VALIDACION
+[7/2/2024, 04:16:49] info: Se ah generado el documento correctamente...!!!
+[7/2/2024, 04:16:49] info: Se esta autenticando el usuario de Google...
+[7/2/2024, 04:16:49] info: Se autentico el usuario correctamente...
+[7/2/2024, 04:16:49] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[7/2/2024, 04:16:51] info: Se subio el archivo correctamente..!!!
+[7/2/2024, 04:16:51] info: Se removieron correctamente todos los archivos generados.
+[7/2/2024, 04:16:51] info: El SP se esta ejecutando
+[7/2/2024, 04:17:10] info: El SP termino de ejecutarse
+[7/2/2024, 04:17:10] info: Se esta creando el excel UVM_REPORTE_VALIDACION
+[7/2/2024, 04:17:25] info: Se ah generado el documento correctamente...!!!
+[7/2/2024, 04:17:25] info: Se esta autenticando el usuario de Google...
+[7/2/2024, 04:17:25] info: Se autentico el usuario correctamente...
+[7/2/2024, 04:17:25] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[7/2/2024, 04:17:26] info: Se subio el archivo correctamente..!!!
+[7/2/2024, 04:17:26] info: Se removieron correctamente todos los archivos generados.
+[7/2/2024, 04:17:31] info: El correo se envio correctamente
+[7/2/2024, 04:17:31] info: ******** El proceso de creacion de reportes de validacion diario se finalizo correctamente. **********
+[7/2/2024, 05:00:00] info: El proceso de creacion de reportes de validaciones especiales se a comenzado a ejecutar.
+[7/2/2024, 05:00:00] info: La carpeta esta creada correctamente.
+[7/2/2024, 05:00:00] info: El SP Especial se esta ejecutando
+[7/2/2024, 05:02:58] info: El SP Especial termino de ejecutarse
+[7/2/2024, 05:02:58] info: Se esta creando el excel FEMSA - VALIDACIONES - ESPECIAL
+[7/2/2024, 05:02:58] info: Se ah generado el documento correctamente...!!!
+[7/2/2024, 05:02:59] info: Se removieron correctamente todos los archivos generados.
+[7/2/2024, 05:02:59] info: ******** El proceso de creacion de reportes de validaciones especiales se finalizo correctamente. **********
+[7/2/2024, 05:02:59] info: El proceso de creacion de reportes de validaciones diarias se a comenzado a ejecutar.
+[7/2/2024, 05:02:59] info: La carpeta esta creada correctamente.
+[7/2/2024, 05:02:59] info: El SP de validaciones diario se esta ejecutando
+[7/2/2024, 05:08:12] info: El SP Validaciones diario termino de ejecutarse
+[7/2/2024, 05:08:12] info: Se esta creando el excel FEMSA - VALIDACIONES
+[7/2/2024, 05:08:12] info: Se ah generado el documento correctamente...!!!
+[7/2/2024, 05:08:12] info: El SP se esta ejecutando
+[7/2/2024, 05:08:43] info: El SP termino de ejecutarse
+[7/2/2024, 05:08:43] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[7/2/2024, 05:09:15] info: Se ah generado el documento correctamente...!!!
+[7/2/2024, 05:09:15] info: El SP se esta ejecutando
+[7/2/2024, 05:09:43] info: El SP termino de ejecutarse
+[7/2/2024, 05:09:43] info: Se esta creando el excel INVEX_REPORTE_VALIDACION
+[7/2/2024, 05:10:13] info: Se ah generado el documento correctamente...!!!
+[7/2/2024, 05:10:32] info: Se removieron correctamente todos los archivos generados.
+[7/2/2024, 05:10:32] info: ******** El proceso de creacion de reportes de validaciones diarias se finalizo correctamente. **********
+[7/2/2024, 05:10:32] info: El proceso de creacion del reporte diario de laureate se a comenzado a ejecutar.
+[7/2/2024, 05:10:32] info: La carpeta esta creada correctamente.
+[7/2/2024, 05:10:32] info: El SP de Luareate se esta ejecutando...
+[7/2/2024, 05:11:09] info: El SP Validaciones diario termino de ejecutarse
+[7/2/2024, 05:11:09] info: Se esta creando el excel de Laureate
+[7/2/2024, 05:11:09] info: Se ah generado el documento de cumplimiento diario Laureate correctamente...!!!
+[7/2/2024, 05:11:09] info: ******** El proceso de creacion del reporte diario de laureate se finalizo correctamente. **********
+[8/2/2024, 04:00:01] info: El proceso de creacion de reportes de validacion diario se a comenzado a ejecutar.
+[8/2/2024, 04:00:01] info: La carpeta esta creada correctamente.
+[8/2/2024, 04:00:01] info: El SP se esta ejecutando
+[8/2/2024, 04:01:28] info: El SP termino de ejecutarse
+[8/2/2024, 04:01:28] info: Se esta creando el excel FEMCO_REPORTE
+[8/2/2024, 04:05:32] info: Se ah generado el documento correctamente...!!!
+[8/2/2024, 04:05:32] info: Se esta autenticando el usuario de Google...
+[8/2/2024, 04:05:32] info: Se autentico el usuario correctamente...
+[8/2/2024, 04:05:32] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[8/2/2024, 04:05:35] info: Se subio el archivo correctamente..!!!
+[8/2/2024, 04:05:35] info: Se removieron correctamente todos los archivos generados.
+[8/2/2024, 04:05:35] info: El SP se esta ejecutando
+[8/2/2024, 04:07:13] info: El SP termino de ejecutarse
+[8/2/2024, 04:07:13] info: Se esta creando el excel FEMCO_REPORTE_VALIDACION
+[8/2/2024, 04:11:40] info: Se ah generado el documento correctamente...!!!
+[8/2/2024, 04:11:40] info: Se esta autenticando el usuario de Google...
+[8/2/2024, 04:11:40] info: Se autentico el usuario correctamente...
+[8/2/2024, 04:11:40] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[8/2/2024, 04:11:43] info: Se subio el archivo correctamente..!!!
+[8/2/2024, 04:11:43] info: Se removieron correctamente todos los archivos generados.
+[8/2/2024, 04:11:43] info: El SP se esta ejecutando
+[8/2/2024, 04:12:41] info: El SP termino de ejecutarse
+[8/2/2024, 04:12:41] info: Se esta creando el excel REPORTE_SLA_COMPLETO
+[8/2/2024, 04:14:44] info: Se ah generado el documento correctamente...!!!
+[8/2/2024, 04:14:44] info: Se esta autenticando el usuario de Google...
+[8/2/2024, 04:14:44] info: Se autentico el usuario correctamente...
+[8/2/2024, 04:14:44] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[8/2/2024, 04:14:47] info: Se subio el archivo correctamente..!!!
+[8/2/2024, 04:14:47] info: Se removieron correctamente todos los archivos generados.
+[8/2/2024, 04:14:47] info: El SP se esta ejecutando
+[8/2/2024, 04:15:17] info: El SP termino de ejecutarse
+[8/2/2024, 04:15:17] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[8/2/2024, 04:15:52] info: Se ah generado el documento correctamente...!!!
+[8/2/2024, 04:15:52] info: Se esta autenticando el usuario de Google...
+[8/2/2024, 04:15:52] info: Se autentico el usuario correctamente...
+[8/2/2024, 04:15:52] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[8/2/2024, 04:15:54] info: Se subio el archivo correctamente..!!!
+[8/2/2024, 04:15:54] info: Se removieron correctamente todos los archivos generados.
+[8/2/2024, 04:15:54] info: El SP se esta ejecutando
+[8/2/2024, 04:16:31] info: El SP termino de ejecutarse
+[8/2/2024, 04:16:31] info: Se esta creando el excel INVEX_REPORTE_VALIDACION
+[8/2/2024, 04:17:00] info: Se ah generado el documento correctamente...!!!
+[8/2/2024, 04:17:00] info: Se esta autenticando el usuario de Google...
+[8/2/2024, 04:17:00] info: Se autentico el usuario correctamente...
+[8/2/2024, 04:17:00] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[8/2/2024, 04:17:01] info: Se subio el archivo correctamente..!!!
+[8/2/2024, 04:17:01] info: Se removieron correctamente todos los archivos generados.
+[8/2/2024, 04:17:01] info: El SP se esta ejecutando
+[8/2/2024, 04:17:19] info: El SP termino de ejecutarse
+[8/2/2024, 04:17:19] info: Se esta creando el excel UVM_REPORTE_VALIDACION
+[8/2/2024, 04:17:34] info: Se ah generado el documento correctamente...!!!
+[8/2/2024, 04:17:34] info: Se esta autenticando el usuario de Google...
+[8/2/2024, 04:17:34] info: Se autentico el usuario correctamente...
+[8/2/2024, 04:17:34] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[8/2/2024, 04:17:35] info: Se subio el archivo correctamente..!!!
+[8/2/2024, 04:17:35] info: Se removieron correctamente todos los archivos generados.
+[8/2/2024, 04:17:38] info: El correo se envio correctamente
+[8/2/2024, 04:17:38] info: ******** El proceso de creacion de reportes de validacion diario se finalizo correctamente. **********
+[8/2/2024, 05:00:00] info: El proceso de creacion de reportes de validaciones especiales se a comenzado a ejecutar.
+[8/2/2024, 05:00:00] info: La carpeta esta creada correctamente.
+[8/2/2024, 05:00:00] info: El SP Especial se esta ejecutando
+[8/2/2024, 05:05:33] info: El SP Especial termino de ejecutarse
+[8/2/2024, 05:05:33] info: Se esta creando el excel FEMSA - VALIDACIONES - ESPECIAL
+[8/2/2024, 05:05:33] info: Se ah generado el documento correctamente...!!!
+[8/2/2024, 05:05:35] info: Se removieron correctamente todos los archivos generados.
+[8/2/2024, 05:05:35] info: ******** El proceso de creacion de reportes de validaciones especiales se finalizo correctamente. **********
+[8/2/2024, 05:05:35] info: El proceso de creacion de reportes de validaciones diarias se a comenzado a ejecutar.
+[8/2/2024, 05:05:35] info: La carpeta esta creada correctamente.
+[8/2/2024, 05:05:35] info: El SP de validaciones diario se esta ejecutando
+[8/2/2024, 05:09:18] info: El SP Validaciones diario termino de ejecutarse
+[8/2/2024, 05:09:18] info: Se esta creando el excel FEMSA - VALIDACIONES
+[8/2/2024, 05:09:18] info: Se ah generado el documento correctamente...!!!
+[8/2/2024, 05:09:18] info: El SP se esta ejecutando
+[8/2/2024, 05:09:48] info: El SP termino de ejecutarse
+[8/2/2024, 05:09:48] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[8/2/2024, 05:10:20] info: Se ah generado el documento correctamente...!!!
+[8/2/2024, 05:10:20] info: El SP se esta ejecutando
+[8/2/2024, 05:10:51] info: El SP termino de ejecutarse
+[8/2/2024, 05:10:51] info: Se esta creando el excel INVEX_REPORTE_VALIDACION
+[8/2/2024, 05:11:20] info: Se ah generado el documento correctamente...!!!
+[8/2/2024, 05:11:34] info: Se removieron correctamente todos los archivos generados.
+[8/2/2024, 05:11:34] info: ******** El proceso de creacion de reportes de validaciones diarias se finalizo correctamente. **********
+[8/2/2024, 05:11:34] info: El proceso de creacion del reporte diario de laureate se a comenzado a ejecutar.
+[8/2/2024, 05:11:34] info: La carpeta esta creada correctamente.
+[8/2/2024, 05:11:34] info: El SP de Luareate se esta ejecutando...
+[8/2/2024, 05:12:16] info: El SP Validaciones diario termino de ejecutarse
+[8/2/2024, 05:12:16] info: Se esta creando el excel de Laureate
+[8/2/2024, 05:12:16] info: Se ah generado el documento de cumplimiento diario Laureate correctamente...!!!
+[8/2/2024, 05:12:16] info: ******** El proceso de creacion del reporte diario de laureate se finalizo correctamente. **********
+[9/2/2024, 09:19:22] info: El proceso de creacion del reporte diario de laureate se a comenzado a ejecutar.
+[9/2/2024, 09:19:22] info: La carpeta esta creada correctamente.
+[9/2/2024, 09:19:22] info: El SP de Luareate se esta ejecutando...
+[9/2/2024, 09:19:22] info: Se esta creando el excel de Laureate
+[9/2/2024, 09:19:25] error: El SP de LUAREATE tuvo un error al ejecutarse SequelizeConnectionError: Failed to connect to 127.0.0.1:8282 - Could not connect (sequence)
+[9/2/2024, 09:19:25] error: Error al generar reporte: TypeError: Cannot read properties of undefined (reading 'forEach')
+[9/2/2024, 09:21:13] info: El proceso de creacion del reporte diario de laureate se a comenzado a ejecutar.
+[9/2/2024, 09:21:13] info: La carpeta esta creada correctamente.
+[9/2/2024, 09:21:13] info: El SP de Luareate se esta ejecutando...
+[9/2/2024, 09:21:49] info: El SP Validaciones diario termino de ejecutarse
+[9/2/2024, 09:21:49] info: Se esta creando el excel de Laureate
+[9/2/2024, 09:21:49] info: Se ah generado el documento de cumplimiento diario Laureate correctamente...!!!
+[9/2/2024, 09:21:49] info: ******** El proceso de creacion del reporte diario de laureate se finalizo correctamente. **********
+[12/2/2024, 06:40:24] info: El proceso de creacion del reporte diario de laureate se a comenzado a ejecutar.
+[12/2/2024, 06:40:24] info: La carpeta esta creada correctamente.
+[12/2/2024, 06:40:24] info: El SP de Luareate se esta ejecutando...
+[12/2/2024, 06:40:24] info: Se esta creando el excel de Laureate
+[12/2/2024, 06:40:26] error: El SP de LUAREATE tuvo un error al ejecutarse SequelizeConnectionError: Failed to connect to 127.0.0.1:8282 - Could not connect (sequence)
+[12/2/2024, 06:40:26] error: Error al generar reporte: TypeError: Cannot read properties of undefined (reading 'forEach')
+[12/2/2024, 07:00:53] info: El proceso de creacion del reporte diario de laureate se a comenzado a ejecutar.
+[12/2/2024, 07:00:53] info: La carpeta esta creada correctamente.
+[12/2/2024, 07:00:53] info: El SP de Luareate se esta ejecutando...
+[12/2/2024, 07:01:25] info: El SP Validaciones diario termino de ejecutarse
+[12/2/2024, 07:01:25] info: Se esta creando el excel de Laureate
+[12/2/2024, 07:01:25] info: Se ah generado el documento de cumplimiento diario Laureate correctamente...!!!
+[12/2/2024, 07:01:25] info: ******** El proceso de creacion del reporte diario de laureate se finalizo correctamente. **********
+[13/2/2024, 07:42:57] info: El proceso de creacion del reporte diario de laureate se a comenzado a ejecutar.
+[13/2/2024, 07:42:57] info: La carpeta esta creada correctamente.
+[13/2/2024, 07:42:57] info: El SP de Luareate se esta ejecutando...
+[13/2/2024, 07:43:29] info: El SP Validaciones diario termino de ejecutarse
+[13/2/2024, 07:43:29] info: Se esta creando el excel de Laureate
+[13/2/2024, 07:43:30] info: Se ah generado el documento de cumplimiento diario Laureate correctamente...!!!
+[13/2/2024, 07:43:30] info: ******** El proceso de creacion del reporte diario de laureate se finalizo correctamente. **********
+[14/2/2024, 08:47:34] info: El proceso de creacion del reporte diario de laureate se a comenzado a ejecutar.
+[14/2/2024, 08:47:34] info: La carpeta esta creada correctamente.
+[14/2/2024, 08:47:34] info: El SP de Luareate se esta ejecutando...
+[14/2/2024, 08:48:07] info: El SP Validaciones diario termino de ejecutarse
+[14/2/2024, 08:48:07] info: Se esta creando el excel de Laureate
+[14/2/2024, 08:48:08] info: Se ah generado el documento de cumplimiento diario Laureate correctamente...!!!
+[14/2/2024, 08:48:08] info: ******** El proceso de creacion del reporte diario de laureate se finalizo correctamente. **********
+[15/2/2024, 09:06:08] info: El proceso de creacion del reporte diario de laureate se a comenzado a ejecutar.
+[15/2/2024, 09:06:08] info: La carpeta esta creada correctamente.
+[15/2/2024, 09:06:08] info: El SP de Luareate se esta ejecutando...
+[15/2/2024, 09:06:55] info: El SP Validaciones diario termino de ejecutarse
+[15/2/2024, 09:06:55] info: Se esta creando el excel de Laureate
+[15/2/2024, 09:06:55] info: Se ah generado el documento de cumplimiento diario Laureate correctamente...!!!
+[15/2/2024, 09:06:56] info: ******** El proceso de creacion del reporte diario de laureate se finalizo correctamente. **********
+[16/2/2024, 08:54:21] info: El proceso de creacion del reporte diario de laureate se a comenzado a ejecutar.
+[16/2/2024, 08:54:21] info: La carpeta esta creada correctamente.
+[16/2/2024, 08:54:21] info: El SP de Luareate se esta ejecutando...
+[16/2/2024, 08:54:49] info: El SP Validaciones diario termino de ejecutarse
+[16/2/2024, 08:54:49] info: Se esta creando el excel de Laureate
+[16/2/2024, 08:54:49] info: Se ah generado el documento de cumplimiento diario Laureate correctamente...!!!
+[16/2/2024, 08:54:49] info: ******** El proceso de creacion del reporte diario de laureate se finalizo correctamente. **********
+[19/2/2024, 09:33:29] info: El proceso de creacion del reporte diario de laureate se a comenzado a ejecutar.
+[19/2/2024, 09:33:29] info: La carpeta esta creada correctamente.
+[19/2/2024, 09:33:29] info: El SP de Luareate se esta ejecutando...
+[19/2/2024, 09:33:29] info: Se esta creando el excel de Laureate
+[19/2/2024, 09:33:31] error: Error al generar reporte: TypeError: Cannot read properties of undefined (reading 'forEach')
+[19/2/2024, 09:33:31] error: El SP de LUAREATE tuvo un error al ejecutarse SequelizeConnectionError: Failed to connect to 127.0.0.1:8282 - Could not connect (sequence)
+[19/2/2024, 09:36:10] info: El proceso de creacion del reporte diario de laureate se a comenzado a ejecutar.
+[19/2/2024, 09:36:10] info: La carpeta esta creada correctamente.
+[19/2/2024, 09:36:10] info: El SP de Luareate se esta ejecutando...
+[19/2/2024, 09:37:02] info: El SP Validaciones diario termino de ejecutarse
+[19/2/2024, 09:37:02] info: Se esta creando el excel de Laureate
+[19/2/2024, 09:37:02] info: Se ah generado el documento de cumplimiento diario Laureate correctamente...!!!
+[19/2/2024, 09:37:02] info: ******** El proceso de creacion del reporte diario de laureate se finalizo correctamente. **********
+[20/2/2024, 08:35:29] info: El proceso de creacion del reporte diario de laureate se a comenzado a ejecutar.
+[20/2/2024, 08:35:29] info: La carpeta esta creada correctamente.
+[20/2/2024, 08:35:29] info: El SP de Luareate se esta ejecutando...
+[20/2/2024, 08:36:19] info: El SP Validaciones diario termino de ejecutarse
+[20/2/2024, 08:36:19] info: Se esta creando el excel de Laureate
+[20/2/2024, 08:36:20] info: Se ah generado el documento de cumplimiento diario Laureate correctamente...!!!
+[20/2/2024, 08:36:20] info: ******** El proceso de creacion del reporte diario de laureate se finalizo correctamente. **********
+[21/2/2024, 10:07:05] info: El proceso de creacion del reporte diario de laureate se a comenzado a ejecutar.
+[21/2/2024, 10:07:05] info: La carpeta esta creada correctamente.
+[21/2/2024, 10:07:05] info: El SP de Luareate se esta ejecutando...
+[21/2/2024, 10:08:00] info: El SP Validaciones diario termino de ejecutarse
+[21/2/2024, 10:08:00] info: Se esta creando el excel de Laureate
+[21/2/2024, 10:08:00] info: Se ah generado el documento de cumplimiento diario Laureate correctamente...!!!
+[21/2/2024, 10:08:00] info: ******** El proceso de creacion del reporte diario de laureate se finalizo correctamente. **********
+[22/2/2024, 09:19:40] info: El proceso de creacion del reporte diario de laureate se a comenzado a ejecutar.
+[22/2/2024, 09:19:40] info: La carpeta esta creada correctamente.
+[22/2/2024, 09:19:40] info: El SP de Luareate se esta ejecutando...
+[22/2/2024, 09:20:17] info: El SP Validaciones diario termino de ejecutarse
+[22/2/2024, 09:20:17] info: Se esta creando el excel de Laureate
+[22/2/2024, 09:20:17] info: Se ah generado el documento de cumplimiento diario Laureate correctamente...!!!
+[22/2/2024, 09:20:17] info: ******** El proceso de creacion del reporte diario de laureate se finalizo correctamente. **********
+[23/2/2024, 09:24:08] info: El proceso de creacion del reporte diario de laureate se a comenzado a ejecutar.
+[23/2/2024, 09:24:08] info: La carpeta esta creada correctamente.
+[23/2/2024, 09:24:08] info: El SP de Luareate se esta ejecutando...
+[23/2/2024, 09:24:41] info: El SP Validaciones diario termino de ejecutarse
+[23/2/2024, 09:24:41] info: Se esta creando el excel de Laureate
+[23/2/2024, 09:24:41] info: Se ah generado el documento de cumplimiento diario Laureate correctamente...!!!
+[23/2/2024, 09:24:41] info: ******** El proceso de creacion del reporte diario de laureate se finalizo correctamente. **********
+[26/2/2024, 09:00:49] info: El proceso de creacion del reporte diario de laureate se a comenzado a ejecutar.
+[26/2/2024, 09:00:49] info: La carpeta esta creada correctamente.
+[26/2/2024, 09:00:49] info: El SP de Luareate se esta ejecutando...
+[26/2/2024, 09:01:53] info: El SP Validaciones diario termino de ejecutarse
+[26/2/2024, 09:01:53] info: Se esta creando el excel de Laureate
+[26/2/2024, 09:01:53] info: Se ah generado el documento de cumplimiento diario Laureate correctamente...!!!
+[26/2/2024, 09:01:53] info: ******** El proceso de creacion del reporte diario de laureate se finalizo correctamente. **********
+[27/2/2024, 04:00:00] info: El proceso de creacion de reportes de validacion diario se a comenzado a ejecutar.
+[27/2/2024, 04:00:00] info: La carpeta esta creada correctamente.
+[27/2/2024, 04:00:00] info: El SP se esta ejecutando
+[27/2/2024, 04:08:59] info: El SP termino de ejecutarse
+[27/2/2024, 04:08:59] info: Se esta creando el excel FEMCO_REPORTE
+[27/2/2024, 04:16:22] info: Se ah generado el documento correctamente...!!!
+[27/2/2024, 04:16:22] info: Se esta autenticando el usuario de Google...
+[27/2/2024, 04:16:23] info: Se autentico el usuario correctamente...
+[27/2/2024, 04:16:23] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[27/2/2024, 04:16:26] info: Se subio el archivo correctamente..!!!
+[27/2/2024, 04:16:26] info: Se removieron correctamente todos los archivos generados.
+[27/2/2024, 04:16:26] info: El SP se esta ejecutando
+[27/2/2024, 04:20:05] info: El SP termino de ejecutarse
+[27/2/2024, 04:20:05] info: Se esta creando el excel FEMCO_REPORTE_VALIDACION
+[27/2/2024, 04:27:53] info: Se ah generado el documento correctamente...!!!
+[27/2/2024, 04:27:53] info: Se esta autenticando el usuario de Google...
+[27/2/2024, 04:27:53] info: Se autentico el usuario correctamente...
+[27/2/2024, 04:27:53] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[27/2/2024, 04:27:58] info: Se subio el archivo correctamente..!!!
+[27/2/2024, 04:27:58] info: Se removieron correctamente todos los archivos generados.
+[27/2/2024, 04:27:58] info: El SP se esta ejecutando
+[27/2/2024, 04:31:42] info: El SP termino de ejecutarse
+[27/2/2024, 04:31:42] info: Se esta creando el excel REPORTE_SLA_COMPLETO
+[27/2/2024, 04:34:38] info: Se ah generado el documento correctamente...!!!
+[27/2/2024, 04:34:38] info: Se esta autenticando el usuario de Google...
+[27/2/2024, 04:34:38] info: Se autentico el usuario correctamente...
+[27/2/2024, 04:34:38] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[27/2/2024, 04:34:41] info: Se subio el archivo correctamente..!!!
+[27/2/2024, 04:34:41] info: Se removieron correctamente todos los archivos generados.
+[27/2/2024, 04:34:41] info: El SP se esta ejecutando
+[27/2/2024, 04:36:04] info: El SP termino de ejecutarse
+[27/2/2024, 04:36:04] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[27/2/2024, 04:36:57] info: Se ah generado el documento correctamente...!!!
+[27/2/2024, 04:36:57] info: Se esta autenticando el usuario de Google...
+[27/2/2024, 04:36:57] info: Se autentico el usuario correctamente...
+[27/2/2024, 04:36:57] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[27/2/2024, 04:36:59] info: Se subio el archivo correctamente..!!!
+[27/2/2024, 04:36:59] info: Se removieron correctamente todos los archivos generados.
+[27/2/2024, 04:36:59] info: El SP se esta ejecutando
+[27/2/2024, 04:39:15] info: El SP termino de ejecutarse
+[27/2/2024, 04:39:15] info: Se esta creando el excel INVEX_REPORTE_VALIDACION
+[27/2/2024, 04:40:07] info: Se ah generado el documento correctamente...!!!
+[27/2/2024, 04:40:07] info: Se esta autenticando el usuario de Google...
+[27/2/2024, 04:40:07] info: Se autentico el usuario correctamente...
+[27/2/2024, 04:40:07] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[27/2/2024, 04:40:09] info: Se subio el archivo correctamente..!!!
+[27/2/2024, 04:40:09] info: Se removieron correctamente todos los archivos generados.
+[27/2/2024, 04:40:09] info: El SP se esta ejecutando
+[27/2/2024, 04:43:20] info: El SP termino de ejecutarse
+[27/2/2024, 04:43:20] info: Se esta creando el excel UVM_REPORTE_VALIDACION
+[27/2/2024, 04:43:44] info: Se ah generado el documento correctamente...!!!
+[27/2/2024, 04:43:44] info: Se esta autenticando el usuario de Google...
+[27/2/2024, 04:43:44] info: Se autentico el usuario correctamente...
+[27/2/2024, 04:43:44] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[27/2/2024, 04:43:45] info: Se subio el archivo correctamente..!!!
+[27/2/2024, 04:43:45] info: Se removieron correctamente todos los archivos generados.
+[27/2/2024, 04:43:47] info: El correo se envio correctamente
+[27/2/2024, 04:43:47] info: ******** El proceso de creacion de reportes de validacion diario se finalizo correctamente. **********
+[27/2/2024, 05:00:00] info: El proceso de creacion de reportes de validaciones especiales se a comenzado a ejecutar.
+[27/2/2024, 05:00:00] info: La carpeta esta creada correctamente.
+[27/2/2024, 05:00:00] info: El SP Especial se esta ejecutando
+[27/2/2024, 05:06:42] info: El SP Especial termino de ejecutarse
+[27/2/2024, 05:06:42] info: Se esta creando el excel FEMSA - VALIDACIONES - ESPECIAL
+[27/2/2024, 05:06:42] info: Se ah generado el documento correctamente...!!!
+[27/2/2024, 05:06:44] info: Se removieron correctamente todos los archivos generados.
+[27/2/2024, 05:06:44] info: ******** El proceso de creacion de reportes de validaciones especiales se finalizo correctamente. **********
+[27/2/2024, 05:06:44] info: El proceso de creacion de reportes de validaciones diarias se a comenzado a ejecutar.
+[27/2/2024, 05:06:44] info: La carpeta esta creada correctamente.
+[27/2/2024, 05:06:44] info: El SP de validaciones diario se esta ejecutando
+[27/2/2024, 05:22:16] info: El SP Validaciones diario termino de ejecutarse
+[27/2/2024, 05:22:16] info: Se esta creando el excel FEMSA - VALIDACIONES
+[27/2/2024, 05:22:17] info: Se ah generado el documento correctamente...!!!
+[27/2/2024, 05:22:17] info: El SP se esta ejecutando
+[27/2/2024, 05:22:40] info: El SP termino de ejecutarse
+[27/2/2024, 05:22:40] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[27/2/2024, 05:23:32] info: Se ah generado el documento correctamente...!!!
+[27/2/2024, 05:23:32] info: El SP se esta ejecutando
+[27/2/2024, 05:24:32] info: El SP termino de ejecutarse
+[27/2/2024, 05:24:32] info: Se esta creando el excel INVEX_REPORTE_VALIDACION
+[27/2/2024, 05:25:24] info: Se ah generado el documento correctamente...!!!
+[27/2/2024, 05:25:38] info: Se removieron correctamente todos los archivos generados.
+[27/2/2024, 05:25:38] info: ******** El proceso de creacion de reportes de validaciones diarias se finalizo correctamente. **********
+[27/2/2024, 05:25:38] info: El proceso de creacion del reporte diario de laureate se a comenzado a ejecutar.
+[27/2/2024, 05:25:38] info: La carpeta esta creada correctamente.
+[27/2/2024, 05:25:38] info: El SP de Luareate se esta ejecutando...
+[27/2/2024, 05:26:49] info: El SP Validaciones diario termino de ejecutarse
+[27/2/2024, 05:26:49] info: Se esta creando el excel de Laureate
+[27/2/2024, 05:26:49] info: Se ah generado el documento de cumplimiento diario Laureate correctamente...!!!
+[27/2/2024, 05:26:49] info: ******** El proceso de creacion del reporte diario de laureate se finalizo correctamente. **********
+[28/2/2024, 04:00:00] info: El proceso de creacion de reportes de validacion diario se a comenzado a ejecutar.
+[28/2/2024, 04:00:00] info: La carpeta esta creada correctamente.
+[28/2/2024, 04:00:00] info: El SP se esta ejecutando
+[28/2/2024, 04:01:25] info: El SP termino de ejecutarse
+[28/2/2024, 04:01:25] info: Se esta creando el excel FEMCO_REPORTE
+[28/2/2024, 04:05:10] info: Se ah generado el documento correctamente...!!!
+[28/2/2024, 04:05:10] info: Se esta autenticando el usuario de Google...
+[28/2/2024, 04:05:10] info: Se autentico el usuario correctamente...
+[28/2/2024, 04:05:10] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[28/2/2024, 04:05:13] info: Se subio el archivo correctamente..!!!
+[28/2/2024, 04:05:13] info: Se removieron correctamente todos los archivos generados.
+[28/2/2024, 04:05:13] info: El SP se esta ejecutando
+[28/2/2024, 04:06:38] info: El SP termino de ejecutarse
+[28/2/2024, 04:06:38] info: Se esta creando el excel FEMCO_REPORTE_VALIDACION
+[28/2/2024, 04:11:00] info: Se ah generado el documento correctamente...!!!
+[28/2/2024, 04:11:00] info: Se esta autenticando el usuario de Google...
+[28/2/2024, 04:11:00] info: Se autentico el usuario correctamente...
+[28/2/2024, 04:11:00] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[28/2/2024, 04:11:06] info: Se subio el archivo correctamente..!!!
+[28/2/2024, 04:11:06] info: Se removieron correctamente todos los archivos generados.
+[28/2/2024, 04:11:06] info: El SP se esta ejecutando
+[28/2/2024, 04:11:54] info: El SP termino de ejecutarse
+[28/2/2024, 04:11:54] info: Se esta creando el excel REPORTE_SLA_COMPLETO
+[28/2/2024, 04:14:27] info: Se ah generado el documento correctamente...!!!
+[28/2/2024, 04:14:27] info: Se esta autenticando el usuario de Google...
+[28/2/2024, 04:14:27] info: Se autentico el usuario correctamente...
+[28/2/2024, 04:14:27] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[28/2/2024, 04:14:29] info: Se subio el archivo correctamente..!!!
+[28/2/2024, 04:14:29] info: Se removieron correctamente todos los archivos generados.
+[28/2/2024, 04:14:29] info: El SP se esta ejecutando
+[28/2/2024, 04:14:46] info: El SP termino de ejecutarse
+[28/2/2024, 04:14:46] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[28/2/2024, 04:15:31] info: Se ah generado el documento correctamente...!!!
+[28/2/2024, 04:15:31] info: Se esta autenticando el usuario de Google...
+[28/2/2024, 04:15:32] info: Se autentico el usuario correctamente...
+[28/2/2024, 04:15:32] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[28/2/2024, 04:15:33] info: Se subio el archivo correctamente..!!!
+[28/2/2024, 04:15:33] info: Se removieron correctamente todos los archivos generados.
+[28/2/2024, 04:15:33] info: El SP se esta ejecutando
+[28/2/2024, 04:16:08] info: El SP termino de ejecutarse
+[28/2/2024, 04:16:08] info: Se esta creando el excel INVEX_REPORTE_VALIDACION
+[28/2/2024, 04:16:52] info: Se ah generado el documento correctamente...!!!
+[28/2/2024, 04:16:52] info: Se esta autenticando el usuario de Google...
+[28/2/2024, 04:16:52] info: Se autentico el usuario correctamente...
+[28/2/2024, 04:16:52] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[28/2/2024, 04:16:54] info: Se subio el archivo correctamente..!!!
+[28/2/2024, 04:16:54] info: Se removieron correctamente todos los archivos generados.
+[28/2/2024, 04:16:54] info: El SP se esta ejecutando
+[28/2/2024, 04:17:14] info: El SP termino de ejecutarse
+[28/2/2024, 04:17:14] info: Se esta creando el excel UVM_REPORTE_VALIDACION
+[28/2/2024, 04:17:35] info: Se ah generado el documento correctamente...!!!
+[28/2/2024, 04:17:35] info: Se esta autenticando el usuario de Google...
+[28/2/2024, 04:17:35] info: Se autentico el usuario correctamente...
+[28/2/2024, 04:17:35] info: Se esta subiendo el documento a la carpeta de drive...!!!
+[28/2/2024, 04:17:36] info: Se subio el archivo correctamente..!!!
+[28/2/2024, 04:17:36] info: Se removieron correctamente todos los archivos generados.
+[28/2/2024, 04:17:40] info: El correo se envio correctamente
+[28/2/2024, 04:17:40] info: ******** El proceso de creacion de reportes de validacion diario se finalizo correctamente. **********
+[28/2/2024, 05:00:00] info: El proceso de creacion de reportes de validaciones especiales se a comenzado a ejecutar.
+[28/2/2024, 05:00:00] info: La carpeta esta creada correctamente.
+[28/2/2024, 05:00:00] info: El SP Especial se esta ejecutando
+[28/2/2024, 05:03:26] info: El SP Especial termino de ejecutarse
+[28/2/2024, 05:03:26] info: Se esta creando el excel FEMSA - VALIDACIONES - ESPECIAL
+[28/2/2024, 05:03:26] info: Se ah generado el documento correctamente...!!!
+[28/2/2024, 05:03:28] info: Se removieron correctamente todos los archivos generados.
+[28/2/2024, 05:03:28] info: ******** El proceso de creacion de reportes de validaciones especiales se finalizo correctamente. **********
+[28/2/2024, 05:03:28] info: El proceso de creacion de reportes de validaciones diarias se a comenzado a ejecutar.
+[28/2/2024, 05:03:28] info: La carpeta esta creada correctamente.
+[28/2/2024, 05:03:28] info: El SP de validaciones diario se esta ejecutando
+[28/2/2024, 05:06:52] info: El SP Validaciones diario termino de ejecutarse
+[28/2/2024, 05:06:52] info: Se esta creando el excel FEMSA - VALIDACIONES
+[28/2/2024, 05:06:52] info: Se ah generado el documento correctamente...!!!
+[28/2/2024, 05:06:52] info: El SP se esta ejecutando
+[28/2/2024, 05:07:08] info: El SP termino de ejecutarse
+[28/2/2024, 05:07:08] info: Se esta creando el excel XPERTAL_REPORTE_VALIDACION
+[28/2/2024, 05:07:40] info: Se ah generado el documento correctamente...!!!
+[28/2/2024, 05:07:40] info: El SP se esta ejecutando
+[28/2/2024, 05:08:03] info: El SP termino de ejecutarse
+[28/2/2024, 05:08:03] info: Se esta creando el excel INVEX_REPORTE_VALIDACION
+[28/2/2024, 05:08:36] info: Se ah generado el documento correctamente...!!!
+[28/2/2024, 05:08:51] info: Se removieron correctamente todos los archivos generados.
+[28/2/2024, 05:08:51] info: ******** El proceso de creacion de reportes de validaciones diarias se finalizo correctamente. **********
+[28/2/2024, 05:08:51] info: El proceso de creacion del reporte diario de laureate se a comenzado a ejecutar.
+[28/2/2024, 05:08:51] info: La carpeta esta creada correctamente.
+[28/2/2024, 05:08:51] info: El SP de Luareate se esta ejecutando...
+[28/2/2024, 05:09:22] info: El SP Validaciones diario termino de ejecutarse
+[28/2/2024, 05:09:22] info: Se esta creando el excel de Laureate
+[28/2/2024, 05:09:22] info: Se ah generado el documento de cumplimiento diario Laureate correctamente...!!!
+[28/2/2024, 05:09:22] info: ******** El proceso de creacion del reporte diario de laureate se finalizo correctamente. **********
+[29/2/2024, 09:52:55] info: El proceso de creacion del reporte diario de laureate se a comenzado a ejecutar.
+[29/2/2024, 09:52:55] info: La carpeta esta creada correctamente.
+[29/2/2024, 09:52:55] info: El SP de Luareate se esta ejecutando...
+[29/2/2024, 09:54:01] info: Se esta creando el excel de Laureate
+[29/2/2024, 09:54:05] error: El SP de LUAREATE tuvo un error al ejecutarse SequelizeDatabaseError: socket hang up
+[29/2/2024, 09:54:05] error: Error al generar reporte: TypeError: Cannot read properties of undefined (reading 'forEach')
+[29/2/2024, 09:55:00] info: El proceso de creacion del reporte diario de laureate se a comenzado a ejecutar.
+[29/2/2024, 09:55:00] info: La carpeta esta creada correctamente.
+[29/2/2024, 09:55:00] info: El SP de Luareate se esta ejecutando...
+[29/2/2024, 09:55:15] info: Se esta creando el excel de Laureate
+[29/2/2024, 09:55:18] error: El SP de LUAREATE tuvo un error al ejecutarse SequelizeConnectionError: Failed to connect to 127.0.0.1:8282 in 15000ms
+[29/2/2024, 09:55:18] error: Error al generar reporte: TypeError: Cannot read properties of undefined (reading 'forEach')
+[29/2/2024, 09:56:47] info: El proceso de creacion del reporte diario de laureate se a comenzado a ejecutar.
+[29/2/2024, 09:56:47] info: La carpeta esta creada correctamente.
+[29/2/2024, 09:56:47] info: El SP de Luareate se esta ejecutando...
+[29/2/2024, 09:57:02] info: Se esta creando el excel de Laureate
+[29/2/2024, 09:57:07] error: El SP de LUAREATE tuvo un error al ejecutarse SequelizeConnectionError: Failed to connect to 127.0.0.1:8282 in 15000ms
+[29/2/2024, 09:57:08] error: Error al generar reporte: TypeError: Cannot read properties of undefined (reading 'forEach')
+[29/2/2024, 09:59:29] info: El proceso de creacion del reporte diario de laureate se a comenzado a ejecutar.
+[29/2/2024, 09:59:29] info: La carpeta esta creada correctamente.
+[29/2/2024, 09:59:29] info: El SP de Luareate se esta ejecutando...
+[29/2/2024, 10:00:15] info: El SP Validaciones diario termino de ejecutarse
+[29/2/2024, 10:00:15] info: Se esta creando el excel de Laureate
+[29/2/2024, 10:00:15] info: Se ah generado el documento de cumplimiento diario Laureate correctamente...!!!
+[29/2/2024, 10:00:15] info: ******** El proceso de creacion del reporte diario de laureate se finalizo correctamente. **********
+[1/3/2024, 06:39:20] info: El proceso de creacion del reporte diario de laureate se a comenzado a ejecutar.
+[1/3/2024, 06:39:20] info: La carpeta esta creada correctamente.
+[1/3/2024, 06:39:20] info: El SP de Luareate se esta ejecutando...
+[1/3/2024, 06:39:50] info: El SP Validaciones diario termino de ejecutarse
+[1/3/2024, 06:39:50] info: Se esta creando el excel de Laureate
+[1/3/2024, 06:39:50] info: Se ah generado el documento de cumplimiento diario Laureate correctamente...!!!
+[1/3/2024, 06:39:50] info: ******** El proceso de creacion del reporte diario de laureate se finalizo correctamente. **********
+[1/3/2024, 12:56:03] info: El proceso de creacion del reporte diario de laureate se a comenzado a ejecutar.
+[1/3/2024, 12:56:03] info: La carpeta esta creada correctamente.
+[1/3/2024, 12:56:03] info: El SP de Luareate se esta ejecutando...
+[1/3/2024, 12:57:33] info: El SP Validaciones diario termino de ejecutarse
+[1/3/2024, 12:57:33] info: Se esta creando el excel de Laureate
+[1/3/2024, 12:57:34] info: Se ah generado el documento de cumplimiento diario Laureate correctamente...!!!
+[1/3/2024, 12:57:34] info: ******** El proceso de creacion del reporte diario de laureate se finalizo correctamente. **********
+[1/3/2024, 13:11:06] info: El proceso de creacion del reporte diario de laureate se a comenzado a ejecutar.
+[1/3/2024, 13:11:06] info: La carpeta esta creada correctamente.
+[1/3/2024, 13:11:06] info: El SP de Luareate se esta ejecutando...
+[1/3/2024, 13:11:37] info: El SP Validaciones diario termino de ejecutarse
+[1/3/2024, 13:11:37] info: Se esta creando el excel de Laureate
+[1/3/2024, 13:11:38] info: Se ah generado el documento de cumplimiento diario Laureate correctamente...!!!
+[1/3/2024, 13:11:38] info: ******** El proceso de creacion del reporte diario de laureate se finalizo correctamente. **********
